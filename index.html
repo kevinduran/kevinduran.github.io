@@ -58,39 +58,13 @@
   </header>
 
 <!--about:a short bio-->	
-  <section id="about" class="container-fluid">
+ <section id="about" class="container-fluid">
     <div class="row section-banner">
       <div class="col-md-offset-3 col-md-6 text-center">
         <div>
           <span class="line about"></span>
           <span class="section-title about">about</span>
           <span class="line about"></span>
-        </div>
-      </div>
-    </div>
-    <div class="row max">
-      <div class="col-sm-4 text-center">
-        <div class="desc">
-          <div class="icon-me">
-            <i class="fa fa-user-circle"></i>
-          </div>
-          <p>blah blah blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla</p>
-        </div>
-      </div>
-      <div class="col-sm-4 text-center">
-        <div class="desc">
-          <div class="icon-me">
-            <i class="fa fa-code"></i>
-          </div>
-           <p>blah blah blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla</p>
-        </div>
-      </div>
-      <div class="col-sm-4 text-center">
-        <div class="desc">
-          <div class="icon-me">
-            <i class="fa fa-futbol-o"></i>
-          </div>
-          <p>blah blah blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla blah bla</p>
         </div>
       </div>
     </div>
@@ -107,8 +81,6 @@
     </div>
 
     <div class="row" id="theProjects">
-
-
   		<div class="row">
            <div class="col-sm-6 col-md-4">
             <div class="container-fluid">
@@ -178,41 +150,36 @@
         </div>
       </div>
     </div>
-<!--
-    <div class="row max">
-      <div class="col-sm-4 text-center">
-        <div class ="desc">
-          <div class="icon-contact">
-            <a data-toggle="tooltip" title="E-mail" data-placement="top" href="mailto:kevinalexanerduran8@gmail.com">
-              <i class="fa fa-envelope text-center" id="color-me"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
--->
-    <form class="my-form container-fluid">
 
-    <div class="form-group"> <!-- Name field -->
-      <label class="control-label " for="name">Name</label>
-      <input class="form-control" id="name" name="name" type="text"/>
-    </div>
-  
-    <div class="form-group"> <!-- Email field -->
-      <label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
-      <input class="form-control" id="email" name="email" type="text"/>
-    </div>
-    
-    <div class="form-group"> <!-- Message field -->
-      <label class="control-label " for="message">Message</label>
-      <textarea class="form-control" cols="30" id="message" name="message" rows="10"></textarea>
-    </div>
-  
-    <div class="form-group">
-      <button class="btn btn-primary " name="submit" type="submit">Submit</button>
-    </div>
-  
-    </form>    
+
+
+
+
+
+<!-- use formspree for this to work -->
+
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+
+
+
+
+
+
+
+
+
+
+   
   </section>
 <!--footer:will hold our social media links-->	
   <footer id="social-footer" class="container-fluid">
