@@ -53,6 +53,7 @@
   font-family: 'lato', sans-serif;
   font-size: 9em;
   letter-spacing: 7px;
+  margin-top: 10%;
   /*top: 28%;
   left: 28%;*/
  /* position: fixed;*/
@@ -61,12 +62,13 @@
   /* text-align: center; */
 }
 #down{
-  /*position: absolute;*/
-  margin-right: auto;
+  position: absolute;
+/*  margin-right: auto;
   margin-left: auto;
   display: table;
-/*  left: 48%;*/
- /* bottom: 10%;*/
+  margin-top: 30%;*/
+  left: 48%;
+  bottom: 10%;
   opacity: 0.9;
   font-size: 60px;
 }
@@ -399,7 +401,7 @@ a:link{
     background-size: 300px;
   }
   #down{
- /*   left: 42%*/
+    left: 42%
   }
   .tagline2 {
     font-family: 'lato', sans-serif;
