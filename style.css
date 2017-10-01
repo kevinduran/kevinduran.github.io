@@ -1,4 +1,4 @@
-/*NAVIGATION*/
+/*.................NAVIGATION...................*/
 .navbar{
   z-index:9999; 
   font-family: 'lato', sans-serif;
@@ -22,43 +22,51 @@
   font-weight: bolder;
 }
 #brand-name{
-  font-family: 'Sacramento', cursive;
   font-size: 35px;
+  line-height: 26px;
 }
+/*..................NAVIGATION....................*/
+
+
+
+/*..................HEADER.........................*/
 #headerTag{
   width: 100vw;/*these thwo create the box to put the picture in*/
   height: 100vh;
   /*background-image: url('godfather.jpeg');*/
-  background-position: left;
+/*  background-position: left;*/
   background-repeat: no-repeat;
   background-attachment: fixed; /*parallax effect*/
   background-size: 45vw; /*this makes the picture relative size*/
   background-color: black;
   color:white; 
 }
-.desc{
+/*.desc{
   font-family: 'Roboto', sans-serif;
   font-size:1.3em;
   line-height: 1.7em;
   letter-spacing: 0.03em;
   margin-left: 10px;
   margin-right: 10px;
-}
+}*/
 .tagline2 {
   font-family: 'lato', sans-serif;
   font-size: 9em;
   letter-spacing: 7px;
-  top: 28%;
-  left: 28%;
-  position: fixed;
+  /*top: 28%;
+  left: 28%;*/
+ /* position: fixed;*/
   /* line-height: 0.95em; */
   font-weight: 100;
   /* text-align: center; */
 }
 #down{
-  position: absolute;
-  left: 48%;
-  bottom: 10%;
+  /*position: absolute;*/
+  margin-right: auto;
+  margin-left: auto;
+  display: table;
+/*  left: 48%;*/
+ /* bottom: 10%;*/
   opacity: 0.9;
   font-size: 60px;
 }
@@ -70,12 +78,12 @@
 #down a:hover {
   opacity:1;
 }
-/*END OF NAVIGATION*/
+/*.......................HEADER...........................*/
 
 
 
 
-/*ABOUT SECTION*/
+/*.........................ABOUT............................*/
 #about {
   width: 100vw;
   background-color: #f6f6f6;
@@ -115,12 +123,12 @@
   padding-bottom: 25px;
   text-shadow:5px 5px 5px grey;
 }
-/*END OF ABOUT*/
+/*.........................ABOUT............................*/
 
 
 
 
-/*PORTFOLIO SECTION*/
+/*........................PORTFOLIO.........................*/
 #portfolio{
   background-color: white;
   padding-top: 20px;
@@ -190,7 +198,7 @@
   width: 100%;
   height: 268px;
 }
-/*END OF PORTFOLIO*/
+/*........................PORTFOLIO.........................*/
 
 
 
@@ -198,11 +206,10 @@
 
 
 
-/*CONTACT SECTION*/
+/*...........................CONTACT........................*/
 #contact{
   width: 100vw;
   height: 100vh;
-  background-image: godfather.png;
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,7 +294,7 @@ form textarea {
   padding: 15px;
   width: 70%;
 }
-/*END OF CONTACT SECTION*/
+/*...........................CONTACT........................*/
 
 
 
@@ -295,7 +302,7 @@ form textarea {
 
 
 
-/*FOOTER SECTION*/
+/*...........................FOOTER...........................*/
 #social-footer{
   width: 100%;
   text-align: center;
@@ -349,7 +356,7 @@ a:link{
   padding-top: 5px;
   color:#555;
 }
-/*END OF FOOTER SECTION*/
+/*...........................FOOTER...........................*/
 
 
 
@@ -357,9 +364,6 @@ a:link{
 
 
 @media only screen and (max-width: 768px) {
-  .tagline2{
-    font-size: 4.4em;
-  }
   .section-title{
     font-size: 2.6em;
   }
@@ -395,21 +399,25 @@ a:link{
     background-size: 300px;
   }
   #down{
-    left: 42%
+ /*   left: 42%*/
   }
   .tagline2 {
     font-family: 'lato', sans-serif;
     font-size: 7em;
     letter-spacing: 7px;
-    top: 18%;
+   /* top: 18%;
     left: 4%;
-    text-align: center;
-    position: fixed;
+    text-align: center;*/
+    /*position: fixed;*/
     /* line-height: 0.95em; */
     font-weight: 100;
     /* text-align: center; */
   }
 }
+
+
+
+
 
 @media (max-width: 480px) {
   .half {
