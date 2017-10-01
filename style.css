@@ -1,97 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-}
-
-h1 {
-  text-align: center;
-  color: #a8a8a8;
-  text-shadow: 1px 1px 0 white;
-}
-
-form {
-  max-width: 600px;
-  text-align: center;
-  margin: 20px auto;
-}
-form input, form textarea {
-  border: 0;
-  outline: 0;
-  padding: 1em;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  font-family: 'Merriweather', sans-serif;
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  resize: none;
-}
-form input:focus, form textarea:focus {
-  -moz-box-shadow: 0 0px 2px #e74c3c !important;
-  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
-  box-shadow: 0 0px 2px #e74c3c !important;
-}
-form #input-submit {
-  color: white;
-  background: #e74c3c;
-  cursor: pointer;
-}
-form #input-submit:hover {
-  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-}
-form textarea {
-  height: 126px;
-}
-
-.half {
-  float: left;
-  width: 48%;
-  margin-bottom: 1em;
-}
-
-.right {
-  width: 50%;
-}
-
-.left {
-  margin-right: 2%;
-}
-
-
-
-
-
-
-
-
-
-
 /*NAVIGATION*/
 .navbar{
-    z-index:9999; 
-    font-family: 'lato', sans-serif;
-    opacity: 0.9;
+  z-index:9999; 
+  font-family: 'lato', sans-serif;
+  opacity: 0.9;
 }
 #nav-bar ul li {
   margin-right: 20px;
   margin-left: 20px;
   font-size: 18px;
-
 }
 #bar{
   margin: 5px;
@@ -112,7 +28,7 @@ form textarea {
 #headerTag{
   width: 100vw;/*these thwo create the box to put the picture in*/
   height: 100vh;
-  background-image: url('godfather.jpeg');
+  /*background-image: url('godfather.jpeg');*/
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed; /*parallax effect*/
@@ -128,17 +44,16 @@ form textarea {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .tagline2 {
-font-family: 'lato', sans-serif;
-font-size: 9em;
-letter-spacing: 7px;
-top: 28%;
-left: 28%;
-position: fixed;
-/* line-height: 0.95em; */
-font-weight: 100;
-/* text-align: center; */
+  font-family: 'lato', sans-serif;
+  font-size: 9em;
+  letter-spacing: 7px;
+  top: 28%;
+  left: 28%;
+  position: fixed;
+  /* line-height: 0.95em; */
+  font-weight: 100;
+  /* text-align: center; */
 }
 #down{
   position: absolute;
@@ -147,7 +62,6 @@ font-weight: 100;
   opacity: 0.9;
   font-size: 60px;
 }
-
 #down a {
   color:white;
   opacity: 0.5;
@@ -157,6 +71,10 @@ font-weight: 100;
   opacity:1;
 }
 /*END OF NAVIGATION*/
+
+
+
+
 /*ABOUT SECTION*/
 #about {
   width: 100vw;
@@ -198,6 +116,10 @@ font-weight: 100;
   text-shadow:5px 5px 5px grey;
 }
 /*END OF ABOUT*/
+
+
+
+
 /*PORTFOLIO SECTION*/
 #portfolio{
   background-color: white;
@@ -269,6 +191,13 @@ font-weight: 100;
   height: 268px;
 }
 /*END OF PORTFOLIO*/
+
+
+
+
+
+
+
 /*CONTACT SECTION*/
 #contact{
   width: 100vw;
@@ -280,25 +209,76 @@ font-weight: 100;
   background-attachment: fixed;
   color: white;
 }
-/*
-.icon-contact{
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+}
+h1 {
   text-align: center;
-  font-size: 7.5em;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  text-shadow:1px 1px 1px black;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 white;
 }
-
-#color-me{
-  color: #939393;
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  color: red;
 }
-#color-me:hover{
+form input, form textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Merriweather', sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+form input:focus, form textarea:focus {
+  -moz-box-shadow: 0 0px 2px #e74c3c !important;
+  -webkit-box-shadow: 0 0px 2px #e74c3c !important;
+  box-shadow: 0 0px 2px #e74c3c !important;
+}
+form #input-submit {
   color: white;
+  background: #e74c3c;
+  cursor: pointer;
 }
-*/
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+form textarea {
+  height: 126px;
+}
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+.right {
+  width: 50%;
+}
+.left {
+  margin-right: 2%;
+}
 #my-form{
   padding-bottom: 0px;
-
 }
 .my-form{
   background: #003366;
@@ -308,6 +288,13 @@ font-weight: 100;
   width: 70%;
 }
 /*END OF CONTACT SECTION*/
+
+
+
+
+
+
+
 /*FOOTER SECTION*/
 #social-footer{
   width: 100%;
@@ -363,15 +350,13 @@ a:link{
   color:#555;
 }
 /*END OF FOOTER SECTION*/
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
-/*  #contact{
-    background-attachment: scroll;
-  }
-  #twoam{
-    background-attachment: scroll;
-  }
-  */
-  
   .tagline2{
     font-size: 4.4em;
   }
@@ -387,35 +372,31 @@ a:link{
     outline: black;
   }
   #twoam {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("http://img02.deviantart.net/5fcc/i/2013/245/8/e/majora_s_mask___wooden_replica_by_supermariio-d6kubcn.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: rgb(28, 28, 28);
-  color: white;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://img02.deviantart.net/5fcc/i/2013/245/8/e/majora_s_mask___wooden_replica_by_supermariio-d6kubcn.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: white;
   }
   #contact {
-  width: 100vw;
-  height: 120vh;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-top: 20px;
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
   }
-
   #headerTag{
     background-size: 300px;
   }
-
   #down{
     left: 42%
   }
-
-
   .tagline2 {
     font-family: 'lato', sans-serif;
     font-size: 7em;
@@ -428,19 +409,8 @@ a:link{
     font-weight: 100;
     /* text-align: center; */
   }
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
 @media (max-width: 480px) {
   .half {
     width: 100%;
@@ -448,19 +418,17 @@ a:link{
     margin-bottom: 0;
   }
 }
-/* Clearfix */
-.cf:before,
+
+/*.cf:before,
 .cf:after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */
 }
 
 .cf:after {
   clear: both;
 }
-
+*/
 
 
 
