@@ -23,7 +23,8 @@
 }
 #brand-name{
   font-size: 35px;
-  line-height: 26px;
+  line-height: 16px;
+  font-weight: 100;
 }
 /*..................NAVIGATION....................*/
 
@@ -146,8 +147,8 @@
   width: 100%;
   height: 100%;
   color: #FFF;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
+/*  background: rgba(0, 0, 0, 0);
+*/  transition: background 0.5s ease;
 }
 .container-fluid:hover .overlay {
   display: block;
@@ -170,7 +171,7 @@
 .shit{
   opacity: 0;
   position: absolute;
-  padding: 10px;
+  padding: 13px;
 }
 .container-fluid:hover .shit{
   opacity: 1;
@@ -182,24 +183,35 @@
   top: 180px;
   text-align: center;
   opacity: 0;
+  border: solid 2px white;
   padding: 10px;
-  transition: opacity .35s ease;
+  transition: opacity 1s ease;
 }
 .button a {
-  width: 200px;
   padding: 12px 48px;
   text-align: center;
   color: white;
-  border: solid 2px white;
   z-index: 1;
+}
+
+.button::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: white;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s;
+}
+.button:hover:after {
+  height: 100%;
 }
 .container-fluid:hover .button {
   opacity: 1;
 }
-.pimages{
-  width: 100%;
-  height: 268px;
-}
+
 /*........................PORTFOLIO.........................*/
 
 
