@@ -190,24 +190,17 @@
 .button a {
   padding: 12px 48px;
   text-align: center;
-  color: white;
+  color:white;
   z-index: 1;
 }
+.button a:hover{
+  color:#580000;
+}
+.button:hover{
+  transition:1s;
+  background-color: white;
+}
 
-.button::after {
-  height: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background: white;
-  content: '';
-  position: absolute;
-  z-index: -1;
-  transition: all 0.3s;
-}
-.button:hover:after {
-  height: 100%;
-}
 .container-fluid:hover .button {
   opacity: 1;
 }
@@ -251,7 +244,7 @@ form {
   max-width: 600px;
   text-align: center;
   margin: 20px auto;
-  color: red;
+  color: #580000;
 }
 form input, form textarea {
   border: 0;
@@ -276,13 +269,15 @@ form input:focus, form textarea:focus {
 }
 form #input-submit {
   color: white;
-  background: #e74c3c;
+  background:#e74c3c;
   cursor: pointer;
 }
 form #input-submit:hover {
   -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  transition:.5s;
+  background: #580000;
 }
 form textarea {
   height: 126px;
