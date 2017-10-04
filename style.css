@@ -34,11 +34,11 @@
 #headerTag{
   width: 100vw;/*these thwo create the box to put the picture in*/
   height: 100vh;
-  /*background-image: url('godfather.jpeg');*/
+  background-image: url('my_face.jpeg');
 /*  background-position: left;*/
   background-repeat: no-repeat;
   background-attachment: fixed; /*parallax effect*/
-  background-size: 45vw; /*this makes the picture relative size*/
+  background-size: 87vw; /*this makes the picture relative size*/
   background-color: black;
   color:white; 
 }
@@ -422,6 +422,16 @@ a:link{
     font-weight: 100;
     /* text-align: center; */
   }
+
+
+  #headerTag{
+  background-size: 87vw; /*this makes the picture relative size*/
+}
+
+
+
+
+
 }
 
 
