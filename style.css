@@ -34,7 +34,7 @@
 #headerTag{
   width: 100vw;/*these thwo create the box to put the picture in*/
   height: 100vh;
-  background-image: url('my_face.jpeg');
+  background-image: url('P1010426.jpeg');
 /*  background-position: left;*/
   background-repeat: no-repeat;
   background-attachment: fixed; /*parallax effect*/
