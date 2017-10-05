@@ -42,32 +42,15 @@
   background-color: black;
   color: white;
 }
-/*.desc{
-  font-family: 'Roboto', sans-serif;
-  font-size:1.3em;
-  line-height: 1.7em;
-  letter-spacing: 0.03em;
-  margin-left: 10px;
-  margin-right: 10px;
-}*/
 .tagline2 {
   font-family: 'lato', sans-serif;
   font-size: 9em;
   letter-spacing: 7px;
   margin-top: 10%;
-  /*top: 28%;
-  left: 28%;*/
- /* position: fixed;*/
-  /* line-height: 0.95em; */
   font-weight: 100;
-  /* text-align: center; */
 }
 #down{
   position: absolute;
-/*  margin-right: auto;
-  margin-left: auto;
-  display: table;
-  margin-top: 30%;*/
   left: 48%;
   bottom: 9%;
   opacity: 0.9;
@@ -117,7 +100,6 @@
   padding-top: 10px;
   padding-bottom: 50px;
 }
-
 .icon-me{
   text-align: center;
   font-size: 5em;
@@ -138,7 +120,7 @@
   padding-bottom: 50px;
 }
 #portfolio .desc {
-  font-weight: 400; /*this may or may not be important*/
+  font-weight: 400;
 }
 .overlay {
   position: absolute;
@@ -147,8 +129,7 @@
   width: 100%;
   height: 100%;
   color: #FFF;
-/*  background: rgba(0, 0, 0, 0);
-*/  transition: background 0.5s ease;
+  transition: background 0.5s ease;
 }
 .container-fluid:hover .overlay {
   display: block;
@@ -200,11 +181,9 @@
   transition:1s;
   background-color: white;
 }
-
 .container-fluid:hover .button {
   opacity: 1;
 }
-
 /*........................PORTFOLIO.........................*/
 
 
@@ -223,7 +202,7 @@
   background-attachment: fixed;
   color: white;
 }
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
+/*@import url(https://fonts.googleapis.com/css?family=Merriweather);
 *,
 *:before,
 *:after {
@@ -239,7 +218,7 @@ h1 {
   text-align: center;
   color: #a8a8a8;
   text-shadow: 1px 1px 0 white;
-}
+}*/
 form {
   max-width: 600px;
   text-align: center;
@@ -336,7 +315,6 @@ form textarea {
 #social-footer a {
   color: white;
 }
-
 .blacktext{
   color: black;
 }
@@ -371,7 +349,38 @@ a:link{
 
 
 
+/*...........................MEDIA QUERIES...........................*/
 
+@media (max-width: 1280px) {
+  #headerTag {
+    background-size: 94vw;
+    background-position: -2px;
+  }
+}
+@media (max-width: 1180px) {
+  #headerTag {
+    background-size: 115vw;
+    background-position: -103px;
+  }
+}
+@media (max-width: 1080px) {
+  #headerTag {
+    background-size: 115vw;
+    background-position: -103px;
+  }
+}
+@media (max-width: 980px) {
+  #headerTag {
+    background-size: 115vw;
+    background-position: -103px;
+  }
+}
+@media (max-width: 880px) {
+  #headerTag {
+    background-size: 115vw;
+    background-position: -103px 102px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .section-title{
     font-size: 2.6em;
@@ -404,8 +413,9 @@ a:link{
     background-size: cover;
     padding-top: 20px;
   }
-  #headerTag{
-    background-size: 300px;
+  #headerTag {
+    background-size: 148vw;
+    background-position: -224px;
   }
   #down{
     left: 42%
@@ -414,105 +424,20 @@ a:link{
     font-family: 'lato', sans-serif;
     font-size: 7em;
     letter-spacing: 7px;
-   /* top: 18%;
-    left: 4%;
-    text-align: center;*/
-    /*position: fixed;*/
-    /* line-height: 0.95em; */
     font-weight: 100;
-    /* text-align: center; */
   }
-
-
-  #headerTag{
-  background-size: 87vw; /*this makes the picture relative size*/
-}
-
-
-
-
-
-}
-@media (max-width: 1280px) {
-
-  #headerTag {
-    background-size: 94vw;
-    background-position: -2px;
-  }
-
-
-
-}
-@media (max-width: 1180px) {
-
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-
-
-
-}
-@media (max-width: 1080px) {
-
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-
-
-
-}
-@media (max-width: 980px) {
-
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-
-
-
-}
-@media (max-width: 880px) {
-
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px 102px;
-  }
-
-
-
-}
-@media (max-width: 780px) {
-
-  #headerTag {
-    background-size: 148vw;
-    background-position: -224px;
-  }
-
-
-
 }
 @media (max-width: 680px) {
-
   #headerTag {
     background-size: 187vw;
     background-position: -310px;
   }
-
-
-
 }
 @media (max-width: 580px) {
-
-
   #headerTag {
     background-size: 205vw;
     background-position: -276px;
   }
-
-
-
 }
 @media (max-width: 480px) {
   .half {
@@ -520,26 +445,12 @@ a:link{
     float: none;
     margin-bottom: 0;
   }
-
   #headerTag {
     background-size: 205vw;
     background-position: -209px;
   }
-
-
-
 }
-
-/*.cf:before,
-.cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
-*/
+/*...........................MEDIA QUERIES...........................*/
 
 
 
