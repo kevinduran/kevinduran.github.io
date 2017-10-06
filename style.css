@@ -84,12 +84,6 @@
   display: inline-block;
   background-color: #999;
 }
-.desc{
-  border: 3px solid #580000;
-}
-#about .desc {
-  font-weight: 400;
-}
 .section-title{
   font-family: 'lato',sans-serif;
   font-size: 3.5em;
@@ -110,7 +104,30 @@
   padding-top: 20px;
   padding-bottom: 25px;
   text-shadow:5px 5px 5px grey;
+  transition:1s;
 }
+.desc{
+  border: 3px solid #580000;
+  transition:1s;
+}
+.desc:hover{
+  padding: 100px;
+}
+.desc:hover .icon-me{
+  opacity: 0;
+  padding-top: 0;
+}
+.yo{
+  display: none;
+  transition:2s;
+}
+.desc:hover .yo{
+  display: block;
+  position: absolute;
+  top: 10px;
+}
+
+
 /*.........................ABOUT............................*/
 
 
