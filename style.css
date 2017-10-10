@@ -126,7 +126,16 @@
   position: absolute;
   top: 10px;
 }
-
+.oy{
+  display: none;
+  transition:2s;
+}
+.desc:hover .oy{
+  display: block;
+  position: absolute;
+  top: 100px;
+  margin-right: 50px;
+}
 
 /*.........................ABOUT............................*/
 
@@ -222,23 +231,6 @@
   background-attachment: fixed;
   color: white;
 }
-/*@import url(https://fonts.googleapis.com/css?family=Merriweather);
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-}
-h1 {
-  text-align: center;
-  color: #a8a8a8;
-  text-shadow: 1px 1px 0 white;
-}*/
 form {
   max-width: 600px;
   text-align: center;
