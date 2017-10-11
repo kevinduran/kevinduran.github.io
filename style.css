@@ -3,6 +3,7 @@
   z-index:9999; 
   font-family: 'lato', sans-serif;
   opacity: 0.9;
+  padding-bottom: 3px;
 }
 #nav-bar ul li {
   margin-right: 20px;
@@ -13,7 +14,9 @@
   margin: 5px;
 }
 #burger{
-  border: none;
+  border: 1;
+  margin-bottom: 0;
+  padding: 5px 4px;
 }
 #nav-bar ul li:hover::after{
   width: 100%;
