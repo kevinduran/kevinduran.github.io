@@ -114,7 +114,7 @@
   transition:1s;
 }
 .desc:hover{
-  padding: 65px 0px 3px 20px;
+  padding: 75px 5px 5px 20px;
 }
 .desc:hover .icon-me{
   opacity: 0;
@@ -135,7 +135,7 @@
   display: none;
   color: #580000;
   transition:2s;
-  font-size: 25px;
+  font-size: 20px;
 }
 .desc:hover .oy{
   display: block;
@@ -146,8 +146,9 @@
   opacity: 0;
 }
 .desc:hover .myflex{
-  margin-top: -125px;
+  margin-top: -110px;
   opacity: 1;
+  padding: 10px;
 }
 
 
