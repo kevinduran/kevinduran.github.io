@@ -114,7 +114,7 @@
   transition:1s;
 }
 .desc:hover{
-  padding: 100px;
+  padding: 65px 0px 3px 20px;
 }
 .desc:hover .icon-me{
   opacity: 0;
