@@ -1,3 +1,7 @@
+*{
+  font-family: 'lato', sans-serif;
+}
+
 /*.................NAVIGATION...................*/
 .navbar{
   z-index:9999; 
@@ -246,7 +250,19 @@
   background-attachment: fixed;
   color: white;
 }
-form {
+.contact-me{
+  line-height: 100px;
+  margin:0 150px 0 150px;
+  font-weight: 100;
+}
+.contact-me a{
+  color: #580000;
+  font-weight: bolder;
+}
+.contact-me a:hover{
+  color: red;
+}
+/*form {
   max-width: 600px;
   text-align: center;
   margin: 20px auto;
@@ -308,7 +324,7 @@ form textarea {
   border-radius: 25px;
   padding: 15px;
   width: 70%;
-}
+}*/
 /*...........................CONTACT........................*/
 
 
@@ -406,6 +422,10 @@ a:link{
   #headerTag {
     background-size: 115vw;
     background-position: -103px 102px;
+  }
+  .contact-me{
+    margin: 2px;
+    line-height: 70px;
   }
 }
 @media only screen and (max-width: 768px) {
