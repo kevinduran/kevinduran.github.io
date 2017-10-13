@@ -168,7 +168,8 @@
   padding-bottom: 50px;
 }
 .mypic{
-
+  max-width: 100%;
+  height: 250px;
 }
 #portfolio .desc {
   font-weight: 400;
@@ -180,6 +181,7 @@
   width: 100%;
   height: 100%;
   color: #FFF;
+    border: 1px solid #580000;
   transition: background 0.5s ease;
 }
 .container-fluid:hover .overlay {
