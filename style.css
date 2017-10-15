@@ -489,6 +489,9 @@ a:link{
   .desc{
     margin-bottom: 15px;
   }
+  .container-fluid:hover .shit {
+    bottom: 75px;
+  }
 }
 @media (max-width: 680px) {
   #headerTag {
