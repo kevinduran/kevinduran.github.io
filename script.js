@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -37,12 +38,17 @@ $('a[href*="#"]')
   });
 
 //this is the navbar(mobile) collapse after click function
-$(function() {
-    $('.nav a').on('click', function(){ 
-        if($('.navbar-toggle').css('display') !='none'){
-            $(".navbar-toggle").trigger( "click" );
-        }
-    });
-});
+  $(function() {
+      $('.nav a').on('click', function(){ 
+          if($('.navbar-toggle').css('display') !='none'){
+              $(".navbar-toggle").trigger( "click" );
+          }
+      });
+  });
+
+
 
 });
+
+
+
