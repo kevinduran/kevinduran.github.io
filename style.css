@@ -71,6 +71,9 @@
 #down a:hover {
   opacity:1;
 }
+#down a:active {
+  opacity:1;
+}
 /*.......................HEADER...........................*/
 
 
@@ -120,7 +123,14 @@
 .desc:hover{
   padding: 75px 5px 5px 20px;
 }
+.desc:active{
+  padding: 75px 5px 5px 20px;
+}
 .desc:hover .icon-me{
+  opacity: 0;
+  padding-top: 0;
+}
+.desc:active .icon-me{
   opacity: 0;
   padding-top: 0;
 }
@@ -135,6 +145,11 @@
   position: absolute;
   top: 10px;
 }
+.desc:active .yo{
+  display: block;
+  position: absolute;
+  top: 10px;
+}
 .oy{
   display: none;
   color: #580000;
@@ -142,6 +157,10 @@
   font-size: 20px;
 }
 .desc:hover .oy{
+  display: block;
+  top: 100px;
+}
+.desc:active .oy{
   display: block;
   top: 100px;
 }
@@ -154,7 +173,11 @@
   opacity: 1;
   padding: 10px;
 }
-
+.desc:active .myflex{
+  margin-top: -110px;
+  opacity: 1;
+  padding: 10px;
+}
 
 /*.........................ABOUT............................*/
 
@@ -191,6 +214,11 @@
   background:#580000;
   opacity: 0.9;
 }
+.container-fluid:active .overlay {
+  display: block;
+  background:#580000;
+  opacity: 0.9;
+}
 .title {
   position: absolute;
   top: 120px;
@@ -205,12 +233,21 @@
   top: 10px;
   color:white;
 }
+.container-fluid:active .title {
+  top: 10px;
+  color:white;
+}
 .shit{
   opacity: 0;
   position: absolute;
   padding: 13px;
 }
 .container-fluid:hover .shit{
+  opacity: 1;
+  bottom: 80px;
+  color:white;
+}
+.container-fluid:active .shit{
   opacity: 1;
   bottom: 80px;
   color:white;
@@ -233,11 +270,21 @@
 .button a:hover{
   color:#580000;
 }
+.button a:active{
+  color:#580000;
+}
 .button:hover{
   transition:1s;
   background-color: white;
 }
+.button:active{
+  transition:1s;
+  background-color: white;
+}
 .container-fluid:hover .button {
+  opacity: 1;
+}
+.container-fluid:active .button {
   opacity: 1;
 }
 /*........................PORTFOLIO.........................*/
@@ -268,6 +315,9 @@
   font-weight: bolder;
 }
 .contact-me a:hover{
+  color: red;
+}
+.contact-me a:active{
   color: red;
 }
 /*form {
@@ -361,6 +411,9 @@ form textarea {
   transition: opacity 0.5s;
 }
 #social-footer ul li a:hover {
+  opacity: 1;
+}
+#social-footer ul li a:active {
   opacity: 1;
 }
 #social-footer a {
