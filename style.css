@@ -1,6 +1,5 @@
 *{
   font-family: 'lato', sans-serif;
-  cursor: pointer;
 }
 
 /*.................NAVIGATION...................*/
@@ -42,13 +41,15 @@
 #headerTag {
   width: 100vw;
   height: 100vh;
-  background-image: url('my_face_final.jpeg');
-  background-position: 107px 44px;
+  background: url('my_face_final.jpeg');
+/*  background-position: 107px 44px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 80vw;
+  background-size: 80vw;*/
+  background-size: cover;
   background-color: black;
   color: white;
+  z-index: 100;
 }
 .tagline2 {
   font-family: 'lato', sans-serif;
@@ -119,10 +120,10 @@
   border: 3px solid #580000;
   transition:1s;
 }
-.desc:hover{
+.desc:hover, .desc:active, .desc:focus{
   padding: 75px 5px 5px 20px;
 }
-.desc:hover .icon-me{
+.desc:hover .icon-me, .desc:focus .icon-me, .desc:active .icon-me{
   opacity: 0;
   padding-top: 0;
 }
@@ -132,7 +133,7 @@
   font-size: 40px;
   transition:2s;
 }
-.desc:hover .yo{
+.desc:hover .yo, .desc:focus .yo, .desc:active .yo{
   display: block;
   position: absolute;
   top: 10px;
@@ -143,7 +144,7 @@
   transition:2s;
   font-size: 20px;
 }
-.desc:hover .oy{
+.desc:hover .oy, .desc:focus .oy, .desc:active .oy{
   display: block;
   top: 100px;
 }
@@ -151,7 +152,7 @@
   transition:1s;
   opacity: 0;
 }
-.desc:hover .myflex{
+.desc:hover .myflex, .desc:focus .myflex, .desc:active .myflex{
   margin-top: -110px;
   opacity: 1;
   padding: 10px;
@@ -195,6 +196,7 @@
   position: absolute;
   top: 120px;
   font-size: 50px;
+   -webkit-text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
   text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
   color:#580000;
   opacity:0.9;
@@ -390,7 +392,7 @@ a:link{
     display: inline-block;
     outline: black;
   }
-  #twoam {
+/*  #twoam {
     width: 100vw;
     height: 100vh;
     background-image: url("http://img02.deviantart.net/5fcc/i/2013/245/8/e/majora_s_mask___wooden_replica_by_supermariio-d6kubcn.jpg");
@@ -400,7 +402,7 @@ a:link{
     background-size: cover;
     background-color: rgb(28, 28, 28);
     color: white;
-  }
+  }*/
   #contact {
     width: 100vw;
     height: 120vh;
