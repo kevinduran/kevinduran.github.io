@@ -121,8 +121,20 @@
   border: 3px solid #580000;
   transition:1s;
 }
-.desc:hover, .desc:active, .desc:focus{
-  padding: 75px 5px 5px 20px;
+.desc-left:hover, .desc:active, .desc:focus{
+  padding: 75px 15px 5px 20px; 
+  margin-right: -100px;
+  background-color: #580000;
+}
+.desc-center:hover, .desc:active, .desc:focus{
+  padding: 75px 15px 5px 20px; 
+  margin: 0 -100px 0 -100px;
+  background-color: #580000;
+}
+.desc-right:hover, .desc:active, .desc:focus{
+  padding: 75px 15px 5px 20px; 
+  margin-left: -100px;
+  background-color: #580000;
 }
 .desc:hover .icon-me, .desc:focus .icon-me, .desc:active .icon-me{
   opacity: 0;
@@ -130,7 +142,7 @@
 }
 .about_title{
   display: none;
-  color: #580000;
+  color: white;
   font-size: 40px;
   transition:2s;
 }
@@ -141,13 +153,14 @@
 }
 .my_words{
   display: none;
-  color: #580000;
+  color: white;
   transition:2s;
   font-size: 20px;
 }
 .desc:hover .my_words, .desc:focus .my_words, .desc:active .my_words{
   display: block;
   top: 100px;
+  z-index: 100;
 }
 .word_container{
   transition:1s;
@@ -363,17 +376,29 @@
     background-size: 187vw;
     background-position: -310px;
   }
+  .desc:hover, .desc:active, .desc:focus{
+    padding: 75px 5px 5px 20px;
+    margin: 0;
+  }
 }
 @media (max-width: 580px) {
   #headerTag {
     background-size: 205vw;
     background-position: -276px;
   }
+  .desc:hover, .desc:active, .desc:focus{
+    padding: 75px 5px 5px 20px;
+    margin: 0;
+  }
 }
 @media (max-width: 480px) {
   #headerTag {
     background-size: 205vw;
     background-position: -209px;
+  }
+  .desc:hover, .desc:active, .desc:focus{
+    padding: 75px 5px 5px 20px;
+    margin: 0;
   }
 }
 /*...........................MEDIA QUERIES...........................*/
