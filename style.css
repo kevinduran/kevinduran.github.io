@@ -47,6 +47,8 @@
   background: url('my_face_final.jpeg');
   background-size: cover;
   background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
   z-index: 100;
 }
@@ -123,17 +125,19 @@
 }
 .desc-left:hover, .desc:active, .desc:focus{
   padding: 75px 15px 5px 20px; 
-  margin-right: -100px;
+  margin-right: -50px;
+  margin-bottom: -20px;
   background-color: #580000;
 }
 .desc-center:hover, .desc:active, .desc:focus{
   padding: 75px 15px 5px 20px; 
-  margin: 0 -100px 0 -100px;
+  margin: 0 -50px -20px -50px;
   background-color: #580000;
 }
 .desc-right:hover, .desc:active, .desc:focus{
   padding: 75px 15px 5px 20px; 
-  margin-left: -100px;
+  margin-left: -50px;
+  margin-bottom: -20px;
   background-color: #580000;
 }
 .desc:hover .icon-me, .desc:focus .icon-me, .desc:active .icon-me{
