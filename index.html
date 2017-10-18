@@ -30,23 +30,20 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-
-
 <!--....................NAVIGATION BAR....................--> 
   <nav id="nav-bar" class="navbar navbar-inverse navbar-fixed-top" data-toggle="collapse" data-target=".nav-collapse">
     <div class="container-fluid">
-<!--toggle and brand get grouped together for better mobile display-->
+  <!--toggle and brand get grouped together for better mobile display-->
       <div class="navbar-header">
-        <button type="button" id="burger" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <button type="button" id="burger_menu" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle Navigation</span>
           <span id="bar" class="icon-bar"></span>
           <span id="bar" class="icon-bar"></span>
           <span id="bar" class="icon-bar"></span>
         </button>
         <a class="navbar-brand" id="brand-name" href="#headerTag">k.d</a>
-
       </div>
-<!--collect nav links,forms,etc for toggling-->      
+  <!--collect nav links,forms,etc for toggling-->      
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">about</a></li>
@@ -66,13 +63,11 @@
 <!--.....................HEADER............................-->	
   <header id="headerTag">
     <div class="container-fluid">
-      <!-- <div class="row me animated fadeIn"> -->
-        <!-- <div class="col-xs-offset-5 col-sm-offset-6 col-xs-7 col-sm-6"> -->
-          <div class="tagline2 text-center">kevin duran</div>
-        <!-- </div> -->
-     
+      <div class="name_title text-center">kevin duran</div>
       <div id="down" >
-        <a href="#about" id="downButton"><i class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></i></a>
+        <a href="#about" id="downButton">
+          <i class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
   </header>
@@ -97,38 +92,37 @@
     </div>
 
     <div class="row max">
-       <div class="col-sm-4">
-          <div class="desc" onclick="void(0)">
-           <div class="icon-me">
-             <i class="fa fa-user-circle"></i>
-           </div>
-
-            <h2 class="yo">about me:</h2>
-            <div class="myflex">
-              <p class="oy "> hello, my name is kevin duran and i am a 26 year old front end developer based out of ventura, ca. i am currently accepting freelance work. if you have a project you would like to work on, feel free to contact me. i'd love to get coffee and get to know you.</p>
-            </div>
-         </div>
+      <div class="col-sm-4">
+        <div class="desc" onclick="void(0)">
+          <div class="icon-me">
+            <i class="fa fa-user-circle"></i>
+          </div>
+            <h2 class="about_title">about me:</h2>
+          <div class="word_container">
+            <p class="my_words"> hello, my name is kevin duran and i am a 26 year old front end developer based out of ventura, ca. i am currently accepting freelance work. if you have a project you would like to work on, feel free to contact me. i'd love to get coffee and get to know you.</p>
+          </div>
+        </div>
       </div>
       <div class="col-sm-4">
         <div class="desc" onclick="void(0)">
-           <div class="icon-me">
-             <i class="fa fa-futbol-o"></i>
-           </div>
-            <h2 class="yo">my hobbies:</h2>
-            <div class="myflex">
-              <p class="oy">  my first and perhaps strongest passion is playing soccer. i grew up playing constantly and i can never quite get enough of the beautiful game. when i am not playing, i enjoy cracking open a good book and spending time with my wife and son.</p>
-            </div>
+          <div class="icon-me">
+            <i class="fa fa-futbol-o"></i>
+          </div>
+          <h2 class="about_title">my hobbies:</h2>
+          <div class="word_container">
+            <p class="my_words">  my first and perhaps strongest passion is playing soccer. i grew up playing constantly and i can never quite get enough of the beautiful game. when i am not playing, i enjoy cracking open a good book and spending time with my wife and son.</p>
+          </div>
         </div>
       </div>      
       <div class="col-sm-4">
         <div class="desc" onclick="void(0)">
-           <div class="icon-me">
-             <i class="fa fa-code"></i>
-           </div>
-            <h2 class="yo">my skills:</h2>
-            <div class="myflex">
-                <p class="oy"> i like to code interactive web applications with responsive design in mind. i prefer to work with technologies like javascript, react.js, and node.js. but am also very familiar with using html5, css3, bootstrap, sass, flexbox. i am a self-taught developer and continue to supplement my knowledge with constant learning.</p>
-            </div>
+          <div class="icon-me">
+            <i class="fa fa-code"></i>
+          </div>
+          <h2 class="about_title">my skills:</h2>
+          <div class="word_container">
+            <p class="my_words"> i like to code interactive web applications with responsive design in mind. i prefer to work with technologies like javascript, react.js, and node.js. but am also very familiar with using html5, css3, bootstrap, sass, flexbox. i am a self-taught developer and continue to supplement my knowledge with constant learning.</p>
+          </div>
         </div>
       </div>
     </div>  
@@ -150,63 +144,86 @@
         <span class="line portfolio"></span>
       </div>
     </div>
-
     <div class="row" id="theProjects">
   		<div class="row">
-           <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img src="simon.jpeg" class="mypic" alt="...">
-              <p class="title text-center">Simon Game</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>This is a simple simon game clone built using javascript. This game just lights up a series of colors and asks you press the colors in the order they light up.</p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/Oxygob">demo</a></div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img src="simon.jpeg" class="mypic" alt="...">
+            <p class="title text-center">Simon Game</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>This is a simple simon game clone built using javascript. This game just lights up a series of colors and asks you press the colors in the order they light up.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/Oxygob">demo</a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img class="mypic" src="etchasketch.jpeg" alt="...">
-              <p class="title text-center">Etch a Sketch</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>An etch a sketch in your browser. Built using javascript. You can choose from 5 different colors and shake the canvas to erase what you've drawn.</p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/WZQOZj">demo</a></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img class="mypic" src="etchasketch.jpeg" alt="...">
+            <p class="title text-center">Etch a Sketch</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>An etch a sketch in your browser. Built using javascript. You can choose from 5 different colors and shake the canvas to erase what you've drawn.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/WZQOZj">demo</a>
             </div>
           </div>
-           <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img class="mypic" src="quotegenerator.jpeg" alt="...">
-              <p class="title text-center">Random Quote</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>A quote generator built using javascript that gives you a random quote. With every new quote given, you also get a random colored background to go with it too.</p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/xXwrLm">demo</a></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img class="mypic" src="quotegenerator.jpeg" alt="...">
+            <p class="title text-center">Random Quote</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>A quote generator built using javascript that gives you a random quote. With every new quote given, you also get a random colored background to go with it too.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/xXwrLm">demo</a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img  class="mypic" src="scrambled.jpeg" alt="...">
-              <p class="title text-center">Scrambled</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>A game that asks you to guess the random scrambled word given. All words are from a list of programming related words. Built using Javascript and jQuery. </p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/pWjwKa">demo</a></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img  class="mypic" src="scrambled.jpeg" alt="...">
+            <p class="title text-center">Scrambled</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>A game that asks you to guess the random scrambled word given. All words are from a list of programming related words. Built using Javascript and jQuery.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/pWjwKa">demo</a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img class="mypic" src="wikiowl.jpeg" alt="...">
-              <p class="title text-center">Wiki Owl</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>Do you want to know about a certain topic? Why not ask the wiki owl? Ask the owl about any topic and it will give you a list of articles from wikipedia to choose from. Built using the wikipedia API and javascript.</p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/wrKeez">demo</a></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img class="mypic" src="wikiowl.jpeg" alt="...">
+            <p class="title text-center">Wiki Owl</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>Do you want to know about a certain topic? Why not ask the wiki owl? Ask the owl about any topic and it will give you a list of articles from wikipedia to choose from. Built using the wikipedia API and javascript.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/wrKeez">demo</a>
             </div>
           </div>
-           <div class="col-sm-6 col-md-4">
-            <div class="container-fluid" onclick="void(0)">
-              <img class="mypic" src="stopwatch.jpeg" alt="...">
-              <p class="title text-center">Stopwatch</p>
-              <div class="overlay"></div>
-              <div class="shit"><p>Are you looking to see how fast you can run a mile? Are you trying to see how long you can hold your breath for? Why not use this stopwatch? Built using javascript.</p></div>
-              <div class="button btn-1"><a href="https://codepen.io/kevinalexanderduran/pen/XemgPy">demo</a></div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="container-fluid" onclick="void(0)">
+            <img class="mypic" src="stopwatch.jpeg" alt="...">
+            <p class="title text-center">Stopwatch</p>
+            <div class="overlay"></div>
+            <div class="project_desc">
+              <p>Are you looking to see how fast you can run a mile? Are you trying to see how long you can hold your breath for? Why not use this stopwatch? Built using javascript.</p>
+            </div>
+            <div class="button btn-1">
+              <a href="https://codepen.io/kevinalexanderduran/pen/XemgPy">demo</a>
             </div>
           </div>
+        </div>
       </div>    
 		</div>
 	</section>
@@ -220,77 +237,22 @@
 
 <!--.....................CONTACT............................-->  
   <section id="contact" class="container-fluid">
-      <div class="row section-banner">
-        <div class="col-md-offset-3 col-md-6 text-center">
-          <div>
-            <span class="line contact"></span>
-            <span class="section-title contact">contact</span>
-            <span class="line contact"></span>
-          </div>
+    <div class="row section-banner">
+      <div class="col-md-offset-3 col-md-6 text-center">
+        <div>
+          <span class="line contact"></span>
+          <span class="section-title contact">contact</span>
+          <span class="line contact"></span>
         </div>
       </div>
-
-<!--     <form class="cf">
-      <div class="half left cf">
-        <input type="text" id="input-name" placeholder="Name">
-        <input type="email" id="input-email" placeholder="Email address">
-        <input type="text" id="input-subject" placeholder="Subject">
-      </div>
-      <div class="half right cf">
-        <textarea name="message" type="text" id="input-message" placeholder ="Message"></textarea>
-      </div>  
-      <input type="submit" value="Submit" id="input-submit">
-    </form> -->
-
+    </div>
     <div>
       <h1 class="contact-me">
         if you would like to contact me to work on a project please feel free to send me an <a href="mailto:kevinalexanerduran8@gmail.com">email</a>. you can also find me on <a href="https://github.com/kevinduran">github</a>, <a href="https://www.linkedin.com/in/kevin-alexander-duran-ba9927126">linkedin</a>, <a href="https://www.instagram.com/narudnivek/">instagram</a> or <a href="http://codepen.io/kevinalexanderduran/">codepen</a>.
       </h1>
     </div>
-
   </section>
 <!--.....................CONTACT............................-->  
-
-
-
-
-
-
-
-<!--.....................FOOTER............................-->  
-<!--   <footer id="social-footer" class="container-fluid">
-    <ul>
-      <li class="highlight">
-        <a class="fa-stack fa-1x" data-toggle="tooltip" title="Email" data-placement="top" href="mailto:kevinalexanerduran8@gmail.com" target="_blank">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-envelope fa-stack-1x blacktext"></i>
-
-        </a>
-      </li>
-      <li class="highlight">
-        <a class="fa-stack fa-1x" data-toggle="tooltip" title="Linkedin" data-placement="top" href="https://www.linkedin.com/in/kevin-alexander-duran-ba9927126" target="_blank">
-          <i class="fa fa-linkedin-square fa-stack-2x"></i>
-        </a>
-      </li>
-      <li class="highlight">
-        <a class="fa-stack fa-1x" data-toggle="tooltip" title="Github" data-placement="top" href="https://github.com/kevinduran" target="_blank">
-          <i class="fa fa-github-square fa-stack-2x"></i>
-        </a>
-      </li>
-      <li class="highlight">
-        <a class="fa-stack fa-1x" data-toggle="tooltip" title="Codepen" data-placement="top" href="http://codepen.io/kevinalexanderduran/" target="_blank">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-codepen fa-stack-1x blacktext"></i>
-        </a>
-      </li>
-    </ul>
-    <div class="text-center copyrigth"></div>
-  </footer> -->
-<!--.....................FOOTER............................-->  
-
-
-
-
 
 
 <!-- jQuery library -->
