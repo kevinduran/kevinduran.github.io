@@ -2,6 +2,7 @@
   font-family: 'lato', sans-serif;
 }
 
+
 /*.................NAVIGATION...................*/
 .navbar{
   z-index:9999; 
@@ -17,7 +18,7 @@
 #bar{
   margin: 5px;
 }
-#burger{
+#burger_menu{
   border: 1;
   margin-bottom: 0;
   padding: 5px 4px;
@@ -37,21 +38,19 @@
 
 
 
+
+
 /*..................HEADER.........................*/
 #headerTag {
   width: 100vw;
   height: 100vh;
   background: url('my_face_final.jpeg');
-/*  background-position: 107px 44px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 80vw;*/
   background-size: cover;
   background-color: black;
   color: white;
   z-index: 100;
 }
-.tagline2 {
+.name_title {
   font-family: 'lato', sans-serif;
   font-size: 9em;
   letter-spacing: 7px;
@@ -75,6 +74,8 @@
 }
 
 /*.......................HEADER...........................*/
+
+
 
 
 
@@ -127,32 +128,32 @@
   opacity: 0;
   padding-top: 0;
 }
-.yo{
+.about_title{
   display: none;
   color: #580000;
   font-size: 40px;
   transition:2s;
 }
-.desc:hover .yo, .desc:focus .yo, .desc:active .yo{
+.desc:hover .about_title, .desc:focus .about_title, .desc:active .about_title{
   display: block;
   position: absolute;
   top: 10px;
 }
-.oy{
+.my_words{
   display: none;
   color: #580000;
   transition:2s;
   font-size: 20px;
 }
-.desc:hover .oy, .desc:focus .oy, .desc:active .oy{
+.desc:hover .my_words, .desc:focus .my_words, .desc:active .my_words{
   display: block;
   top: 100px;
 }
-.myflex{
+.word_container{
   transition:1s;
   opacity: 0;
 }
-.desc:hover .myflex, .desc:focus .myflex, .desc:active .myflex{
+.desc:hover .word_container, .desc:focus .word_container, .desc:active .word_container{
   margin-top: -110px;
   opacity: 1;
   padding: 10px;
@@ -162,8 +163,8 @@
 
 
 
-/*........................PORTFOLIO.........................*/
-#portfolio{
+/*........................PROJECTS.........................*/
+#projects{
   background-color: white;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -171,9 +172,6 @@
 .mypic{
   max-width: 100%;
   height: 250px;
-}
-#portfolio .desc {
-  font-weight: 400;
 }
 .overlay {
   position: absolute;
@@ -207,12 +205,12 @@
   top: 10px;
   color:white;
 }
-.shit{
+.project_desc{
   opacity: 0;
   position: absolute;
   padding: 13px;
 }
-.container-fluid:hover .shit{
+.container-fluid:hover .project_desc{
   opacity: 1;
   bottom: 80px;
   color:white;
@@ -280,64 +278,6 @@
 
 
 
-/*...........................FOOTER...........................*/
-#social-footer{
-  width: 100%;
-  text-align: center;
-  background-color: black;
-}
-#social-footer ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-#social-footer ul li {
-  display: inline;
-  padding: 0.4em;
-}
-#social-footer ul li a{
-  opacity: 0.5;
-  transition: opacity 0.5s;
-}
-#social-footer ul li a:hover {
-  opacity: 1;
-}
-#social-footer a {
-  color: white;
-}
-.blacktext{
-  color: black;
-}
-footer{
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 1% 5%;
-  text-align: center;
-  opacity: 0.8;
-  z-index: 100;
-}
-a.fa {
-  text-decoration: none;
-}
-a:link{
-  text-decoration: none !important;
-  outline: 0;
-}
-.fa-stack{
-  margin: -2px;
-}
-.copyright{
-  padding-bottom: 0;
-  padding-top: 5px;
-  color:#555;
-}
-/*...........................FOOTER...........................*/
-
-
-
-
 
 /*...........................MEDIA QUERIES...........................*/
 @media(min-width: 1200px){
@@ -392,17 +332,6 @@ a:link{
     display: inline-block;
     outline: black;
   }
-/*  #twoam {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("http://img02.deviantart.net/5fcc/i/2013/245/8/e/majora_s_mask___wooden_replica_by_supermariio-d6kubcn.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(28, 28, 28);
-    color: white;
-  }*/
   #contact {
     width: 100vw;
     height: 120vh;
@@ -419,7 +348,7 @@ a:link{
   #down{
     left: 42%
   }
-  .tagline2 {
+  .name_title {
     font-family: 'lato', sans-serif;
     font-size: 7em;
     letter-spacing: 7px;
@@ -427,9 +356,6 @@ a:link{
   }
   .desc{
     margin-bottom: 15px;
-  }
-  .container-fluid:hover .shit {
-    bottom: 75px;
   }
 }
 @media (max-width: 680px) {
@@ -445,11 +371,6 @@ a:link{
   }
 }
 @media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
   #headerTag {
     background-size: 205vw;
     background-position: -209px;
