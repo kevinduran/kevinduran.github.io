@@ -1,7 +1,9 @@
 *{
   font-family: 'lato', sans-serif;
 }
-
+a:hover{
+  text-decoration: none !important;
+}
 
 /*.................NAVIGATION...................*/
 .navbar{
@@ -374,6 +376,10 @@
   .desc{
     margin-bottom: 15px;
   }
+  .desc:hover, .desc:active, .desc:focus{
+    padding: 75px 5px 5px 20px;
+    margin: 0;
+  }  
 }
 @media (max-width: 680px) {
   #headerTag {
