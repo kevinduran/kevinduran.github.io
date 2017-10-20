@@ -400,9 +400,6 @@ a:hover{
     padding: 75px 5px 5px 20px;
     margin: 0;
   }
-  .container-fluid:hover .project_desc{
-      bottom: 46px;
-  }
 }
 @media (max-width: 480px) {
   #headerTag {
@@ -413,9 +410,11 @@ a:hover{
     padding: 75px 5px 5px 20px;
     margin: 0;
    }
+}
+@media (max-width: 380px) {
   .container-fluid:hover .project_desc{
-      bottom: 46px;
-  }
+    bottom: 46px;
+  }  
 }
 /*...........................MEDIA QUERIES...........................*/
 
