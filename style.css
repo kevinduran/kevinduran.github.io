@@ -231,7 +231,7 @@ a:hover{
 }
 .container-fluid:hover .project_desc{
   opacity: 1;
-  bottom: 80px;
+  bottom: 60px;
   color:white;
 }
 .button {
@@ -259,7 +259,7 @@ a:hover{
 .container-fluid:hover .button {
   opacity: 1;
 }
-/*........................PORTFOLIO.........................*/
+/*........................PROJECTS.........................*/
 
 
 
@@ -400,6 +400,9 @@ a:hover{
     padding: 75px 5px 5px 20px;
     margin: 0;
   }
+  .container-fluid:hover .project_desc{
+      bottom: 46px;
+  }
 }
 @media (max-width: 480px) {
   #headerTag {
@@ -409,6 +412,9 @@ a:hover{
   .desc:hover, .desc:active, .desc:focus{
     padding: 75px 5px 5px 20px;
     margin: 0;
+   }
+  .container-fluid:hover .project_desc{
+      bottom: 46px;
   }
 }
 /*...........................MEDIA QUERIES...........................*/
