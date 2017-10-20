@@ -415,6 +415,9 @@ a:hover{
   .container-fluid:hover .project_desc{
     bottom: 46px;
   }  
+  .container-fluid:hover .button {
+    top: 197px;
+  }
 }
 /*...........................MEDIA QUERIES...........................*/
 
