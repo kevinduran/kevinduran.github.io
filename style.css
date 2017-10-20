@@ -401,16 +401,15 @@ a:hover{
     margin: 0;
   }
     #headerTag {
-    background-color: black;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background: url('my_face_final.jpeg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+      background-color: black;
+      width: 100vw;
+      height: 100vh;
+      background: url('my_face_final.jpeg') center center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
 }
 @media (max-width: 480px) {
   #headerTag {
@@ -426,7 +425,6 @@ a:hover{
   }
   #headerTag {
     background-color: black;
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     background: url('my_face_final.jpeg') center center no-repeat;
@@ -443,7 +441,7 @@ a:hover{
   .container-fluid:hover .button {
     top: 197px;
   }
-    #headerTag {
+  #headerTag {
     background-color: black;
     background-repeat: no-repeat;
     width: 100vw;
