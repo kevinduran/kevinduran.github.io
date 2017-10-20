@@ -410,6 +410,9 @@ a:hover{
     padding: 75px 5px 5px 20px;
     margin: 0;
    }
+  .container-fluid:hover .button {
+    top: 197px;
+  }
 }
 @media (max-width: 380px) {
   .container-fluid:hover .project_desc{
@@ -417,6 +420,12 @@ a:hover{
   }  
   .container-fluid:hover .button {
     top: 197px;
+  }
+  #headerTag {
+    background: url('my_face_final.jpeg');
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
   }
 }
 /*...........................MEDIA QUERIES...........................*/
