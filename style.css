@@ -400,6 +400,17 @@ a:hover{
     padding: 75px 5px 5px 20px;
     margin: 0;
   }
+    #headerTag {
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background: url('my_face_final.jpeg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 @media (max-width: 480px) {
   #headerTag {
@@ -413,6 +424,17 @@ a:hover{
   .container-fluid:hover .button {
     top: 197px;
   }
+  #headerTag {
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background: url('my_face_final.jpeg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 @media (max-width: 380px) {
   .container-fluid:hover .project_desc{
@@ -421,11 +443,16 @@ a:hover{
   .container-fluid:hover .button {
     top: 197px;
   }
-  #headerTag {
-    background: url('my_face_final.jpeg');
-    background-size: cover;
+    #headerTag {
     background-color: black;
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background: url('my_face_final.jpeg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 /*...........................MEDIA QUERIES...........................*/
