@@ -50,7 +50,7 @@ a:hover{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: black;
+  background-color: #111111;
   background-repeat: no-repeat;
   color: white;
   z-index: 100;
@@ -332,8 +332,8 @@ a:hover{
 }
 @media (max-width: 880px) {
   #headerTag {
-    background-size: 115vw;
-    background-position: -103px 102px;
+    background-size: 167vw;
+    background-position: -308px;
   }
   .contact-me{
     margin: 2px;
@@ -373,19 +373,6 @@ a:hover{
   .desc{
     margin-bottom: 15px;
   } 
-  #headerTag {
-    background-size: 148vw;
-    background-position: -224px;
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: black;
-    background-repeat: no-repeat;
-    color: white;
-    z-index: 100;
-  }
 }
 @media (max-width: 680px) {
   #headerTag {
