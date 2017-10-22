@@ -52,7 +52,6 @@ a:hover{
   background-size: cover;
   background-color: black;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: white;
   z-index: 100;
 }
@@ -377,7 +376,6 @@ a:hover{
   #headerTag {
     background-size: 148vw;
     background-position: -224px;
-
   }
 }
 @media (max-width: 680px) {
