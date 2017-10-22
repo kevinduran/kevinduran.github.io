@@ -362,10 +362,6 @@ a:hover{
     background-size: cover;
     padding-top: 20px;
   }
-  #headerTag {
-    background-size: 148vw;
-    background-position: -224px;
-  }
   #down{
     left: 42%
   }
@@ -379,13 +375,9 @@ a:hover{
     margin-bottom: 15px;
   } 
   #headerTag {
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: black;
-    background-repeat: no-repeat;
+    background-size: 148vw;
+    background-position: -224px;
+
   }
 }
 @media (max-width: 680px) {
