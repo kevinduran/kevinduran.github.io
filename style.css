@@ -376,6 +376,15 @@ a:hover{
   #headerTag {
     background-size: 148vw;
     background-position: -224px;
+    background: url('my_face_final.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 100;
   }
 }
 @media (max-width: 680px) {
