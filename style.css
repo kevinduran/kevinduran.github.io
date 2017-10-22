@@ -45,14 +45,14 @@ a:hover{
 #headerTag {
   width: 100vw;
   height: 100vh;
-  background: url('daytracker.jpeg');
+  background: url('stopwatch.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: black;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   color: white;
   z-index: 100;
 }
@@ -397,16 +397,6 @@ a:hover{
   .desc:hover, .desc:active, .desc:focus{
     padding: 75px 5px 5px 20px;
     margin: 0;
-  }
-  #headerTag {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    background: url('my_face_final.jpeg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 }
 @media (max-width: 480px) {
