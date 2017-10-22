@@ -1,6 +1,6 @@
 *{
   font-family: 'lato', sans-serif;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 a:hover{
   text-decoration: none !important;
@@ -377,23 +377,12 @@ a:hover{
   #headerTag {
     background-size: 148vw;
     background-position: -224px;
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 }
 @media (max-width: 680px) {
   #headerTag {
     background-size: 187vw;
     background-position: -310px;
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
   }
   .desc:hover, .desc:active, .desc:focus{
     padding: 75px 5px 5px 20px;
@@ -404,11 +393,6 @@ a:hover{
   #headerTag {
     background-size: 205vw;
     background-position: -276px;
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
   .desc:hover, .desc:active, .desc:focus{
     padding: 75px 5px 5px 20px;
@@ -419,11 +403,6 @@ a:hover{
   #headerTag {
     background-size: 205vw;
     background-position: -209px;
-    background: url('my_face_final.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
   .desc:hover, .desc:active, .desc:focus{
     padding: 75px 5px 5px 20px;
