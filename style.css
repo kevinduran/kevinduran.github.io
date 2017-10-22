@@ -52,7 +52,7 @@ a:hover{
   background-size: cover;
   background-color: black;
   background-repeat: no-repeat;
-/*  background-attachment: fixed;*/
+  background-attachment: fixed;
   color: white;
   z-index: 100;
 }
@@ -378,6 +378,15 @@ a:hover{
   .desc{
     margin-bottom: 15px;
   } 
+  #headerTag {
+    background: url('my_face_final.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+  }
 }
 @media (max-width: 680px) {
   #headerTag {
