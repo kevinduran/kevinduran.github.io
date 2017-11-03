@@ -225,19 +225,10 @@ a:hover{
   top: 10px;
   color:white;
 }
-.project_desc{
-  opacity: 0;
-  position: absolute;
-  padding: 13px;
-}
-.container-fluid:hover .project_desc{
-  opacity: 1;
-  bottom: 60px;
-  color:white;
-}
 .button {
   position: absolute;
-  top: 180px;
+  top: 130px;
+  left: 100px;
   text-align: center;
   opacity: 0;
   border: solid 2px white;
