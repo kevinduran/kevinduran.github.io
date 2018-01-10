@@ -1,45 +1,171 @@
 *{
   font-family: 'lato', sans-serif;
-}
-a:hover{
-  text-decoration: none !important;
+  padding: 0;
+  margin: 0;
 }
 
 /*.................NAVIGATION...................*/
-.navbar{
-  z-index:9999; 
-  font-family: 'lato', sans-serif;
-  opacity: 0.9;
-  padding-bottom: 10px;
+
+
+
+
+.button_container {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  -webkit-transition: opacity .25s ease;
+  transition: opacity .25s ease;
 }
-#nav-bar ul li {
-  margin-right: 20px;
-  margin-left: 20px;
-  font-size: 18px;
-  transition:0.5s;
+.button_container:hover {
+  opacity: .7;
 }
-#bar{
-  margin: 5px;
+.button_container.active .top {
+  -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: blue;
 }
-#burger_menu{
-  margin-bottom: 0;
-  padding: 5px 4px;
+.button_container.active .middle {
+  opacity: 0;
+  background: blue;
 }
-#nav-bar ul li:hover::after{
+.button_container.active .bottom {
+  -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: blue;
+}
+.button_container span {
+  background: blue;
+  border: none;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .35s ease;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 11px;
+}
+.button_container span:nth-of-type(3) {
+  top: 22px;
+}
+
+.overlay {
+  position: fixed;
+  background:  #6666ff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .35s, visibility .35s, height .35s;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  z-index: 1;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  -webkit-animation: fadeInRight .5s ease forwards;
+  animation: fadeInRight .5s ease forwards;
+  -webkit-animation-delay: .35s;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  -webkit-animation-delay: .4s;
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  -webkit-animation-delay: .45s;
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  -webkit-animation-delay: .50s;
+  animation-delay: .50s;
+}
+.overlay nav {
+  position: relative;
+  height: 70%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 50px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: 25%;
+  height: calc(100% / 4);
+  min-height: 50px;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+}
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
 }
-#nav-bar ul li:hover{
-  border-bottom: 3px solid #580000;
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  -webkit-transition: .35s;
+  transition: .35s;
 }
-#brand-name{
-  font-size: 35px;
-  line-height: 16px;
-  font-weight: 100;
-  transition:0.5s;
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
 }
-#brand-name:hover{
-  border-bottom: 3px solid #580000;  
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
 }
+
 /*..................NAVIGATION....................*/
 
 
@@ -50,37 +176,16 @@ a:hover{
 #headerTag {
   width: 100vw;
   height: 100vh;
-  background: url('my_face_final.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   background-color: #111111;
-  background-repeat: no-repeat;
   color: white;
   z-index: 100;
 }
 .name_title {
   font-family: 'lato', sans-serif;
-  font-size: 9em;
-  letter-spacing: 7px;
-  margin-top: 10%;
+/*  font-size: 9em;*/
+/*  letter-spacing: 7px;*/
+/*  margin-top: 10%;*/
   font-weight: 100;
-}
-#down{
-  position: absolute;
-  left: 48%;
-  bottom: 9%;
-  opacity: 0.9;
-  font-size: 60px;
-}
-#down a {
-  color:white;
-  opacity: 0.5;
-  transition:opacity 0.5s;
-}
-#down a:hover {
-  opacity:1;
 }
 
 /*.......................HEADER...........................*/
@@ -124,7 +229,6 @@ a:hover{
   color: #580000;
   padding-top: 20px;
   padding-bottom: 25px;
-  text-shadow:5px 5px 5px grey;
   transition:1s;
 }
 .desc{
@@ -149,19 +253,19 @@ a:hover{
   background-color: #580000;
 }
 .desc:hover .icon-me, .desc:focus .icon-me, .desc:active .icon-me{
-  opacity: 0;
-  padding-top: 0;
+  opacity: 1;
+  padding-top: -10px;
+  color: white;
 }
 .about_title{
-  display: none;
-  color: white;
+  text-align: center;
+  color: #580000;
   font-size: 40px;
-  transition:2s;
+  transition:1s;
+  padding-bottom: 20px;
 }
 .desc:hover .about_title, .desc:focus .about_title, .desc:active .about_title{
-  display: block;
-  position: absolute;
-  top: 10px;
+  opacity: 0;
 }
 .my_words{
   display: none;
@@ -185,12 +289,22 @@ a:hover{
 }
 /*.........................ABOUT............................*/
 
+/*........................SKILLS.........................*/
+
+#skills{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;  
+}
+
+
+/*........................SKILLS.........................*/
 
 
 
 /*........................PROJECTS.........................*/
 #projects{
-  background-color: white;
+  background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -296,121 +410,7 @@ a:hover{
 
 
 /*...........................MEDIA QUERIES...........................*/
-@media(min-width: 1200px){
-  .contact-me{
-    line-height: 150px;
-    margin:0 200px 0 200px;  
-  }  
-}
-@media (max-width: 1280px) {
-  #headerTag {
-    background-size: 94vw;
-    background-position: -2px;
-  }
-}
-@media (max-width: 1180px) {
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-}
-@media (max-width: 1080px) {
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-}
-@media (max-width: 980px) {
-  #headerTag {
-    background-size: 115vw;
-    background-position: -103px;
-  }
-}
-@media (max-width: 880px) {
-  #headerTag {
-    background-size: 167vw;
-    background-position: -308px;
-  }
-  .contact-me{
-    margin: 2px;
-    line-height: 70px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .section-title{
-    font-size: 2.6em;
-  }
-  .line{
-    height: 2px;
-    width: 70px;
-    position: relative;
-    top: -10px;
-    display: inline-block;
-    outline: black;
-  }
-  #contact {
-    width: 100vw;
-    height: 120vh;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 20px;
-  }
-  #down{
-    left: 42%
-  }
-  .name_title {
-    font-family: 'lato', sans-serif;
-    font-size: 7em;
-    letter-spacing: 7px;
-    font-weight: 100;
-  }
-  .desc{
-    margin-bottom: 15px;
-  } 
-}
-@media (max-width: 680px) {
-  #headerTag {
-    background-size: 187vw;
-    background-position: -310px;
-  }
-  .desc:hover, .desc:active, .desc:focus{
-    padding: 75px 5px 5px 20px;
-    margin: 0;
-  }
-}
-@media (max-width: 580px) {
-  #headerTag {
-    background-size: 205vw;
-    background-position: -276px;
-  }
-  .desc:hover, .desc:active, .desc:focus{
-    padding: 75px 5px 5px 20px;
-    margin: 0;
-  }
-}
-@media (max-width: 480px) {
-  #headerTag {
-    background-size: 205vw;
-    background-position: -209px;
-  }
-  .desc:hover, .desc:active, .desc:focus{
-    padding: 75px 5px 5px 20px;
-    margin: 0;
-   }
-  .container-fluid:hover .button {
-    top: 197px;
-  }
-}
-@media (max-width: 380px) {
-  .container-fluid:hover .project_desc{
-    bottom: 46px;
-  }  
-  .container-fluid:hover .button {
-    top: 197px;
-  }
-}
+
 /*...........................MEDIA QUERIES...........................*/
 
 
