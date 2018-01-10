@@ -8,9 +8,9 @@
 
 
 
-
+        /*........BURGER MENU............*/
 .button_container {
-  position: fixed;
+  position: fixed;  /*this is what keeps the burger following*/
   top: 5%;
   right: 2%;
   height: 27px;
@@ -26,19 +26,19 @@
 .button_container.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
-  background: blue;
+  background: white;
 }
 .button_container.active .middle {
   opacity: 0;
-  background: blue;
+  background: white;
 }
 .button_container.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: blue;
+  background: white;
 }
 .button_container span {
-  background: blue;
+  background: white;
   border: none;
   height: 5px;
   width: 100%;
@@ -55,10 +55,13 @@
 .button_container span:nth-of-type(3) {
   top: 22px;
 }
+        /*........BURGER MENU............*/
+
+
 
 .overlay {
-  position: fixed;
-  background:  #6666ff;
+  position: relative;
+/*  background:  red;*/
   top: 0;
   left: 0;
   width: 100%;
@@ -74,6 +77,7 @@
   opacity: .9;
   visibility: visible;
   height: 100%;
+  position: fixed;
 }
 .overlay.open li {
   -webkit-animation: fadeInRight .5s ease forwards;
@@ -371,9 +375,11 @@
   opacity: 1;
 }
 /*........................PROJECTS.........................*/
-
-
-
+#services{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #f6f6f6;
+}
 
 
 
