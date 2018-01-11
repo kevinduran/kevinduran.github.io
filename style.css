@@ -185,7 +185,9 @@
   color: white;
   z-index: 100;
 }
-
+.wordColor{
+  
+}
 .wordContainer{
   padding-top: 10%;
 }
