@@ -10,8 +10,8 @@
 
 
         /*........BURGER MENU............*/
-.button_container {
-  position: fixed;  /*this is what keeps the burger following*/
+.btn {
+  position: absolute;  /*this is what keeps the burger following*/
   top: 5%;
   right: 2%;
   height: 27px;
@@ -20,26 +20,25 @@
   z-index: 100;
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
-  margin: 15px;
 }
-.button_container:hover {
+.btn:hover {
   opacity: .7;
 }
-.button_container.active .top {
+.btn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
   background: white;
 }
-.button_container.active .middle {
+.btn.active .middle {
   opacity: 0;
   background: white;
 }
-.button_container.active .bottom {
+.btn.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
   background: white;
 }
-.button_container span {
+.btn span {
   background: white;
   border: none;
   height: 5px;
@@ -51,10 +50,10 @@
   transition: all .35s ease;
   cursor: pointer;
 }
-.button_container span:nth-of-type(2) {
+.btn span:nth-of-type(2) {
   top: 11px;
 }
-.button_container span:nth-of-type(3) {
+.btn span:nth-of-type(3) {
   top: 22px;
 }
         /*........BURGER MENU............*/
@@ -190,12 +189,12 @@
   
 }
 .wordContainer{
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .name_title {
   font-family: 'lato', sans-serif;
-  font-size: 60px;
+  font-size: 85px;
   letter-spacing: 2px;
   font-weight: 100;
 
