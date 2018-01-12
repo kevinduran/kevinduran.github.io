@@ -20,6 +20,7 @@
   z-index: 100;
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
+  margin: 15px;
 }
 .button_container:hover {
   opacity: .7;
