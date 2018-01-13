@@ -431,12 +431,9 @@
   }
 }
 
-@media(min-width: 520px) {
-  .name_title{
-    font-size: 10vw;
-  }
-  .wordContainer{
-    padding-top:19%;
+@media(max-width: 590px) {
+  .section-title{
+    font-size: 1.5em;
   }
 }
 @media(min-width: 590px) {
@@ -446,6 +443,10 @@
   .wordContainer{
     padding-top:18%;
   }
+  .section-title{
+    font-size: 3.5em;
+  }
+
 }
 @media(min-width: 640px) {
   .name_title{
@@ -502,7 +503,9 @@
   .wordContainer{
     padding-top:5%;
   }
+
 }
+
 @media(min-width: 1800px) {
   .name_title{
     font-size: 4vw;
