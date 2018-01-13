@@ -190,11 +190,13 @@
 }
 .wordContainer{
   padding-top: 5%;
+  width: 80%;
+  height: 100%
 }
 
 .name_title {
   font-family: 'lato', sans-serif;
-  font-size: 85px;
+  font-size: 10vw;
   letter-spacing: 2px;
   font-weight: 100;
 
@@ -423,6 +425,49 @@
 
 
 /*...........................MEDIA QUERIES...........................*/
+@media(max-width: 599px) {
+  .wordContainer{
+    width: 80%;
+    height: 100%
+  }
+
+  .name_title {
+    font-size: 10vw;
+    font-weight: 100;
+  }
+
+
+}
+@media(max-width: 900px) {
+  .wordContainer{
+    padding-top: 5%;
+    width: 80%;
+    height: 100%
+  }
+
+  .name_title {
+    font-size: 10vw;
+    font-weight: 100;
+  }
+
+  
+}
+
+@media(max-width: 1200px) {
+   .wordContainer{
+    padding-top: 23%;
+    width: 80%;
+    height: 100%
+  }
+
+  .name_title {
+    font-size: 10vw;
+    font-weight: 100;
+  }
+
+ 
+}
+
 
 /*...........................MEDIA QUERIES...........................*/
 
