@@ -197,6 +197,7 @@
   font-size: 10.5vw;
   letter-spacing: 2px;
   font-weight: 100;
+  margin-left: 11px;
 }
 
 /*.......................HEADER...........................*/
@@ -235,70 +236,19 @@
   padding-bottom: 50px;
   text-align: center;
 }
-/*.icon-me{
-  text-align: center;
-  font-size: 5em;
-  color: #580000;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  transition:1s;
+.about_words{
+  margin-right: 25px;
+  margin-left: 25px;
 }
-.desc{
-  border: 3px solid #580000;
-  transition:1s;
+.image_container{
+
 }
-.desc-left:hover, .desc:active, .desc:focus{
-  padding: 75px 15px 5px 20px; 
-  margin-right: -50px;
-  margin-bottom: -20px;
-  background-color: #580000;
+.about_image{
+  max-width: 100%;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
-.desc-center:hover, .desc:active, .desc:focus{
-  padding: 75px 15px 5px 20px; 
-  margin: 0 -50px -20px -50px;
-  background-color: #580000;
-}
-.desc-right:hover, .desc:active, .desc:focus{
-  padding: 75px 15px 5px 20px; 
-  margin-left: -50px;
-  margin-bottom: -20px;
-  background-color: #580000;
-}
-.desc:hover .icon-me, .desc:focus .icon-me, .desc:active .icon-me{
-  opacity: 1;
-  padding-top: -10px;
-  color: white;
-}
-.about_title{
-  text-align: center;
-  color: #580000;
-  font-size: 40px;
-  transition:1s;
-  padding-bottom: 20px;
-}
-.desc:hover .about_title, .desc:focus .about_title, .desc:active .about_title{
-  opacity: 0;
-}
-.my_words{
-  display: none;
-  color: white;
-  transition:2s;
-  font-size: 20px;
-}
-.desc:hover .my_words, .desc:focus .my_words, .desc:active .my_words{
-  display: block;
-  top: 100px;
-  z-index: 100;
-}
-.word_container{
-  transition:1s;
-  opacity: 0;
-}
-.desc:hover .word_container, .desc:focus .word_container, .desc:active .word_container{
-  margin-top: -110px;
-  opacity: 1;
-  padding: 10px;
-}*/
 /*.........................ABOUT............................*/
 
 /*........................SKILLS.........................*/
@@ -452,6 +402,7 @@
   .wordContainer{
     padding-top:20%;
   }
+
 }
 @media(min-width: 590px) {
   .name_title{
@@ -472,6 +423,7 @@
     background-color: #999;
   }*/
 
+
 }
 @media(min-width: 640px) {
   .name_title{
@@ -479,6 +431,10 @@
   }
   .wordContainer{
     padding-top:16%;
+  }
+  .about_words{
+    margin-right: 125px;
+    margin-left: 125px;
   }
 }
 @media(min-width: 690px) {
@@ -523,6 +479,7 @@
   .wordContainer{
     padding-top:13%;
   }
+
 }
 @media(min-width: 890px) {
   .name_title{
