@@ -24,6 +24,9 @@
 .btn:hover {
   opacity: .7;
 }
+.btn.active{
+  position: fixed;
+}
 .btn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
