@@ -363,18 +363,6 @@
   background-attachment: fixed;
   color: white;
 }
-.contact-me{
-  line-height: 100px;
-  margin:0 150px 0 150px;
-  font-weight: 100;
-}
-.contact-me a{
-  color: #580000;
-  font-weight: bolder;
-}
-.contact-me a:hover{
-  color: red;
-}
 /*...........................CONTACT........................*/
 
 /*YOU STILL HAVE TO ADD MAX HEIGHT FOR VIEWPORT ISSUES WHEN IN LANDSCAPE MODE*/
