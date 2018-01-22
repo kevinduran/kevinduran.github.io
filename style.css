@@ -2,14 +2,13 @@
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
-  /*border:1px solid red;*/
 }
 
 /*.................NAVIGATION...................*/
 
 
 
-        /*........BURGER MENU............*/
+/*........BURGER MENU............*/
 .btn {
   position: absolute;  /*this is what keeps the burger following*/
   top: 5%;
@@ -59,8 +58,7 @@
 .btn span:nth-of-type(3) {
   top: 22px;
 }
-        /*........BURGER MENU............*/
-
+/*........BURGER MENU............*/
 
 
 .overlay {
@@ -181,7 +179,7 @@
 
 
 /*..................HEADER.........................*/
-#headerTag {
+#header_tag {
   width: 100vw;
   height: 100vh;
   background-color: #111111;
@@ -189,7 +187,7 @@
   z-index: 100;
 }
 
-.wordContainer{
+.word_container{
   padding-top: 31%;
   width: 80%;
   height: 100%;
@@ -217,6 +215,11 @@
   padding-top: 20px;
   padding-bottom: 50px;
 }
+.section_banner{
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+}
 .line{
   height: 3px;
   width: 100px;
@@ -225,7 +228,7 @@
   display: inline-block;
   background-color: #999;
 }
-.section-title{
+.section_title{
   font-family: 'lato',sans-serif;
   font-size: 7vw;
   font-weight: 900;
@@ -234,75 +237,49 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.section-banner{
-  padding-top: 10px;
-  padding-bottom: 50px;
-  text-align: center;
-}
 .about_words{
   margin-right: 25px;
   margin-left: 25px;
+  max-width: 80em;
 }
-.image_container{
-
-}
-.about_image{
+/*.about_image{
   max-width: 60%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+}*/
 /*.........................ABOUT............................*/
 
 /*........................SKILLS.........................*/
-
 #skills{
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 50px;  
 }
+/*........................SKILLS.........................*/
 
+/*........................SERVICES.........................*/
+#services{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;  
+}
 
-
-
-
-
-
-.container-1 div{
+.service_container div{
   border: 1px solid #ccc;
   padding: 10px;
-
 }
-
-.container-1  {
+.service_container{
   display: flex;
- /* flex-direction:column;*/
- justify-content:space-between;
+  justify-content:space-between;
 }
-
-
-.box-1{
+.service_title{
   flex:1;
 }
-.box-2{
- flex:2; 
+.service_desc{
+  flex:2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*........................SKILLS.........................*/
+/*........................SERVICES.........................*/
 
 
 
@@ -374,13 +351,6 @@
   opacity: 1;
 }
 /*........................PROJECTS.........................*/
-#services{
-  padding-top: 20px;
-  padding-bottom: 50px;
-  background-color: #f6f6f6;
-}
-
-
 
 
 /*...........................CONTACT........................*/
@@ -415,6 +385,7 @@
 
 
 /*...........................MEDIA QUERIES...........................*/
+
 @media(min-width: 300px) {
   .name_title{
     font-size: 10vw;
@@ -430,10 +401,6 @@
     display: inline-block;
     background-color: #999;
   }
-/*  .section-title{
-    font-size: 5vw;
-  }*/
-
 }
 
 
@@ -452,18 +419,18 @@
   }
   .wordContainer{
     padding-top:18%;
-  }
-/*  .section-title{
-    font-size: 3.5em;
   }*/
-/*  .line {
+  .section-title{
+    font-size: 3.5em;
+  }
+ .line {
     height: 3px;
     width: 80px;
     position: relative;
     top: -12px;
     display: inline-block;
     background-color: #999;
-  }*/
+  }
 
 
 }
@@ -474,10 +441,7 @@
   .wordContainer{
     padding-top:16%;
   }
-  .about_words{
-    margin-right: 125px;
-    margin-left: 125px;
-  }
+
 }
 @media(min-width: 690px) {
   .name_title{
