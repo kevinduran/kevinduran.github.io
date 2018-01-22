@@ -289,67 +289,6 @@
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.mypic{
-  max-width: 100%;
-  height: 250px;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #580000;
-  opacity: 0.9;
-  border: 2px solid #580000;
-  transition: background 0.5s ease;
-}
-.container-fluid:hover .overlay {
-  display: block;
-  background:#580000;
-  opacity: 0.9;
-}
-.title {
-  position: absolute;
-  top: 120px;
-  font-size: 50px;
-   -webkit-text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
-  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
-  color:white;
-  opacity:0.9;
-  z-index: 1;
-  transition: top .5s ease;
-}
-.container-fluid:hover .title {
-  top: 10px;
-  color:white;
-}
-.button {
-  position: absolute;
-  top: 130px;
-  left: 100px;
-  text-align: center;
-  opacity: 0;
-  border: solid 2px white;
-  padding: 10px;
-  transition: opacity 1s ease;
-}
-.button a {
-  padding: 12px 48px;
-  text-align: center;
-  color:white;
-  z-index: 1;
-}
-.button a:hover{
-  color:#580000;
-}
-.button:hover{
-  transition:1s;
-  background-color: white;
-}
-.container-fluid:hover .button {
-  opacity: 1;
-}
 /*........................PROJECTS.........................*/
 
 
@@ -364,11 +303,6 @@
   color: white;
 }
 /*...........................CONTACT........................*/
-
-/*YOU STILL HAVE TO ADD MAX HEIGHT FOR VIEWPORT ISSUES WHEN IN LANDSCAPE MODE*/
-
-
-
 
 
 
