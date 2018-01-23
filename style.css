@@ -221,8 +221,8 @@
   text-align: center;
 }
 .line{
-  height: 3px;
-  width: 100px;
+  height: 2px;
+  width: 50px;
   position: relative;
   top: -12px;
   display: inline-block;
@@ -242,12 +242,13 @@
   margin-left: 25px;
   max-width: 80em;
 }
-/*.about_image{
-  max-width: 60%;
+.about_image{
+  max-width: 80%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-}*/
+  padding-bottom: 20px;
+}
 /*.........................ABOUT............................*/
 
 /*........................SKILLS.........................*/
@@ -262,7 +263,7 @@
 /*........................SERVICES.........................*/
 #services{
   width: 100vw;
-  background-color: #fff;
+  background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;  
 }
