@@ -258,6 +258,20 @@
   padding-top: 20px;
   padding-bottom: 50px;  
 }
+.skills_container div{
+  padding: 10px;
+}
+.skills_container{
+  display: flex;
+  justify-content:space-between;
+}
+.skills_title{
+  flex:1;
+}
+.skills_desc{
+  flex:2;
+  font-size: 50px;
+}
 /*........................SKILLS.........................*/
 
 /*........................SERVICES.........................*/
@@ -269,7 +283,6 @@
 }
 
 .service_container div{
-  border: 1px solid #ccc;
   padding: 10px;
 }
 .service_container{
