@@ -195,7 +195,7 @@
 
 .name_title {
   font-family: 'lato', sans-serif;
-  font-size: 10.5vw;
+  font-size: 10vw;
   letter-spacing: 2px;
   font-weight: 100;
   margin-left: 11px;
@@ -252,6 +252,7 @@
 
 /*........................SKILLS.........................*/
 #skills{
+  width: 100vw;
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 50px;  
@@ -260,6 +261,7 @@
 
 /*........................SERVICES.........................*/
 #services{
+  width: 100vw;
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 50px;  
@@ -285,6 +287,7 @@
 
 /*........................PROJECTS.........................*/
 #projects{
+  width: 100vw;
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -308,150 +311,6 @@
 
 /*...........................MEDIA QUERIES...........................*/
 
-@media(min-width: 300px) {
-  .name_title{
-    font-size: 10vw;
-  }
-  .wordContainer{
-    padding-top:32%;
-  }
-  .line {
-    height: 2px;
-    width: 40px;
-    position: relative;
-    top: -12px;
-    display: inline-block;
-    background-color: #999;
-  }
-}
-
-
-@media(min-width: 500px) {
-  .name_title{
-    font-size: 10vw;
-  }
-  .wordContainer{
-    padding-top:25%;
-  }
-
-}
-@media(min-width: 590px) {
-  .name_title{
-    font-size: 10vw;
-  }
-  .wordContainer{
-    padding-top:18%;
-  }*/
-  .section-title{
-    font-size: 3.5em;
-  }
- .line {
-    height: 3px;
-    width: 80px;
-    position: relative;
-    top: -12px;
-    display: inline-block;
-    background-color: #999;
-  }
-
-
-}
-@media(min-width: 640px) {
-  .name_title{
-    font-size: 9vw;
-  }
-  .wordContainer{
-    padding-top:16%;
-  }
-
-}
-@media(min-width: 690px) {
-  .name_title{
-    font-size: 8.5vw;
-  }
-  .wordContainer{
-    padding-top:16%;
-  }
-  .section-title{
-    font-size: 50px;
-  }
-  .line {
-    height: 3px;
-    width: 80px;
-    position: relative;
-    top: -12px;
-    display: inline-block;
-    background-color: #999;
-  }
-}
-@media(min-width: 750px) {
-  .name_title{
-    font-size: 8.5vw;
-  }
-  .wordContainer{
-    padding-top:15%;
-  }
-}
-@media(min-width: 790px) {
-  .name_title{
-    font-size: 8.5vw;
-  }
-  .wordContainer{
-    padding-top:14%;
-  }
-}
-@media(min-width: 850px) {
-  .name_title{
-    font-size: 8vw;
-  }
-  .wordContainer{
-    padding-top:13%;
-  }
-
-}
-@media(min-width: 890px) {
-  .name_title{
-    font-size: 7vw;
-  }
-  .wordContainer{
-    padding-top:13%;
-  }
-
-}
-@media(min-width: 990px) {
-  .name_title{
-    font-size: 6vw;
-  }
-  .wordContainer{
-    padding-top:10%;
-  }
-}
-@media(min-width: 1090px) {
-  .name_title{
-    font-size: 6vw;
-  }
-  .wordContainer{
-    padding-top:7%;
-  }
-
-@media(min-width: 1200px) {
-  .name_title{
-    font-size: 6.5vw;
-  }
-  .wordContainer{
-    padding-top:6%;
-  }
-
-}
-
-@media(min-width: 1800px) {
-  .name_title{
-    font-size: 6.5vw;
-  }
-  .wordContainer{
-    padding-top:5%;
-  }
-}
 
 /*...........................MEDIA QUERIES...........................*/
 
