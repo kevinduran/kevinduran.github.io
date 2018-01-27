@@ -2,10 +2,11 @@
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
+/*  border: 1px solid red;*/
 }
 p{
   font-family: 'lato', sans-serif;
-  line-height: 33px;
+  line-height: 36px;
   font-size: 17px;
 }
 .blood{
@@ -220,7 +221,7 @@ p{
 /*.........................ABOUT............................*/
 #about {
  /* width: 100vw;*/
-  background-color: #f6f6f6;
+  background-color: #fff;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -263,7 +264,7 @@ p{
 /*........................SKILLS.........................*/
 #skills{
 /*  width: 100vw;*/
-  background-color: #fff;
+  background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;  
 }
@@ -296,7 +297,7 @@ p{
 /*........................SERVICES.........................*/
 #services{
 /*  width: 100vw;*/
-  background-color: #f6f6f6;
+  background-color: #fff;
   padding-top: 20px;
   padding-bottom: 50px;  
 }
@@ -377,6 +378,44 @@ p{
 .email_btn:hover .dbl_arrows{
   transform: translate(10px);
 }
+
+
+
+.social{
+  padding: 0 20px 0 20px;
+}
+
+
+
+.contact_container{
+  margin: 25px;
+  max-width: 80em;
+}
+.contact_words{
+  margin-bottom: 25px;
+}
+.contact_grid div{
+  padding: 5px;
+}
+.contact_grid{
+  display: flex;
+/*  justify-content:space-between;*/
+}
+.contact_title{
+  flex:1;
+}
+.contact_desc{
+  flex:3;
+  font-size: 50px;
+}
+.line_below{
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
 /*...........................CONTACT........................*/
 
 
