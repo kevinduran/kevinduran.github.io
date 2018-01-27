@@ -2,7 +2,6 @@
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
-/*  border: 1px solid red;*/
 }
 p{
   font-family: 'lato', sans-serif;
@@ -333,16 +332,55 @@ p{
 /*...........................CONTACT........................*/
 #contact{
 /*  width: 100vw;*/
-  height: 100vh;
+  height: 120vh;
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: white;
 }
+.social{
+  padding: 0 5px 5px 5px;
+  color: #580000;
+}
+.contact_container{
+  margin: 25px;
+  max-width: 80em;
+}
+.contact_words{
+  margin-bottom: 25px;
+}
+.contact_grid div{
+  padding: 5px;
+}
+.contact_grid{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 38px;
+}
+.contact_title{
+  flex:1;
+}
+.contact_desc{
+  flex:3.5;
+  font-size: 30px;
+}
+.line_below{
+  border-bottom: 1px solid #ccc;
+}
+.social{
+  transition: all 700ms ease;
 
-
-
+}
+.social:hover{
+  color: red;
+}
+.grey_title{
+  color: #fff;
+}
+.gmail{
+  font-size: 16px;
+}
 .email_btn {
   border: 5px solid #580000;
   width: 160px;
@@ -356,7 +394,9 @@ p{
   font-size: 17px;
   border-radius: 6px;
   box-sizing: border-box;
-  transition: all 600ms ease; 
+  transition: all 600ms ease;
+  position: relative;
+  z-index: 2; 
 }
 .dbl_arrows{
   font-size: 28px;
@@ -368,53 +408,13 @@ p{
   margin-right: auto;
   display: block;
 }
-
-
 .email_btn:hover {
   background:#580000;
   color: white;
 }
-
 .email_btn:hover .dbl_arrows{
   transform: translate(10px);
 }
-
-
-
-.social{
-  padding: 0 20px 0 20px;
-}
-
-
-
-.contact_container{
-  margin: 25px;
-  max-width: 80em;
-}
-.contact_words{
-  margin-bottom: 25px;
-}
-.contact_grid div{
-  padding: 5px;
-}
-.contact_grid{
-  display: flex;
-/*  justify-content:space-between;*/
-}
-.contact_title{
-  flex:1;
-}
-.contact_desc{
-  flex:3;
-  font-size: 50px;
-}
-.line_below{
-  border-bottom: 1px solid #ccc;
-}
-
-
-
-
 
 /*...........................CONTACT........................*/
 
