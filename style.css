@@ -344,17 +344,19 @@ p{
 
 
 
-button {
-  border: 4px solid #580000;
+.email_btn {
+  border: 5px solid #580000;
   width: 160px;
   height: 70px;
+  text-align: center;
   background: black;
   color: white;
   padding: 10px;
+  text-decoration: none;
   font-size: 20px;
   border-radius: 6px;
   box-sizing: border-box;
-  transition: all 300ms ease; 
+  transition: all 600ms ease; 
 }
 .dbl_arrows{
   font-size: 28px;
@@ -362,19 +364,19 @@ button {
   transition: transform 500ms;
 
 }
-.emailBtn{
+.btn_container .email_btn{
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 
-button:hover {
+.email_btn:hover {
   background:#580000;
   color: white;
 }
 
-button:hover .dbl_arrows{
+.email_btn:hover .dbl_arrows{
   transform: translate(10px);
 }
 /*...........................CONTACT........................*/
