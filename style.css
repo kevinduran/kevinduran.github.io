@@ -5,7 +5,7 @@
 }
 p{
   font-family: 'lato', sans-serif;
-  line-height: 28px;
+  line-height: 33px;
   font-size: 17px;
 }
 .blood{
@@ -204,7 +204,7 @@ p{
 
 .name_title {
   font-family: 'lato', sans-serif;
-  font-size: 10vw;
+  font-size: 9vw;
   letter-spacing: 2px;
   font-weight: 100;
   margin-left: 25px;
@@ -255,7 +255,7 @@ p{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   max-width: 90%;
 }
 /*.........................ABOUT............................*/
@@ -300,22 +300,18 @@ p{
   padding-top: 20px;
   padding-bottom: 50px;  
 }
-.service_containerr{
+.large_service_container{
   margin-left: 25px;
   margin-right: 25px;
+}
+.service_title h3{
+  font-size: 19px;
 }
 .service_container div{
   padding: 10px;
 }
 .service_container{
-  display: flex;
-  justify-content:space-between;
-}
-.service_title{
-  flex:1;
-}
-.service_desc{
-  flex:2;
+  display: block;
 }
 /*........................SERVICES.........................*/
 
@@ -362,7 +358,6 @@ p{
   font-size: 28px;
   position: relative;
   transition: transform 500ms;
-
 }
 .btn_container .email_btn{
   margin-left: auto;
