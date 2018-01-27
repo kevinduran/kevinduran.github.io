@@ -2,6 +2,7 @@
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
+ 
 }
 p{
   font-family: 'lato', sans-serif;
@@ -300,7 +301,10 @@ p{
   padding-top: 20px;
   padding-bottom: 50px;  
 }
-
+.service_containerr{
+  margin-left: 25px;
+  margin-right: 25px;
+}
 .service_container div{
   padding: 10px;
 }
