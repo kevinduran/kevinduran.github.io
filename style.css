@@ -207,10 +207,7 @@ p{
   font-size: 9vw;
   letter-spacing: 2px;
   font-weight: 100;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  position: absolute;
+  margin-left: 25px;
 }
 
 /*.......................HEADER...........................*/
@@ -345,7 +342,20 @@ p{
   display: block;
   padding-bottom: 30px;
 }
+.projects_name{
+  line-height: 60px;
+}
 /*........................PROJECTS.........................*/
+
+
+/*........................BLOG.........................*/
+.blog_name{
+  line-height: 60px;
+}
+
+/*...........................BLOG........................*/
+
+
 
 
 /*...........................CONTACT........................*/
