@@ -345,6 +345,11 @@ p{
 .projects_name{
   line-height: 60px;
 }
+.tech_used{
+  font-size: 14px;
+  font-style: italic;
+  color: #696969;
+}
 /*........................PROJECTS.........................*/
 
 
@@ -352,7 +357,6 @@ p{
 .blog_name{
   line-height: 60px;
 }
-
 /*...........................BLOG........................*/
 
 
