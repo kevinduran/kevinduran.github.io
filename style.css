@@ -389,7 +389,7 @@ p{
 .contact_grid{
   display: flex;
   justify-content:space-between;
-  margin-bottom: 38px;
+  margin-bottom: 50px;
 }
 .contact_title{
   flex:1;
@@ -454,22 +454,46 @@ p{
 
 
 /*...........................MEDIA QUERIES...........................*/
-
+@media only screen and(min-width: 400px){
+  /*...........CONTACT..............*/
+  .contact_title{
+    font-size: 15px;
+  }
+  /*...........CONTACT..............*/
+}
 @media only screen and (min-width: 580px) {
   /*...........HEADER..............*/
   .word_container{
-    padding-top: 21%;
+    padding-top: 19%;
   }
   .name_title {
     font-size: 8vw;
   }
+  .projects_name{
+    line-height: 140px;
+    font-size: 8vw;
+  }
+  .blog_name{
+    line-height: 140px;
+    font-size: 8vw;
+  }  
   /*...........HEADER..............*/
   /*...........ABOUT..............*/  
   .section_title{
     font-size: 40px;
   }
-  /*...........ABOUT..............*/  
-
+  /*...........ABOUT..............*/ 
+  /*...........CONTACT..............*/ 
+  .contact_grid {
+    margin-bottom: 100px;
+  }
+  #contact{
+    height:90vh;
+  }
+  .gmail{
+    font-size: 25px;
+  }
+  /*...........CONTACT..............*/
 }
 @media only screen and (min-width: 700px){
   /*...........HEADER..............*/
@@ -496,7 +520,31 @@ p{
   .skills_desc{
     word-spacing: 20px;
   }
-  /*...........SKILLS..............*/   
+  /*...........SKILLS..............*/ 
+  /*...........SERVICES..............*/      
+  .large_service_container{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  /*...........SERVICES..............*/
+  /*...........PROJECTS..............*/      
+  .projects_container{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  /*...........PROJECTS..............*/  
+  /*...........CONTACT..............*/      
+  .contact_container{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  .contact_grid {
+    margin-bottom: 100px;
+  }
+  /*...........CONTACT..............*/       
 }
 @media only screen and (min-width: 860px){
   /*...........HEADER..............*/  
@@ -521,7 +569,12 @@ p{
     margin-left: 25px;
     margin-right: 25px;
   }
-  /*...........ABOUT..............*/      
+  /*...........ABOUT..............*/  
+ /*...........CONTACT..............*/      
+  .grey_title{
+    font-size: 30px;
+  }
+  /*...........CONTACT..............*/       
 }
 @media only screen and (min-width: 960px){
   /*...........HEADER..............*/  
@@ -531,12 +584,22 @@ p{
   .name_title {
     font-size: 6.5vw;
   }
+  .projects_name{
+    line-height: 130px;
+    font-size: 7vw;
+    max-width: 70%;
+  }
+  .blog_name{
+    line-height: 130px;
+    font-size: 7vw;
+    max-width: 70%;
+  }
   /*...........HEADER..............*/
 }
 @media only screen and (min-width: 1200px){
   /*...........HEADER..............*/  
   .word_container{
-    padding-top: 11%;
+    padding-top: 10%;
   }
   .name_title {
     font-size: 5.5vw;
