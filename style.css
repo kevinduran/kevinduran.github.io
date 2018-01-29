@@ -366,7 +366,7 @@ p{
 #contact{
 /*  width: 100vw;*/
   height: 120vh;
-  background-color: black;
+  background-color: #111111;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
