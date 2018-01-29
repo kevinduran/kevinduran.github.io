@@ -455,6 +455,83 @@ p{
 
 /*...........................MEDIA QUERIES...........................*/
 
+@media only screen and (min-width: 580px) {
+  /*...........HEADER..............*/
+  .word_container{
+    padding-top: 21%;
+  }
+  .name_title {
+    font-size: 8vw;
+  }
+  /*...........HEADER..............*/
+
+}
+@media only screen and (min-width: 700px){
+  /*...........HEADER..............*/
+  .word_container{
+    padding-top: 16%;
+  }
+  .name_title {
+    font-size: 7vw;
+  }
+  /*...........HEADER..............*/
+}
+@media only screen and (min-width: 860px){
+  /*...........HEADER..............*/  
+  .word_container{
+    padding-top: 14%;
+  }
+  .name_title {
+    font-size: 7vw;
+  }
+  /*...........HEADER..............*/
+}
+@media only screen and (min-width: 960px){
+  /*...........HEADER..............*/  
+  .word_container{
+    padding-top: 13%;
+  }
+  .name_title {
+    font-size: 6.5vw;
+  }
+  /*...........HEADER..............*/
+}
+@media only screen and (min-width: 1200px){
+  /*...........HEADER..............*/  
+  .word_container{
+    padding-top: 11%;
+  }
+  .name_title {
+    font-size: 5.5vw;
+  }
+  /*...........HEADER..............*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: px){
+
+}
+
+
+
+
+
+
 
 /*...........................MEDIA QUERIES...........................*/
 
