@@ -192,7 +192,7 @@ p{
 /*  width: 100vw;*/
   height: 100vh;
   background-color: #111111;
-  color: white;
+  color: #F0FFF0;
   z-index: 100;
 }
 
@@ -220,7 +220,7 @@ p{
 /*.........................ABOUT............................*/
 #about {
  /* width: 100vw;*/
-  background-color: #fff;
+  background-color: #F0FFF0;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -263,7 +263,7 @@ p{
 /*........................SKILLS.........................*/
 #skills{
 /*  width: 100vw;*/
-  background-color: #f6f6f6;
+  background-color: #F8F8FF;
   padding-top: 20px;
   padding-bottom: 50px;  
 }
@@ -292,30 +292,6 @@ p{
   border-bottom: 1px solid #ccc;
 }
 /*........................SKILLS.........................*/
-
-/*........................SERVICES.........................*/
-#services{
-/*  width: 100vw;*/
-  background-color: #fff;
-  padding-top: 20px;
-  padding-bottom: 50px;  
-}
-.large_service_container{
-  margin-left: 25px;
-  margin-right: 25px;
-}
-.service_title h3{
-  padding: 30px 0 0 0;
-  font-size: 19px;
-}
-.service_container div{
-  padding: 10px;
-}
-.service_container{
-  display: block;
-  padding-bottom: 30px;
-}
-/*........................SERVICES.........................*/
 
 
 
