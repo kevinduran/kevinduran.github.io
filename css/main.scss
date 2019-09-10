@@ -1,0 +1,620 @@
+$main-black:#111111;
+
+
+*{
+    font-family: 'lato', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  p{
+    font-family: 'lato', sans-serif;
+    line-height: 36px;
+    font-size: 17px;
+  }
+  .blood{
+    color: #580000;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  /*.................NAVIGATION...................*/
+  
+  
+  
+  /*........BURGER MENU............*/
+  .btn {
+    position: absolute;  /*this is what keeps the burger following*/
+    top: 5%;
+    right: 5%;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-transition: opacity .25s ease;
+    transition: opacity .25s ease;
+  }
+  .btn:hover {
+    opacity: .7;
+  }
+  .btn.active{
+    position: fixed;
+  }
+  .btn.active .top {
+    -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: white;
+  }
+  .btn.active .middle {
+    opacity: 0;
+    background: white;
+  }
+  .btn.active .bottom {
+    -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: white;
+  }
+  .btn span {
+    background: white;
+    border: none;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    cursor: pointer;
+  }
+  .btn span:nth-of-type(2) {
+    top: 11px;
+  }
+  .btn span:nth-of-type(3) {
+    top: 22px;
+  }
+  /*........BURGER MENU............*/
+  
+  
+  .overlay {
+    background-color: #580000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .35s, visibility .35s, height .35s;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .overlay.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%;
+    position: fixed;
+  }
+  .overlay.open li {
+    -webkit-animation: fadeInRight .5s ease forwards;
+    animation: fadeInRight .5s ease forwards;
+    -webkit-animation-delay: .35s;
+    animation-delay: .35s;
+  }
+  .overlay.open li:nth-of-type(2) {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+  }
+  .overlay.open li:nth-of-type(3) {
+    -webkit-animation-delay: .45s;
+    animation-delay: .45s;
+  }
+  .overlay.open li:nth-of-type(4) {
+    -webkit-animation-delay: .50s;
+    animation-delay: .50s;
+  }
+  .overlay nav {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  .overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+  }
+  .overlay ul li {
+    display: block;
+    height: 25%;
+    height: calc(100% / 4);
+    min-height: 50px;
+    position: relative;
+    opacity: 0;
+  }
+  .overlay ul li a {
+    display: block;
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+    width: 100%;
+  }
+  .overlay ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 3px;
+    background: #FFF;
+    -webkit-transition: .35s;
+    transition: .35s;
+  }
+  
+  @-webkit-keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      left: 20%;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      left: 20%;
+    }
+    100% {
+      opacity: 1;
+      left: 0;
+    }
+  }
+  
+  /*..................NAVIGATION....................*/
+  
+  
+  
+  
+  
+  /*..................HEADER.........................*/
+  #header_tag {
+  /*  width: 100vw;*/
+    height: 100vh;
+    background-color:$main-black;
+    color: #F0FFF0;
+    z-index: 100;
+  }
+  
+  .word_container{
+    padding-top: 31%;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .name_title {
+    font-family: 'lato', sans-serif;
+    font-size: 9vw;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-left: 25px;
+  }
+  
+  /*.......................HEADER...........................*/
+  
+  
+  
+  
+  
+  
+  /*.........................ABOUT............................*/
+  #about {
+   /* width: 100vw;*/
+    background-color: #F0FFF0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .section_banner{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .line{
+    height: 2px;
+    width: 50px;
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    background-color: #999;
+  }
+  .section_title{
+    font-family: 'lato',sans-serif;
+    font-size: 7vw;
+    font-weight: 900;
+    font-style: italic;
+    text-align:center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about_container{
+    margin-right: 25px;
+    margin-left: 25px;
+    max-width: 80em;
+  }
+  .about_image{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    max-width: 90%;
+  }
+  /*.........................ABOUT............................*/
+  
+  /*........................SKILLS.........................*/
+  #skills{
+  /*  width: 100vw;*/
+    background-color: #F8F8FF;
+    padding-top: 20px;
+    padding-bottom: 50px;  
+  }
+  .skills_container{
+    margin: 25px;
+    max-width: 80em;
+  }
+  .skills_words{
+    margin-bottom: 25px;
+  }
+  .skills_grid div{
+    padding: 10px;
+  }
+  .skills_grid{
+    display: flex;
+    justify-content:space-between;
+  }
+  .skills_title{
+    flex:1;
+  }
+  .skills_desc{
+    flex:2;
+    font-size: 50px;
+  }
+  .line_below{
+    border-bottom: 1px solid #ccc;
+  }
+  /*........................SKILLS.........................*/
+  
+  
+  
+  /*........................PROJECTS.........................*/
+  #projects{
+  /*  width: 100vw;*/
+    background-color: #f6f6f6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .large_projects_container{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .projects_title h3{
+    padding: 30px 0 0 0;
+    font-size: 19px;
+    text-align: center;
+  }
+  .projects_container div{
+    padding: 10px;
+  }
+  .projects_container{
+    display: block;
+    padding-bottom: 30px;
+  }
+  .projects_name{
+    line-height: 60px;
+  }
+  .tech_used{
+    font-size: 14px;
+    font-style: italic;
+    color: #696969;
+  }
+  /*........................PROJECTS.........................*/
+  
+  
+  /*........................BLOG.........................*/
+  .blog_name{
+    line-height: 60px;
+  }
+  /*...........................BLOG........................*/
+  
+  
+  
+  
+  /*...........................CONTACT........................*/
+  #contact{
+  /*  width: 100vw;*/
+    height: 120vh;
+    background-color: #111111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+  .social{
+    padding: 0 5px 5px 5px;
+    color: #580000;
+  
+  }
+  .contact_container{
+    margin: 25px;
+    max-width: 80em;
+  }
+  .contact_words{
+    margin-bottom: 25px;
+  }
+  .contact_grid div{
+    padding: 5px;
+  }
+  .contact_grid{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 50px;
+  }
+  .contact_title{
+    flex:1;
+  }
+  .contact_desc{
+    flex:3.5;
+    font-size: 30px;
+  }
+  .line_below{
+    border-bottom: 1px solid #ccc;
+  }
+  .social{
+    transition: all 700ms ease;
+  
+  }
+  .social:hover{
+    color: red;
+  }
+  .grey_title{
+    color: #fff;
+  }
+  .gmail{
+    font-size: 16px;
+  }
+  .email_btn {
+    border: 5px solid #580000;
+    width: 160px;
+    height: 70px;
+    text-align: center;
+    background: #111111;
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: all 600ms ease;
+    position: relative;
+    z-index: 2; 
+  }
+  .dbl_arrows{
+    font-size: 28px;
+    position: relative;
+    transition: transform 500ms;
+  }
+  .btn_container .email_btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .email_btn:hover {
+    background:#580000;
+    color: white;
+  }
+  .email_btn:hover .dbl_arrows{
+    transform: translate(10px);
+  }
+  
+  /*...........................CONTACT........................*/
+  
+  
+  
+  /*...........................MEDIA QUERIES...........................*/
+  @media only screen and(min-width: 400px){
+    /*...........CONTACT..............*/
+    .contact_title{
+      font-size: 15px;
+    }
+    /*...........CONTACT..............*/
+  }
+  @media only screen and (min-width: 580px) {
+    /*...........HEADER..............*/
+    .word_container{
+      padding-top: 19%;
+    }
+    .name_title {
+      font-size: 8vw;
+    }
+    .projects_name{
+      line-height: 140px;
+      font-size: 8vw;
+    }
+    .blog_name{
+      line-height: 140px;
+      font-size: 8vw;
+    }  
+    /*...........HEADER..............*/
+    /*...........ABOUT..............*/  
+    .section_title{
+      font-size: 40px;
+    }
+    /*...........ABOUT..............*/ 
+    /*...........CONTACT..............*/ 
+    .contact_grid {
+      margin-bottom: 100px;
+    }
+    #contact{
+      height:90vh;
+    }
+    .gmail{
+      font-size: 25px;
+    }
+    /*...........CONTACT..............*/
+  }
+  @media only screen and (min-width: 700px){
+    /*...........HEADER..............*/
+    .word_container{
+      padding-top: 16%;
+    }
+    .name_title {
+      font-size: 7vw;
+    }
+    /*...........HEADER..............*/
+    /*...........ABOUT..............*/  
+    .about_words{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /*...........ABOUT..............*/
+    /*...........SKILLS..............*/      
+    .skills_container{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    .skills_desc{
+      word-spacing: 20px;
+    }
+    /*...........SKILLS..............*/ 
+    /*...........SERVICES..............*/      
+    .large_service_container{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    /*...........SERVICES..............*/
+    /*...........PROJECTS..............*/      
+    .projects_container{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    /*...........PROJECTS..............*/  
+    /*...........CONTACT..............*/      
+    .contact_container{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    .contact_grid {
+      margin-bottom: 100px;
+    }
+    /*...........CONTACT..............*/       
+  }
+  @media only screen and (min-width: 860px){
+    /*...........HEADER..............*/  
+    .word_container{
+      padding-top: 14%;
+    }
+    .name_title {
+      font-size: 7vw;
+    }
+    /*...........HEADER..............*/
+    /*...........ABOUT..............*/  
+    .about_container{
+      display: flex;
+      justify-content:space-between;
+    }
+    .about_image{
+      
+    }
+    .about_words{
+      flex:2;
+      max-width: 600px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    /*...........ABOUT..............*/  
+   /*...........CONTACT..............*/      
+    .grey_title{
+      font-size: 30px;
+    }
+    /*...........CONTACT..............*/       
+  }
+  @media only screen and (min-width: 960px){
+    /*...........HEADER..............*/  
+    .word_container{
+      padding-top: 13%;
+    }
+    .name_title {
+      font-size: 6.5vw;
+    }
+    .projects_name{
+      line-height: 130px;
+      font-size: 7vw;
+      max-width: 70%;
+    }
+    .blog_name{
+      line-height: 130px;
+      font-size: 7vw;
+      max-width: 70%;
+    }
+    /*...........HEADER..............*/
+  }
+  @media only screen and (min-width: 1200px){
+    /*...........HEADER..............*/  
+    .word_container{
+      padding-top: 10%;
+    }
+    .name_title {
+      font-size: 5.5vw;
+    }
+    /*...........HEADER..............*/
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: px){
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*...........................MEDIA QUERIES...........................*/
+  
+  
+  
+  

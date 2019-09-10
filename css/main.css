@@ -1,25 +1,26 @@
-*{
+* {
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
 }
-p{
+
+p {
   font-family: 'lato', sans-serif;
   line-height: 36px;
   font-size: 17px;
 }
-.blood{
+
+.blood {
   color: #580000;
   text-transform: uppercase;
   font-size: 16px;
 }
+
 /*.................NAVIGATION...................*/
-
-
-
 /*........BURGER MENU............*/
 .btn {
-  position: absolute;  /*this is what keeps the burger following*/
+  position: absolute;
+  /*this is what keeps the burger following*/
   top: 5%;
   right: 5%;
   height: 27px;
@@ -29,26 +30,32 @@ p{
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
 }
+
 .btn:hover {
   opacity: .7;
 }
-.btn.active{
+
+.btn.active {
   position: fixed;
 }
+
 .btn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
   background: white;
 }
+
 .btn.active .middle {
   opacity: 0;
   background: white;
 }
+
 .btn.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
   background: white;
 }
+
 .btn span {
   background: white;
   border: none;
@@ -61,15 +68,16 @@ p{
   transition: all .35s ease;
   cursor: pointer;
 }
+
 .btn span:nth-of-type(2) {
   top: 11px;
 }
+
 .btn span:nth-of-type(3) {
   top: 22px;
 }
+
 /*........BURGER MENU............*/
-
-
 .overlay {
   background-color: #580000;
   position: absolute;
@@ -84,30 +92,36 @@ p{
   overflow: hidden;
   z-index: 1;
 }
+
 .overlay.open {
   opacity: .9;
   visibility: visible;
   height: 100%;
   position: fixed;
 }
+
 .overlay.open li {
   -webkit-animation: fadeInRight .5s ease forwards;
   animation: fadeInRight .5s ease forwards;
   -webkit-animation-delay: .35s;
   animation-delay: .35s;
 }
+
 .overlay.open li:nth-of-type(2) {
   -webkit-animation-delay: .4s;
   animation-delay: .4s;
 }
+
 .overlay.open li:nth-of-type(3) {
   -webkit-animation-delay: .45s;
   animation-delay: .45s;
 }
+
 .overlay.open li:nth-of-type(4) {
   -webkit-animation-delay: .50s;
   animation-delay: .50s;
 }
+
 .overlay nav {
   position: relative;
   height: 70%;
@@ -119,6 +133,7 @@ p{
   font-weight: 400;
   text-align: center;
 }
+
 .overlay ul {
   list-style: none;
   padding: 0;
@@ -127,6 +142,7 @@ p{
   position: relative;
   height: 100%;
 }
+
 .overlay ul li {
   display: block;
   height: 25%;
@@ -135,6 +151,7 @@ p{
   position: relative;
   opacity: 0;
 }
+
 .overlay ul li a {
   display: block;
   position: relative;
@@ -142,9 +159,11 @@ p{
   text-decoration: none;
   overflow: hidden;
 }
+
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
   width: 100%;
 }
+
 .overlay ul li a:after {
   content: '';
   position: absolute;
@@ -182,21 +201,16 @@ p{
 }
 
 /*..................NAVIGATION....................*/
-
-
-
-
-
 /*..................HEADER.........................*/
 #header_tag {
-/*  width: 100vw;*/
+  /*  width: 100vw;*/
   height: 100vh;
   background-color: #111111;
   color: #F0FFF0;
   z-index: 100;
 }
 
-.word_container{
+.word_container {
   padding-top: 31%;
   width: 80%;
   height: 100%;
@@ -211,25 +225,21 @@ p{
 }
 
 /*.......................HEADER...........................*/
-
-
-
-
-
-
 /*.........................ABOUT............................*/
 #about {
- /* width: 100vw;*/
+  /* width: 100vw;*/
   background-color: #F0FFF0;
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.section_banner{
+
+.section_banner {
   padding-top: 10px;
   padding-bottom: 50px;
   text-align: center;
 }
-.line{
+
+.line {
   height: 2px;
   width: 50px;
   position: relative;
@@ -237,110 +247,128 @@ p{
   display: inline-block;
   background-color: #999;
 }
-.section_title{
+
+.section_title {
   font-family: 'lato',sans-serif;
   font-size: 7vw;
   font-weight: 900;
   font-style: italic;
-  text-align:center;
+  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
-.about_container{
+
+.about_container {
   margin-right: 25px;
   margin-left: 25px;
   max-width: 80em;
 }
-.about_image{
+
+.about_image {
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 50px;
   max-width: 90%;
 }
-/*.........................ABOUT............................*/
 
+/*.........................ABOUT............................*/
 /*........................SKILLS.........................*/
-#skills{
-/*  width: 100vw;*/
+#skills {
+  /*  width: 100vw;*/
   background-color: #F8F8FF;
   padding-top: 20px;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
 }
-.skills_container{
+
+.skills_container {
   margin: 25px;
   max-width: 80em;
 }
-.skills_words{
+
+.skills_words {
   margin-bottom: 25px;
 }
-.skills_grid div{
+
+.skills_grid div {
   padding: 10px;
 }
-.skills_grid{
+
+.skills_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content:space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.skills_title{
-  flex:1;
+
+.skills_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
-.skills_desc{
-  flex:2;
+
+.skills_desc {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   font-size: 50px;
 }
-.line_below{
+
+.line_below {
   border-bottom: 1px solid #ccc;
 }
+
 /*........................SKILLS.........................*/
-
-
-
 /*........................PROJECTS.........................*/
-#projects{
-/*  width: 100vw;*/
+#projects {
+  /*  width: 100vw;*/
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.large_projects_container{
+
+.large_projects_container {
   margin-left: 25px;
   margin-right: 25px;
 }
-.projects_title h3{
+
+.projects_title h3 {
   padding: 30px 0 0 0;
   font-size: 19px;
   text-align: center;
 }
-.projects_container div{
+
+.projects_container div {
   padding: 10px;
 }
-.projects_container{
+
+.projects_container {
   display: block;
   padding-bottom: 30px;
 }
-.projects_name{
+
+.projects_name {
   line-height: 60px;
 }
-.tech_used{
+
+.tech_used {
   font-size: 14px;
   font-style: italic;
   color: #696969;
 }
+
 /*........................PROJECTS.........................*/
-
-
 /*........................BLOG.........................*/
-.blog_name{
+.blog_name {
   line-height: 60px;
 }
+
 /*...........................BLOG........................*/
-
-
-
-
 /*...........................CONTACT........................*/
-#contact{
-/*  width: 100vw;*/
+#contact {
+  /*  width: 100vw;*/
   height: 120vh;
   background-color: #111111;
   background-repeat: no-repeat;
@@ -348,49 +376,69 @@ p{
   background-attachment: fixed;
   color: white;
 }
-.social{
+
+.social {
   padding: 0 5px 5px 5px;
   color: #580000;
-
 }
-.contact_container{
+
+.contact_container {
   margin: 25px;
   max-width: 80em;
 }
-.contact_words{
+
+.contact_words {
   margin-bottom: 25px;
 }
-.contact_grid div{
+
+.contact_grid div {
   padding: 5px;
 }
-.contact_grid{
+
+.contact_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content:space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 50px;
 }
-.contact_title{
-  flex:1;
+
+.contact_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
-.contact_desc{
-  flex:3.5;
+
+.contact_desc {
+  -webkit-box-flex: 3.5;
+      -ms-flex: 3.5;
+          flex: 3.5;
   font-size: 30px;
 }
-.line_below{
+
+.line_below {
   border-bottom: 1px solid #ccc;
 }
-.social{
-  transition: all 700ms ease;
 
+.social {
+  -webkit-transition: all 700ms ease;
+  transition: all 700ms ease;
 }
-.social:hover{
+
+.social:hover {
   color: red;
 }
-.grey_title{
+
+.grey_title {
   color: #fff;
 }
-.gmail{
+
+.gmail {
   font-size: 16px;
 }
+
 .email_btn {
   border: 5px solid #580000;
   width: 160px;
@@ -403,179 +451,194 @@ p{
   text-decoration: none;
   font-size: 17px;
   border-radius: 6px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
 }
-.dbl_arrows{
+
+.dbl_arrows {
   font-size: 28px;
   position: relative;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
   transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
 }
-.btn_container .email_btn{
+
+.btn_container .email_btn {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
+
 .email_btn:hover {
-  background:#580000;
+  background: #580000;
   color: white;
 }
-.email_btn:hover .dbl_arrows{
-  transform: translate(10px);
+
+.email_btn:hover .dbl_arrows {
+  -webkit-transform: translate(10px);
+          transform: translate(10px);
 }
 
 /*...........................CONTACT........................*/
-
-
-
 /*...........................MEDIA QUERIES...........................*/
-@media only screen and(min-width: 400px){
+@media only screen and (min-width: 400px) {
   /*...........CONTACT..............*/
-  .contact_title{
+  .contact_title {
     font-size: 15px;
   }
   /*...........CONTACT..............*/
 }
+
 @media only screen and (min-width: 580px) {
   /*...........HEADER..............*/
-  .word_container{
+  .word_container {
     padding-top: 19%;
   }
   .name_title {
     font-size: 8vw;
   }
-  .projects_name{
+  .projects_name {
     line-height: 140px;
     font-size: 8vw;
   }
-  .blog_name{
+  .blog_name {
     line-height: 140px;
     font-size: 8vw;
-  }  
+  }
   /*...........HEADER..............*/
-  /*...........ABOUT..............*/  
-  .section_title{
+  /*...........ABOUT..............*/
+  .section_title {
     font-size: 40px;
   }
-  /*...........ABOUT..............*/ 
-  /*...........CONTACT..............*/ 
+  /*...........ABOUT..............*/
+  /*...........CONTACT..............*/
   .contact_grid {
     margin-bottom: 100px;
   }
-  #contact{
-    height:90vh;
+  #contact {
+    height: 90vh;
   }
-  .gmail{
+  .gmail {
     font-size: 25px;
   }
   /*...........CONTACT..............*/
 }
-@media only screen and (min-width: 700px){
+
+@media only screen and (min-width: 700px) {
   /*...........HEADER..............*/
-  .word_container{
+  .word_container {
     padding-top: 16%;
   }
   .name_title {
     font-size: 7vw;
   }
   /*...........HEADER..............*/
-  /*...........ABOUT..............*/  
-  .about_words{
+  /*...........ABOUT..............*/
+  .about_words {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
   /*...........ABOUT..............*/
-  /*...........SKILLS..............*/      
-  .skills_container{
+  /*...........SKILLS..............*/
+  .skills_container {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-  } 
-  .skills_desc{
+  }
+  .skills_desc {
     word-spacing: 20px;
   }
-  /*...........SKILLS..............*/ 
-  /*...........SERVICES..............*/      
-  .large_service_container{
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  } 
+  /*...........SKILLS..............*/
   /*...........SERVICES..............*/
-  /*...........PROJECTS..............*/      
-  .projects_container{
+  .large_service_container {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-  } 
-  /*...........PROJECTS..............*/  
-  /*...........CONTACT..............*/      
-  .contact_container{
+  }
+  /*...........SERVICES..............*/
+  /*...........PROJECTS..............*/
+  .projects_container {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-  } 
+  }
+  /*...........PROJECTS..............*/
+  /*...........CONTACT..............*/
+  .contact_container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .contact_grid {
     margin-bottom: 100px;
   }
-  /*...........CONTACT..............*/       
+  /*...........CONTACT..............*/
 }
-@media only screen and (min-width: 860px){
-  /*...........HEADER..............*/  
-  .word_container{
+
+@media only screen and (min-width: 860px) {
+  /*...........HEADER..............*/
+  .word_container {
     padding-top: 14%;
   }
   .name_title {
     font-size: 7vw;
   }
   /*...........HEADER..............*/
-  /*...........ABOUT..............*/  
-  .about_container{
+  /*...........ABOUT..............*/
+  .about_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .about_image{
-    
-  }
-  .about_words{
-    flex:2;
+  .about_words {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
     max-width: 600px;
     margin-left: 25px;
     margin-right: 25px;
   }
-  /*...........ABOUT..............*/  
- /*...........CONTACT..............*/      
-  .grey_title{
+  /*...........ABOUT..............*/
+  /*...........CONTACT..............*/
+  .grey_title {
     font-size: 30px;
   }
-  /*...........CONTACT..............*/       
+  /*...........CONTACT..............*/
 }
-@media only screen and (min-width: 960px){
-  /*...........HEADER..............*/  
-  .word_container{
+
+@media only screen and (min-width: 960px) {
+  /*...........HEADER..............*/
+  .word_container {
     padding-top: 13%;
   }
   .name_title {
     font-size: 6.5vw;
   }
-  .projects_name{
+  .projects_name {
     line-height: 130px;
     font-size: 7vw;
     max-width: 70%;
   }
-  .blog_name{
+  .blog_name {
     line-height: 130px;
     font-size: 7vw;
     max-width: 70%;
   }
   /*...........HEADER..............*/
 }
-@media only screen and (min-width: 1200px){
-  /*...........HEADER..............*/  
-  .word_container{
+
+@media only screen and (min-width: 1200px) {
+  /*...........HEADER..............*/
+  .word_container {
     padding-top: 10%;
   }
   .name_title {
@@ -584,33 +647,5 @@ p{
   /*...........HEADER..............*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: px){
-
-}
-
-
-
-
-
-
-
 /*...........................MEDIA QUERIES...........................*/
-
-
-
+/*# sourceMappingURL=main.css.map */
