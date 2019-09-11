@@ -1,8 +1,8 @@
-/*.................COLOR VARIABLES...................*/
 * {
   font-family: 'lato', sans-serif;
   padding: 0;
   margin: 0;
+  border: #580000 1px solid;
 }
 
 p {
@@ -155,7 +155,9 @@ p {
   overflow: hidden;
 }
 
-.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+.overlay ul li a:hover:after,
+.overlay ul li a:focus:after,
+.overlay ul li a:active:after {
   width: 100%;
 }
 
@@ -198,7 +200,6 @@ p {
 /*..................NAVIGATION....................*/
 /*..................HEADER.........................*/
 #header_tag {
-  /*  width: 100vw;*/
   height: 100vh;
   background-color: #111111;
   color: #F0FFF0;
@@ -243,7 +244,7 @@ p {
 }
 
 .section_title {
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: 7vw;
   font-weight: 900;
   font-style: italic;
@@ -364,17 +365,41 @@ p {
 /*...........................BLOG........................*/
 /*...........................CONTACT........................*/
 #contact {
-  height: 120vh;
+  height: 100vh;
   background-color: #111111;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   color: #F0FFF0;
 }
 
 .contact_container {
   margin: 25px;
-  max-width: 80em;
+  max-width: 100em;
+}
+
+.contact_me {
+  font-family: 'lato', sans-serif;
+  font-size: 7vw;
+  letter-spacing: 2px;
+  font-weight: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.email {
+  text-decoration: none;
+  border: 1px solid #580000;
+  padding: 15px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*...........................CONTACT........................*/
