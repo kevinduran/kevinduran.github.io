@@ -392,14 +392,21 @@ p {
 .email {
   text-decoration: none;
   border: 1px solid #580000;
-  padding: 15px;
-  margin: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px;
+  margin: 20px 0 20px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #F0FFF0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.email:hover {
+  background-color: #580000;
 }
 
 /*...........................CONTACT........................*/
@@ -526,11 +533,6 @@ p {
     margin-right: 25px;
   }
   /*...........ABOUT..............*/
-  /*...........CONTACT..............*/
-  .grey_title {
-    font-size: 30px;
-  }
-  /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 960px) {
@@ -552,6 +554,11 @@ p {
     max-width: 70%;
   }
   /*...........HEADER..............*/
+  /*...........CONTACT..............*/
+  .contact_me {
+    font-size: 5em;
+  }
+  /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 1200px) {

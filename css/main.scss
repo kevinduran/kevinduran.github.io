@@ -417,10 +417,15 @@ p {
 .email {
     text-decoration: none;
     border: 1px solid $blood-red;
-    padding: 15px;
-    margin: 10px;
     display: flex;
+    padding:10px;
+    margin: 20px 0 20px 0;
     justify-content: center;
+    color: $main-white;
+    transition: 0.5s ease;
+}
+.email:hover{
+    background-color: $blood-red;
 }
 
 
@@ -573,12 +578,7 @@ p {
     }
 
     /*...........ABOUT..............*/
-    /*...........CONTACT..............*/
-    .grey_title {
-        font-size: 30px;
-    }
 
-    /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 960px) {
@@ -605,6 +605,13 @@ p {
     }
 
     /*...........HEADER..............*/
+        /*...........CONTACT..............*/
+       .contact_me{
+
+           font-size: 5em;
+       }
+    
+        /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 1200px) {
