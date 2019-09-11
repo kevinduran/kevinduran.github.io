@@ -400,13 +400,29 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   color: #F0FFF0;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
   width: 80%;
 }
 
 .email:hover {
   background-color: #580000;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.social i:hover {
+  color: #580000;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
 }
 
 /*...........................CONTACT........................*/

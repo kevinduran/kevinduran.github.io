@@ -1,5 +1,3 @@
-
-
 $main-black:#111111;
 $blood-red:#580000;
 $main-white:#F0FFF0;
@@ -423,13 +421,24 @@ p {
     margin: 20px 0 20px 20px;
     justify-content: center;
     color: $main-white;
-    transition: 0.5s ease;
+    transition: 0.5s ease all;
     width: 80%;
 
 }
 
 .email:hover {
     background-color: $blood-red;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.social i:hover {
+    color: $blood-red;
+    transition: 0.4s ease all;
 }
 
 
