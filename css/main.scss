@@ -3,6 +3,8 @@
  $main-black:#111111;
  $blood-red:#580000;
  $main-white:#F0FFF0;
+ $secondary-white: #F8F8FF;
+ $secondary-grey:#f6f6f6;
 
 
 *{
@@ -12,7 +14,7 @@
   }
   p{
     font-family: 'lato', sans-serif;
-    line-height: 36px;
+    line-height: 46px;
     font-size: 17px;
   }
 
@@ -264,8 +266,7 @@
   
   /*........................SKILLS.........................*/
   #skills{
-  
-    background-color: #F8F8FF;
+    background-color: $secondary-grey;
     padding-top: 20px;
     padding-bottom: 50px;  
   }
@@ -291,7 +292,7 @@
     font-size: 50px;
   }
   .line_below{
-    border-bottom: 1px solid $main-white;
+    margin-bottom: 80px;
   }
   /*........................SKILLS.........................*/
   
@@ -299,11 +300,11 @@
   
   /*........................PROJECTS.........................*/
   #projects{
-    background-color: #f6f6f6;
+    background-color: $secondary-grey;
     padding-top: 20px;
     padding-bottom: 50px;
   }
-  .line_p{
+  .line_b{
       background-color: $main-black;
   }
   .large_projects_container{
