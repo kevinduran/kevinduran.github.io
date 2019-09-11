@@ -1,3 +1,5 @@
+
+
 $main-black:#111111;
 $blood-red:#580000;
 $main-white:#F0FFF0;
@@ -9,7 +11,7 @@ $secondary-grey:#f6f6f6;
     font-family: 'lato', sans-serif;
     padding: 0;
     margin: 0;
-    border: #580000 1px solid;
+    //border: #580000 1px solid;
 }
 
 p {
@@ -411,20 +413,22 @@ p {
     font-weight: 100;
     display: flex;
     flex-direction: column;
-
 }
 
 .email {
     text-decoration: none;
     border: 1px solid $blood-red;
     display: flex;
-    padding:10px;
-    margin: 20px 0 20px 0;
+    padding: 10px;
+    margin: 20px 0 20px 20px;
     justify-content: center;
     color: $main-white;
     transition: 0.5s ease;
+    width: 80%;
+
 }
-.email:hover{
+
+.email:hover {
     background-color: $blood-red;
 }
 
@@ -605,13 +609,13 @@ p {
     }
 
     /*...........HEADER..............*/
-        /*...........CONTACT..............*/
-       .contact_me{
+    /*...........CONTACT..............*/
+    .contact_me {
 
-           font-size: 5em;
-       }
-    
-        /*...........CONTACT..............*/
+        font-size: 4em;
+    }
+
+    /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 1200px) {
