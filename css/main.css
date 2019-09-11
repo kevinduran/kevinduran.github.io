@@ -1,3 +1,4 @@
+/*.................COLOR VARIABLES...................*/
 * {
   font-family: 'lato', sans-serif;
   padding: 0;
@@ -8,12 +9,6 @@ p {
   font-family: 'lato', sans-serif;
   line-height: 36px;
   font-size: 17px;
-}
-
-.blood {
-  color: #580000;
-  text-transform: uppercase;
-  font-size: 16px;
 }
 
 /*.................NAVIGATION...................*/
@@ -42,22 +37,22 @@ p {
 .btn.active .top {
   -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
   transform: translateY(11px) translateX(0) rotate(45deg);
-  background: white;
+  background: #F0FFF0;
 }
 
 .btn.active .middle {
   opacity: 0;
-  background: white;
+  background: #F0FFF0;
 }
 
 .btn.active .bottom {
   -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
   transform: translateY(-11px) translateX(0) rotate(-45deg);
-  background: white;
+  background: #F0FFF0;
 }
 
 .btn span {
-  background: white;
+  background: #F0FFF0;
   border: none;
   height: 5px;
   width: 100%;
@@ -155,7 +150,7 @@ p {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #FFF;
+  color: #F0FFF0;
   text-decoration: none;
   overflow: hidden;
 }
@@ -173,7 +168,7 @@ p {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   height: 3px;
-  background: #FFF;
+  background: #F0FFF0;
   -webkit-transition: .35s;
   transition: .35s;
 }
@@ -227,7 +222,6 @@ p {
 /*.......................HEADER...........................*/
 /*.........................ABOUT............................*/
 #about {
-  /* width: 100vw;*/
   background-color: #F0FFF0;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -245,7 +239,7 @@ p {
   position: relative;
   top: -12px;
   display: inline-block;
-  background-color: #999;
+  background-color: #F0FFF0;
 }
 
 .section_title {
@@ -275,7 +269,6 @@ p {
 /*.........................ABOUT............................*/
 /*........................SKILLS.........................*/
 #skills {
-  /*  width: 100vw;*/
   background-color: #F8F8FF;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -317,16 +310,19 @@ p {
 }
 
 .line_below {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #F0FFF0;
 }
 
 /*........................SKILLS.........................*/
 /*........................PROJECTS.........................*/
 #projects {
-  /*  width: 100vw;*/
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+.line_p {
+  background-color: #111111;
 }
 
 .large_projects_container {
@@ -368,120 +364,17 @@ p {
 /*...........................BLOG........................*/
 /*...........................CONTACT........................*/
 #contact {
-  /*  width: 100vw;*/
   height: 120vh;
   background-color: #111111;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  color: white;
-}
-
-.social {
-  padding: 0 5px 5px 5px;
-  color: #580000;
+  color: #F0FFF0;
 }
 
 .contact_container {
   margin: 25px;
   max-width: 80em;
-}
-
-.contact_words {
-  margin-bottom: 25px;
-}
-
-.contact_grid div {
-  padding: 5px;
-}
-
-.contact_grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 50px;
-}
-
-.contact_title {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.contact_desc {
-  -webkit-box-flex: 3.5;
-      -ms-flex: 3.5;
-          flex: 3.5;
-  font-size: 30px;
-}
-
-.line_below {
-  border-bottom: 1px solid #ccc;
-}
-
-.social {
-  -webkit-transition: all 700ms ease;
-  transition: all 700ms ease;
-}
-
-.social:hover {
-  color: red;
-}
-
-.grey_title {
-  color: #fff;
-}
-
-.gmail {
-  font-size: 16px;
-}
-
-.email_btn {
-  border: 5px solid #580000;
-  width: 160px;
-  height: 70px;
-  text-align: center;
-  background: #111111;
-  color: white;
-  padding: 10px;
-  letter-spacing: 2px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius: 6px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
-  position: relative;
-  z-index: 2;
-}
-
-.dbl_arrows {
-  font-size: 28px;
-  position: relative;
-  -webkit-transition: -webkit-transform 500ms;
-  transition: -webkit-transform 500ms;
-  transition: transform 500ms;
-  transition: transform 500ms, -webkit-transform 500ms;
-}
-
-.btn_container .email_btn {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.email_btn:hover {
-  background: #580000;
-  color: white;
-}
-
-.email_btn:hover .dbl_arrows {
-  -webkit-transform: translate(10px);
-          transform: translate(10px);
 }
 
 /*...........................CONTACT........................*/

@@ -1,4 +1,8 @@
-$main-black:#111111;
+
+  /*.................COLOR VARIABLES...................*/
+ $main-black:#111111;
+ $blood-red:#580000;
+ $main-white:#F0FFF0;
 
 
 *{
@@ -11,11 +15,7 @@ $main-black:#111111;
     line-height: 36px;
     font-size: 17px;
   }
-  .blood{
-    color: #580000;
-    text-transform: uppercase;
-    font-size: 16px;
-  }
+
   /*.................NAVIGATION...................*/
   
   
@@ -41,19 +41,19 @@ $main-black:#111111;
   .btn.active .top {
     -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: white;
+    background: $main-white;
   }
   .btn.active .middle {
     opacity: 0;
-    background: white;
+    background: $main-white;
   }
   .btn.active .bottom {
     -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: white;
+    background: $main-white;
   }
   .btn span {
-    background: white;
+    background: $main-white;
     border: none;
     height: 5px;
     width: 100%;
@@ -74,7 +74,7 @@ $main-black:#111111;
   
   
   .overlay {
-    background-color: #580000;
+    background-color: $blood-red;
     position: absolute;
     top: 0;
     left: 0;
@@ -141,7 +141,7 @@ $main-black:#111111;
   .overlay ul li a {
     display: block;
     position: relative;
-    color: #FFF;
+    color: $main-white;
     text-decoration: none;
     overflow: hidden;
   }
@@ -157,7 +157,7 @@ $main-black:#111111;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     height: 3px;
-    background: #FFF;
+    background: $main-white;
     -webkit-transition: .35s;
     transition: .35s;
   }
@@ -195,7 +195,7 @@ $main-black:#111111;
   /*  width: 100vw;*/
     height: 100vh;
     background-color:$main-black;
-    color: #F0FFF0;
+    color: $main-white;
     z-index: 100;
   }
   
@@ -222,8 +222,7 @@ $main-black:#111111;
   
   /*.........................ABOUT............................*/
   #about {
-   /* width: 100vw;*/
-    background-color: #F0FFF0;
+    background-color: $main-white;
     padding-top: 20px;
     padding-bottom: 50px;
   }
@@ -238,7 +237,7 @@ $main-black:#111111;
     position: relative;
     top: -12px;
     display: inline-block;
-    background-color: #999;
+    background-color: $main-white;
   }
   .section_title{
     font-family: 'lato',sans-serif;
@@ -265,7 +264,7 @@ $main-black:#111111;
   
   /*........................SKILLS.........................*/
   #skills{
-  /*  width: 100vw;*/
+  
     background-color: #F8F8FF;
     padding-top: 20px;
     padding-bottom: 50px;  
@@ -292,7 +291,7 @@ $main-black:#111111;
     font-size: 50px;
   }
   .line_below{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $main-white;
   }
   /*........................SKILLS.........................*/
   
@@ -300,10 +299,12 @@ $main-black:#111111;
   
   /*........................PROJECTS.........................*/
   #projects{
-  /*  width: 100vw;*/
     background-color: #f6f6f6;
     padding-top: 20px;
     padding-bottom: 50px;
+  }
+  .line_p{
+      background-color: $main-black;
   }
   .large_projects_container{
     margin-left: 25px;
@@ -343,91 +344,20 @@ $main-black:#111111;
   
   /*...........................CONTACT........................*/
   #contact{
-  /*  width: 100vw;*/
     height: 120vh;
-    background-color: #111111;
+    background-color: $main-black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
-  }
-  .social{
-    padding: 0 5px 5px 5px;
-    color: #580000;
+    color: $main-white
+}
   
-  }
   .contact_container{
     margin: 25px;
     max-width: 80em;
   }
-  .contact_words{
-    margin-bottom: 25px;
-  }
-  .contact_grid div{
-    padding: 5px;
-  }
-  .contact_grid{
-    display: flex;
-    justify-content:space-between;
-    margin-bottom: 50px;
-  }
-  .contact_title{
-    flex:1;
-  }
-  .contact_desc{
-    flex:3.5;
-    font-size: 30px;
-  }
-  .line_below{
-    border-bottom: 1px solid #ccc;
-  }
-  .social{
-    transition: all 700ms ease;
-  
-  }
-  .social:hover{
-    color: red;
-  }
-  .grey_title{
-    color: #fff;
-  }
-  .gmail{
-    font-size: 16px;
-  }
-  .email_btn {
-    border: 5px solid #580000;
-    width: 160px;
-    height: 70px;
-    text-align: center;
-    background: #111111;
-    color: white;
-    padding: 10px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 6px;
-    box-sizing: border-box;
-    transition: all 600ms ease;
-    position: relative;
-    z-index: 2; 
-  }
-  .dbl_arrows{
-    font-size: 28px;
-    position: relative;
-    transition: transform 500ms;
-  }
-  .btn_container .email_btn{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  .email_btn:hover {
-    background:#580000;
-    color: white;
-  }
-  .email_btn:hover .dbl_arrows{
-    transform: translate(10px);
-  }
+
+ 
   
   /*...........................CONTACT........................*/
   
