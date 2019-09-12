@@ -1,0 +1,25 @@
+
+/*..................HEADER.........................*/
+#header_tag {
+
+    height: 100vh;
+    background-color: $main-black;
+    color: $main-white;
+    z-index: 100;
+}
+
+.word_container {
+    padding-top: 31%;
+    width: 80%;
+    height: 100%;
+}
+
+.name_title {
+    font-family: 'lato', sans-serif;
+    font-size: 9vw;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-left: 25px;
+}
+
+/*.......................HEADER...........................*/

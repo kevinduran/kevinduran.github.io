@@ -1,3 +1,29 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*.................NAVIGATION...................*/
 /*........BURGER MENU............*/
 .btn {
@@ -185,18 +211,6 @@
 }
 
 /*..................NAVIGATION....................*/
-* {
-  font-family: 'lato', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  font-family: 'lato', sans-serif;
-  line-height: 46px;
-  font-size: 17px;
-}
-
 /*..................HEADER.........................*/
 #header_tag {
   height: 100vh;
@@ -220,6 +234,12 @@ p {
 }
 
 /*.......................HEADER...........................*/
+p {
+  font-family: 'lato', sans-serif;
+  line-height: 46px;
+  font-size: 17px;
+}
+
 /*.........................ABOUT............................*/
 #about {
   background-color: #F8F8FF;
