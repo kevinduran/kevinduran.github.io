@@ -328,16 +328,15 @@ img {
 }
 
 /*........................SKILLS.........................*/
-/*...........................CONTACT........................*/
 #contact {
-  height: 100vh;
   background-color: #111111;
   color: #F0FFF0;
 }
 
 .contact_container {
+  background-color: red;
   margin: 25px;
-  max-height: inherit;
+  max-height: 70px;
 }
 
 .contact_me {
@@ -352,6 +351,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: red;
 }
 
 .email {
@@ -391,7 +391,6 @@ img {
   transition: 0.4s ease all;
 }
 
-/*...........................CONTACT........................*/
 p {
   font-family: 'lato', sans-serif;
   line-height: 46px;
@@ -400,13 +399,6 @@ p {
 
 .words {
   background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 /*...........................MEDIA QUERIES...........................*/
