@@ -1,0 +1,40 @@
+#projects {
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.line_b {
+  background-color: #111111;
+}
+
+.large_projects_container {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.projects_title h3 {
+  padding: 30px 0 0 0;
+  font-size: 19px;
+  text-align: center;
+}
+
+.projects_container div {
+  padding: 10px;
+}
+
+.projects_container {
+  display: block;
+  padding-bottom: 30px;
+}
+
+.projects_name {
+  line-height: 60px;
+}
+
+.tech_used {
+  font-size: 14px;
+  font-style: italic;
+  color: #696969;
+}
+/*# sourceMappingURL=projects.css.map */
