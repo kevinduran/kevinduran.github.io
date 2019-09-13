@@ -6,27 +6,15 @@
 @import 'skills';
 @import 'contact';
 
-
 p {
     font-family: 'lato', sans-serif;
     line-height: 46px;
     font-size: 17px;
 }
 .words{
-    background-color: red;
+    background-color: yellow;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*...........................MEDIA QUERIES...........................*/
 
@@ -80,9 +68,9 @@ p {
         margin-bottom: 100px;
     }
 
-    #contact {
-        height: 90vh;
-    }
+    // #contact {
+    //     height: 90vh;
+    // }
 
     .gmail {
         font-size: 25px;
@@ -90,15 +78,6 @@ p {
 
     /*...........CONTACT..............*/
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 700px) {
 
@@ -186,37 +165,6 @@ p {
     /*...........CONTACT..............*/
 }
 
-@media only screen and (min-width: 860px) {
-
-    /*...........HEADER..............*/
-    .word_container {
-        padding-top: 14%;
-    }
-
-    .name_title {
-        font-size: 7vw;
-    }
-
-    /*...........HEADER..............*/
-    /*...........ABOUT..............*/
-    .about_container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .about_image {}
-
-    .about_words {
-        flex: 2;
-        max-width: 600px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-
-    /*...........ABOUT..............*/
-
-}
-
 @media only screen and (min-width: 960px) {
 
     /*...........HEADER..............*/
@@ -263,29 +211,5 @@ p {
 
     /*...........HEADER..............*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: px) {}
-
-
-
-
-
-
 
 /*...........................MEDIA QUERIES...........................*/

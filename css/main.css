@@ -24,7 +24,6 @@ img {
   height: auto;
 }
 
-/*.................NAVIGATION...................*/
 /*........BURGER MENU............*/
 .btn {
   position: absolute;
@@ -210,8 +209,6 @@ img {
   }
 }
 
-/*..................NAVIGATION....................*/
-/*..................HEADER.........................*/
 #header_tag {
   height: 100vh;
   background-color: #111111;
@@ -233,8 +230,6 @@ img {
   margin-left: 25px;
 }
 
-/*.......................HEADER...........................*/
-/*.........................ABOUT............................*/
 #about {
   background-color: #F8F8FF;
   padding-top: 20px;
@@ -280,8 +275,6 @@ img {
   max-width: 90%;
 }
 
-/*.........................ABOUT............................*/
-/*........................SKILLS.........................*/
 #skills {
   background-color: #f6f6f6;
   padding-top: 20px;
@@ -327,16 +320,9 @@ img {
   margin-bottom: 80px;
 }
 
-/*........................SKILLS.........................*/
 #contact {
   background-color: #111111;
   color: #F0FFF0;
-}
-
-.contact_container {
-  background-color: red;
-  margin: 25px;
-  max-height: 70px;
 }
 
 .contact_me {
@@ -351,7 +337,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: red;
+  background-color: yellow;
+  margin: 10px;
 }
 
 .email {
@@ -398,7 +385,7 @@ p {
 }
 
 .words {
-  background-color: red;
+  background-color: yellow;
 }
 
 /*...........................MEDIA QUERIES...........................*/
@@ -427,9 +414,6 @@ p {
   /*...........CONTACT..............*/
   .contact_grid {
     margin-bottom: 100px;
-  }
-  #contact {
-    height: 90vh;
   }
   .gmail {
     font-size: 25px;
@@ -487,35 +471,6 @@ p {
     margin-bottom: 100px;
   }
   /*...........CONTACT..............*/
-}
-
-@media only screen and (min-width: 860px) {
-  /*...........HEADER..............*/
-  .word_container {
-    padding-top: 14%;
-  }
-  .name_title {
-    font-size: 7vw;
-  }
-  /*...........HEADER..............*/
-  /*...........ABOUT..............*/
-  .about_container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .about_words {
-    -webkit-box-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
-    max-width: 600px;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-  /*...........ABOUT..............*/
 }
 
 @media only screen and (min-width: 960px) {
