@@ -13,6 +13,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .contact_me {
@@ -27,7 +29,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: yellow;
+  background-color: #600009;
   margin: 10px;
 }
 
