@@ -506,12 +506,8 @@ p {
   /*...........PROJECTS..............*/
   /*...........CONTACT..............*/
   .contact_container {
-    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
-  }
-  .contact_grid {
-    margin-bottom: 100px;
   }
   /*...........CONTACT..............*/
 }

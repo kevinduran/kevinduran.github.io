@@ -39,6 +39,12 @@
     width: 80%;
 }
 
+.contact_bottom {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
 .email:hover {
     background-color: $blood-red;
 }
