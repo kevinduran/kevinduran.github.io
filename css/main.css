@@ -377,7 +377,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: red;
+  background-color: yellow;
   margin: 10px;
 }
 
@@ -422,10 +422,6 @@ p {
   font-family: 'lato', sans-serif;
   line-height: 46px;
   font-size: 17px;
-}
-
-.words {
-  background-color: yellow;
 }
 
 /*...........................MEDIA QUERIES...........................*/
