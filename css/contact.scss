@@ -1,4 +1,4 @@
-@import 'variables';
+//@import 'variables';
 
 
 #contact {
@@ -33,11 +33,16 @@
     justify-content: center;
     color: $main-white;
     transition: 0.5s ease all;
-    width: 80%;
+    width: 50%;
 }
 
 .email:hover {
     background-color: $blood-red;
+}
+
+.content_bottom{
+    display: flex;
+    justify-content: center;
 }
 
 .social {
