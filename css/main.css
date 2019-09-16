@@ -421,6 +421,10 @@ img {
   max-width: 10em;
 }
 
+.email:focus {
+  background-color: #111111;
+}
+
 .email:hover {
   background-color: #580000;
 }
@@ -432,12 +436,15 @@ img {
 .social i {
   margin: 10px 30px;
 }
+
 .social_link {
   color: #F0FFF0;
 }
+
 .social_link:focus {
   color: #F0FFF0;
 }
+
 .social i:hover {
   color: #580000;
   -webkit-transition: 0.4s ease all;
