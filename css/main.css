@@ -582,7 +582,6 @@ p {
   /*...........ABOUT..............*/
   .about_container {
     display: flex;
-    justify-content: space-between;
   }
 
   /*...........ABOUT..............*/
