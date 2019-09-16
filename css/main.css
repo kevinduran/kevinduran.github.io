@@ -582,6 +582,12 @@ p {
   /*...........ABOUT..............*/
   .about_container {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .img_container {
+    min-width: 50%;
+    ;
   }
 
   /*...........ABOUT..............*/
