@@ -9,6 +9,7 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
+  border: #580000 solid 1px;
 
 }
 
@@ -407,21 +408,15 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   margin: 10px;
-  /* align-items: center; */
+  align-items: center;
   width: 80%;
 }
 
 .email {
   text-decoration: none;
   border: 1px solid #580000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 10px;
   margin: 40px 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   color: #F0FFF0;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
