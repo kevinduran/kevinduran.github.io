@@ -224,6 +224,7 @@ img {
     left: 0;
   }
 }
+
 /*HEADER********************************/
 #header_tag {
   height: 100vh;
@@ -291,6 +292,7 @@ img {
   padding-bottom: 50px;
   max-width: 90%;
 }
+
 /*SKILLS********************************/
 #skills {
   background-color: #f6f6f6;
@@ -420,6 +422,7 @@ img {
 .email {
   text-decoration: none;
   border: 1px solid #580000;
+  background-color: rgba(88, 0, 0, 0.3);
   padding: 10px;
   margin: 40px 0;
   color: #F0FFF0;
