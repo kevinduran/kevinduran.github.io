@@ -1,3 +1,4 @@
+/*RESET********************************/
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -9,6 +10,7 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
+  border: #580000 solid 1px;
 }
 
 body,
@@ -36,7 +38,7 @@ img {
   height: auto;
 }
 
-/*........BURGER MENU............*/
+/*BURGER MENU********************************/
 .btn {
   position: absolute;
   /*this is what keeps the burger following*/
@@ -96,7 +98,7 @@ img {
   top: 22px;
 }
 
-/*........BURGER MENU............*/
+/*OPENED BURGER MENU********************************/
 .overlay {
   background-color: #580000;
   position: absolute;
@@ -222,7 +224,7 @@ img {
     left: 0;
   }
 }
-
+/*HEADER********************************/
 #header_tag {
   height: 100vh;
   background-color: #111111;
@@ -244,6 +246,7 @@ img {
   margin-left: 25px;
 }
 
+/*ABOUT********************************/
 #about {
   background-color: #F8F8FF;
   padding-top: 20px;
@@ -288,7 +291,7 @@ img {
   padding-bottom: 50px;
   max-width: 90%;
 }
-
+/*SKILLS********************************/
 #skills {
   background-color: #f6f6f6;
   padding-top: 20px;
@@ -334,6 +337,8 @@ img {
   margin-bottom: 80px;
 }
 
+/*PROJECTS********************************/
+
 #projects {
   background-color: #f6f6f6;
   padding-top: 20px;
@@ -373,6 +378,8 @@ img {
   font-style: italic;
   color: #696969;
 }
+
+/*CONTACT********************************/
 
 #contact {
   background-color: #111111;
@@ -457,7 +464,7 @@ p {
   font-size: 17px;
 }
 
-/*...........................MEDIA QUERIES...........................*/
+/*MEDIA QUERIES...........................*/
 @media only screen and (min-width: 580px) {
 
   /*...........HEADER..............*/
@@ -587,7 +594,7 @@ p {
   }
 
   .name_title {
-    font-size: 5.5vw;
+    font-size: 4.5vw;
   }
 
   /*...........HEADER..............*/
@@ -605,5 +612,5 @@ p {
   /*...........ABOUT..............*/
 }
 
-/*...........................MEDIA QUERIES...........................*/
+
 /*# sourceMappingURL=main.css.map */
