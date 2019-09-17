@@ -10,7 +10,6 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-  border: #580000 solid 1px;
 }
 
 body,
