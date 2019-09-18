@@ -38,10 +38,16 @@ img {
 }
 
 /*BURGER MENU********************************/
+#nav{
+  height: 100px;
+  background-color:rgba(17, 17, 17, 0.2);
+  position: sticky;
+  top: 0;
+}
+
 .btn {
   position: absolute;
-  /*this is what keeps the burger following*/
-  top: 5%;
+  top:5% !important;
   right: 5%;
   height: 27px;
   width: 35px;
@@ -142,7 +148,7 @@ img {
   animation-delay: .50s;
 }
 
-.overlay nav {
+.overlay .overlay_nav {
   position: relative;
   height: 70%;
   top: 50%;
