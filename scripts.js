@@ -5,17 +5,7 @@ $('#toggle').click(function () {
 });
 //End of Navigarion Overlay
 //NAVIGATION STICKY
-$(document).ready(function(){
-  $(window).scroll(function(){
-      if($(window).scrollTop() > $(window).height()){
-          $("#nav").css({"background-color":"red"});   
-      }
-      else{
-          $("#nav").css({"background-color":"blue"});
-      }
 
-  })
-})
 //END OF NAVIGATION STICKY
 //Typewriter Effect 
 var TxtRotate = function (el, toRotate, period) {
