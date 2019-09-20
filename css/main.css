@@ -38,16 +38,17 @@ img {
 }
 
 /*BURGER MENU********************************/
-#nav{
-  height: 14vh;
-  background-color:rgba(17, 17, 17, 0.9);
+#nav {
+  height: 10vh;
+  background-color: #111111;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .btn {
-  position:absolute;
-  top:35% ;
+  position: absolute;
+  top: 35%;
   right: 5%;
   height: 27px;
   width: 35px;
