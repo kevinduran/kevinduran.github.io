@@ -4,6 +4,7 @@ $('#toggle').click(function () {
   $('#overlay').toggleClass('open');
 });
 //End of Navigarion Overlay
+
 //Typewriter Effect 
 var TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
