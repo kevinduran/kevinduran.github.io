@@ -12,6 +12,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #111111;
+}
+
 body,
 h1,
 h2,
@@ -40,7 +44,7 @@ img {
 /*BURGER MENU********************************/
 #nav {
   height: 10vh;
-  background-color: #111111;
+  background-color: rgba(17, 17, 17, 0.8);
   position: sticky;
   top: 0;
   z-index: 100;
