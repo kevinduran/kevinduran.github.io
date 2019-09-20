@@ -51,9 +51,6 @@ img {
 }
 
 .btn {
-  animation-duration: 0.8s;
-  animation-name: slidein;
-  opacity: 1;
   position: absolute;
   top: 35%;
   right: 5%;
@@ -64,18 +61,27 @@ img {
   -webkit-transition: opacity .25s ease;
   transition: opacity .25s ease;
 }
-@keyframes slidein {
-  from {
-    margin-right: 80%;
-    opacity:0.1
-  }
-
-  to {
-    margin-left: 0%;
-    opacity:1;
-  }
+.top{
+  animation-duration: 0.8s;
+  animation-name: loading;
+}
+.middle{
+  animation-duration: 1.1s;
+  animation-name: loading;
+}
+.bottom{
+  animation-duration: 1.3s;
+  animation-name: loading;
 }
 
+@keyframes loading{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
+}
 
 
 .btn:hover {
