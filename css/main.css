@@ -63,7 +63,7 @@ img {
 }
 
 .btn.active {
-  position: fixed;
+  position: absolute;
 }
 
 .btn.active .top {
