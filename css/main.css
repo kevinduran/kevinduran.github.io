@@ -45,7 +45,8 @@ img {
 #nav {
   height: 10vh;
   background-color: rgba(17, 17, 17, 0.8);
-  position: absolute;
+  position: sticky;
+  position:-webkit-sticky;
   top: 0;
   z-index: 100;
 }
@@ -465,6 +466,7 @@ img {
   transition: 0.5s ease all;
   max-width: 10em;
 }
+
 
 .email:focus {
   background-color: #111111;
