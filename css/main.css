@@ -64,17 +64,17 @@ img {
 }
 
 .top {
-  animation-duration: 2s;
+  animation-duration: 0.8s;
   animation-name: loading;
 }
 
 .middle {
-  animation-duration: 2.3s;
+  animation-duration: 1.3s;
   animation-name: loading;
 }
 
 .bottom {
-  animation-duration: 2.6s;
+  animation-duration: 1.6s;
   animation-name: loading;
 }
 
