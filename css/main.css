@@ -41,6 +41,10 @@ img {
   height: auto;
 }
 
+.tag{
+  height: 100%;
+}
+
 /*BURGER MENU********************************/
 #nav {
   height: 10vh;
@@ -264,9 +268,9 @@ img {
 
 /*HEADER********************************/
 #header_tag {
-  height: 100vh;
   background-color: #111111;
   color: #F0FFF0;
+  height: 100vh;
 }
 
 .word_container {
@@ -315,7 +319,6 @@ img {
   background-color: #F8F8FF;
   padding-top: 20px;
   padding-bottom: 50px;
-  height: 120vh;
 }
 
 .section_banner {
@@ -362,7 +365,6 @@ img {
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
-  height: 120vh;
 }
 
 .skills_container {
@@ -411,7 +413,6 @@ img {
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
-  height: 120vh;
 }
 
 .line_b {
@@ -453,7 +454,6 @@ img {
 #contact {
   background-color: #111111;
   color: #F0FFF0;
-  height: 120vh;
 }
 
 .contact_container {
