@@ -267,11 +267,10 @@ img {
   height: 100vh;
   background-color: #111111;
   color: #F0FFF0;
-  z-index: 100;
 }
 
 .word_container {
-  padding-top: 20%;
+  padding-top: 10%;
   width: 80%;
   height: 100%;
 }
@@ -284,11 +283,40 @@ img {
   margin-left: 25px;
 }
 
+.scroll_down {
+  font-size: 30px;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation-name: peekaboo;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes peekaboo {
+  from {
+    top: 85%;
+    opacity: 0;
+  }
+
+  to {
+    top: 90%;
+    opacity: 1;
+  }
+}
+
+
 /*ABOUT********************************/
 #about {
   background-color: #F8F8FF;
   padding-top: 20px;
   padding-bottom: 50px;
+  height: 120vh;
 }
 
 .section_banner {
@@ -335,6 +363,7 @@ img {
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
+  height: 120vh;
 }
 
 .skills_container {
@@ -354,10 +383,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+
 }
+
 
 .skills_title {
   -webkit-box-flex: 1;
@@ -369,11 +397,13 @@ img {
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
-  font-size: 50px;
+  font-size: 70px;
+  justify-content: space-around;
 }
 
 .line_below {
   margin-bottom: 80px;
+  border-bottom: #DCDCDC 0.5px solid;
 }
 
 /*PROJECTS********************************/
@@ -382,6 +412,7 @@ img {
   background-color: #f6f6f6;
   padding-top: 20px;
   padding-bottom: 50px;
+  height: 120vh;
 }
 
 .line_b {
@@ -423,6 +454,7 @@ img {
 #contact {
   background-color: #111111;
   color: #F0FFF0;
+  height: 120vh;
 }
 
 .contact_container {
@@ -508,9 +540,7 @@ p {
 @media only screen and (min-width: 580px) {
 
   /*...........HEADER..............*/
-  .word_container {
-    padding-top: 19%;
-  }
+
 
   .name_title {
     font-size: 8vw;
@@ -548,9 +578,7 @@ p {
 @media only screen and (min-width: 700px) {
 
   /*...........HEADER..............*/
-  .word_container {
-    padding-top: 16%;
-  }
+
 
   .name_title {
     font-size: 7vw;
@@ -597,9 +625,7 @@ p {
 @media only screen and (min-width: 960px) {
 
   /*...........HEADER..............*/
-  .word_container {
-    padding-top: 13%;
-  }
+
 
   .name_title {
     font-size: 6.5vw;
@@ -629,9 +655,7 @@ p {
 @media only screen and (min-width: 1200px) {
 
   /*...........HEADER..............*/
-  .word_container {
-    padding-top: 10%;
-  }
+
 
   .name_title {
     font-size: 4.5vw;
