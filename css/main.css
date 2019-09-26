@@ -301,6 +301,7 @@ img {
   opacity: 0;
   animation-fill-mode: forwards;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .scroll_down_desc{
