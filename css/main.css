@@ -296,8 +296,8 @@ img {
   flex-direction: column;
   width: 100%;
   animation-name: peekaboo;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 1s;
   opacity: 0;
   animation-fill-mode: forwards;
   overflow: hidden;
@@ -651,7 +651,7 @@ p {
     max-width: 70%;
   }
 
-  .word_container{
+  .word_container {
     padding-top: 3%;
   }
 
@@ -673,6 +673,7 @@ p {
 
   .name_title {
     font-size: 4.5vw;
+    line-height: 13vh;
   }
 
   /*...........HEADER..............*/
