@@ -449,7 +449,7 @@ img {
 }
 
 .projects_name {
-  line-height: 60px;
+  line-height: 80px;
 }
 
 .tech_used {
@@ -555,8 +555,7 @@ p {
   }
 
   .projects_name {
-    line-height: 140px;
-    font-size: 8vw;
+    line-height: 100px;
   }
 
   .blog_name {
@@ -640,8 +639,6 @@ p {
   }
 
   .projects_name {
-    line-height: 130px;
-    font-size: 7vw;
     max-width: 70%;
   }
 

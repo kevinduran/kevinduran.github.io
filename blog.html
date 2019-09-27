@@ -33,23 +33,23 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!--....................NAVIGATION BAR....................-->
   <nav id="nav" role="navigation">
-      <div class="btn" id="toggle">
-        <span class="top"></span>
-        <span class="middle"></span>
-        <span class="bottom"></span>
+    <div class="btn" id="toggle">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+    <div class="overlay" id="overlay">
+      <div class="overlay_nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
       </div>
-      <div class="overlay" id="overlay">
-        <div class="overlay_nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  
-    <!--.....................NAVIGATION BAR......................-->
+    </div>
+  </nav>
+
+  <!--.....................NAVIGATION BAR......................-->
 
   <!--.....................HEADER............................-->
   <header id="header_tag">
@@ -58,6 +58,11 @@
         <div class="name_title blog_name">BLOG PAGE CURRENTLY UNDER CONSTRUCTION</div>
       </div>
     </div>
+    <div class="scroll_down_container" onclick="smoothScroll(document.getElementById('second'))">
+      <p class="scroll_down_desc">scroll down</p>
+      <i class="scroll_down_arrow fas fa-angle-down header_arrow--down"></i>
+    </div>
+    <div id="second"></div>
   </header>
   <!--.....................HEADER............................-->
   <!--.....................CONTACT............................-->
@@ -74,11 +79,12 @@
           <a href="mailto:kevinalexanderduran8@gmail.com" class='email'>send me an email</a>
           <div class="contact_bottom">or you can find me below</div>
           <div class="social">
-            <a class="social_link" target="_blank"  href="https://codepen.io/kevinalexanderduran/pens/public"><i
+            <a class="social_link" target="_blank" href="https://codepen.io/kevinalexanderduran/pens/public"><i
                 class="fab fa-codepen"></i></a>
-            <a class="social_link" target="_blank"  href="https://github.com/kevinduran"><i class="fab fa-github"></i></a>
-            <a class="social_link" target="_blank"  href="https://www.linkedin.com/in/kevin-alexander-duran-ba9927126/"><i
-                class="fab fa-linkedin"></i></a>
+            <a class="social_link" target="_blank" href="https://github.com/kevinduran"><i
+                class="fab fa-github"></i></a>
+            <a class="social_link" target="_blank"
+              href="https://www.linkedin.com/in/kevin-alexander-duran-ba9927126/"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
