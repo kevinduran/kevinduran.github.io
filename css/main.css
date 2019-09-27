@@ -651,6 +651,10 @@ p {
     max-width: 70%;
   }
 
+  .word_container{
+    padding-top: 3%;
+  }
+
   /*...........HEADER..............*/
   /*...........CONTACT..............*/
   .contact_me {
