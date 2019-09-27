@@ -304,7 +304,7 @@ img {
   cursor: pointer;
 }
 
-.scroll_down_desc{
+.scroll_down_desc {
   letter-spacing: 5px;
   font-weight: 50;
 }
@@ -333,7 +333,7 @@ img {
   padding-top: 10px;
   padding-bottom: 50px;
   text-align: center;
-  margin-top:10vh;
+  margin-top: 10vh;
 }
 
 .line {
@@ -544,6 +544,10 @@ p {
   font-size: 17px;
 }
 
+.blog_name {
+  line-height: 15vh;
+}
+
 /*MEDIA QUERIES...........................*/
 @media only screen and (min-width: 580px) {
 
@@ -558,10 +562,7 @@ p {
     line-height: 100px;
   }
 
-  .blog_name {
-    line-height: 140px;
-    font-size: 8vw;
-  }
+
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
@@ -589,6 +590,10 @@ p {
 
   .name_title {
     font-size: 7vw;
+  }
+
+  .blog_name {
+    line-height: 20vh;
   }
 
   /*...........HEADER..............*/
@@ -633,18 +638,16 @@ p {
 
   /*...........HEADER..............*/
 
+  .blog_name {
+    line-height: 15vh;
+    max-width: 70%;
+  }
 
   .name_title {
     font-size: 6.5vw;
   }
 
   .projects_name {
-    max-width: 70%;
-  }
-
-  .blog_name {
-    line-height: 130px;
-    font-size: 7vw;
     max-width: 70%;
   }
 
@@ -660,7 +663,9 @@ p {
 @media only screen and (min-width: 1200px) {
 
   /*...........HEADER..............*/
-
+  .blog_name {
+    line-height: 20vh;
+  }
 
   .name_title {
     font-size: 4.5vw;
