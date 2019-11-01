@@ -363,9 +363,7 @@ img {
 }
 
 .about_image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+height: 20vh;
 }
 
 .line_below {
@@ -396,14 +394,15 @@ img {
   text-align: center;
   font-family: 'Unica One', cursive;
 }
-}
+
+
 
 .projects_container div {
   padding: 10px;
 }
 
 .projects_container {
-  display: block;
+  display: flex;
   padding-bottom: 30px;
 }
 
@@ -567,9 +566,7 @@ p {
 
   /*...........PROJECTS..............*/
   .projects_container {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+ 
   }
 
   /*...........PROJECTS..............*/
