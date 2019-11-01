@@ -1,7 +1,7 @@
 //Navigation Overlay
 $('#toggle').click(function () {
   $(this).toggleClass('active');
-  $('#overlay').toggleClass('open');
+  $('#nav_overlay').toggleClass('open');
 });
 //End of Navigarion Overlay
 //Scroll down effect
