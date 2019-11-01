@@ -356,9 +356,6 @@ img {
 }
 
 .about_container {
-  margin-right: 25px;
-  margin-left: 25px;
-  max-width: 80em;
   text-align: center;
 }
 
@@ -366,6 +363,9 @@ img {
   height: 20vh;
 }
 
+.about_container-words {
+  padding: 0 25px;
+}
 
 
 /*PROJECTS********************************/
@@ -559,6 +559,13 @@ p {
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
+  .about_container {
+    margin-right: 25px;
+    margin-left: 25px;
+    max-width: 80em;
+    text-align: center;
+  }
+
   .about_container-words {
     max-width: 70%;
     margin-left: auto;
@@ -568,7 +575,7 @@ p {
   /*...........ABOUT..............*/
 
   /*...........PROJECTS..............*/
-  .projects_container {}
+
 
   /*...........PROJECTS..............*/
   /*...........CONTACT..............*/
@@ -629,9 +636,9 @@ p {
     justify-content: space-between;
   }
 
-  .about_img-container {
+  .about_container-img {
     min-width: 50%;
-    ;
+
   }
 
   /*...........ABOUT..............*/
