@@ -10,6 +10,7 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
+  border: 1px solid #580000;
 }
 
 body {
@@ -365,50 +366,6 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 50px;
-  max-width: 90%;
-}
-
-/*SKILLS********************************/
-#skills {
-  background-color: #f6f6f6;
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
-
-.skills_container {
-  margin: 25px;
-  max-width: 80em;
-}
-
-.skills_words {
-  margin-bottom: 25px;
-}
-
-.skills_grid div {
-  padding: 10px;
-}
-
-.skills_grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
-}
-
-
-.skills_title {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.skills_desc {
-  -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-  font-size: 70px;
-  justify-content: space-around;
 }
 
 .line_below {
@@ -435,8 +392,10 @@ img {
 
 .projects_title h3 {
   padding: 30px 0 0 0;
-  font-size: 19px;
+  font-size: 3em;
   text-align: center;
+  font-family: 'Unica One', cursive;
+}
 }
 
 .projects_container div {
@@ -605,18 +564,7 @@ p {
   }
 
   /*...........ABOUT..............*/
-  /*...........SKILLS..............*/
-  .skills_container {
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .skills_desc {
-    word-spacing: 20px;
-  }
-
-  /*...........SKILLS..............*/
   /*...........PROJECTS..............*/
   .projects_container {
     max-width: 70%;
@@ -651,7 +599,7 @@ p {
     max-width: 70%;
   }
 
-  .word_container{
+  .word_container {
     padding-top: 3%;
   }
 
