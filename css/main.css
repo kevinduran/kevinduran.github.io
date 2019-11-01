@@ -280,7 +280,7 @@ img {
   height: 100%;
 }
 
-.name_title {
+.header_word-container--word {
   font-family: 'lato', sans-serif;
   font-size: 9vw;
   letter-spacing: 2px;
