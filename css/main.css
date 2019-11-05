@@ -48,6 +48,8 @@ img {
   height: auto;
 }
 
+
+
 .tag {
   height: 100%;
 }
@@ -407,7 +409,7 @@ img {
   border-radius: 2%;
 }
 .project_container_dosxan{
-  background-color:rgba(88, 0, 0, 0.3) ;
+  background-color:rgba(88, 0, 0, 0.3);
 }
 
 .projects_container div {
@@ -425,9 +427,12 @@ img {
 }
 
 .tech_used {
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
   color: #696969;
+}
+.white {
+  color: #F0FFF0
 }
 
 /*CONTACT********************************/
