@@ -10,7 +10,7 @@ html {
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-  border: 1px solid #580000;
+  /* border: 1px solid #580000; */
 }
 
 body {
@@ -30,6 +30,12 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+  line-height: 46px;
+  font-size: 20px;
 }
 
 ol,
@@ -397,7 +403,12 @@ img {
   font-family: 'Unica One', cursive;
 }
 
-
+.projects_container {
+  border-radius: 2%;
+}
+.project_container_dosxan{
+  background-color:rgba(88, 0, 0, 0.3) ;
+}
 
 .projects_container div {
   padding: 10px;
@@ -497,12 +508,6 @@ img {
   color: #580000;
   -webkit-transition: 0.4s ease all;
   transition: 0.4s ease all;
-}
-
-p {
-  font-family: 'lato', sans-serif;
-  line-height: 46px;
-  font-size: 17px;
 }
 
 .blog_name {
