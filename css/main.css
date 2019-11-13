@@ -415,6 +415,10 @@ img {
   background-color: rgba(88, 0, 0, 0.3);
 }
 
+.projects_container-second {
+  background-color: rgba(127, 162, 146, 0.3);
+}
+
 .projects_container-dosxan h3 {
   font-family: 'Unica One', cursive;
 }
