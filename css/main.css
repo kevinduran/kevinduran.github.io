@@ -392,35 +392,45 @@ img {
   margin-left: 25px;
   margin-right: 25px;
 }
+
 .projects_container {
   padding-bottom: 30px;
   max-width: 85vw;
   margin: 0 auto;
   border-radius: 2%;
+  margin-bottom: 60px;
 }
 
 .projects_container div {
   padding: 10px;
 }
-.project_container_dosxan {
-  background-color: rgba(88, 0, 0, 0.3);
-}
+
 .projects_title h3 {
   padding: 30px 0 0 0;
   font-size: 3em;
   text-align: center;
+}
+
+.projects_container-dosxan {
+  background-color: rgba(88, 0, 0, 0.3);
+}
+
+.projects_container-dosxan h3 {
   font-family: 'Unica One', cursive;
 }
 
-.tech_used {
+.projects_desc-tech--white {
+  font-size: 16px;
+  font-style: italic;
+  color: #F0FFF0;
+}
+
+.projects_desc-tech--dark {
   font-size: 16px;
   font-style: italic;
   color: #696969;
 }
 
-.white {
-  color: #F0FFF0
-}
 
 /*CONTACT********************************/
 
@@ -516,9 +526,6 @@ img {
     font-size: 8vw;
   }
 
-  .projects_name {
-    line-height: 100px;
-  }
 
 
 
@@ -597,9 +604,6 @@ img {
     font-size: 6.5vw;
   }
 
-  .projects_name {
-    max-width: 70%;
-  }
 
   .header_word-container {
     padding-top: 3%;
