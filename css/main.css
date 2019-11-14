@@ -405,6 +405,9 @@ img {
 .projects_container div {
   padding: 10px;
 }
+.project_desc img {
+  text-align: center;
+}
 
 .projects_title h3 {
   padding: 30px 0 0 0;
@@ -469,6 +472,9 @@ img {
   transition: color 0.25s 0.0833333333s;
   position: relative;
   margin: 0 auto;
+  max-width:350px;
+  width:88%;
+
 }
 
 .second-btn {
