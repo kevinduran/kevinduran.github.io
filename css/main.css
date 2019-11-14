@@ -405,6 +405,7 @@ img {
 .projects_container div {
   padding: 10px;
 }
+
 .project_desc img {
   text-align: center;
 }
@@ -472,8 +473,8 @@ img {
   transition: color 0.25s 0.0833333333s;
   position: relative;
   margin: 0 auto;
-  max-width:350px;
-  width:88%;
+  max-width: 350px;
+  width: 88%;
 
 }
 
@@ -580,7 +581,7 @@ img {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   max-width: 10em;
-  border:5px solid #580000;
+  border: 5px solid #580000;
 }
 
 
@@ -622,14 +623,9 @@ img {
 @media only screen and (min-width: 580px) {
 
   /*...........HEADER..............*/
-
-
   .name_title {
     font-size: 8vw;
   }
-
-
-
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
@@ -653,8 +649,6 @@ img {
 @media only screen and (min-width: 700px) {
 
   /*...........HEADER..............*/
-
-
   .name_title {
     font-size: 7vw;
   }
@@ -679,11 +673,6 @@ img {
   }
 
   /*...........ABOUT..............*/
-
-  /*...........PROJECTS..............*/
-
-
-  /*...........PROJECTS..............*/
   /*...........CONTACT..............*/
   .contact_container {
     margin-left: auto;
@@ -696,7 +685,6 @@ img {
 @media only screen and (min-width: 960px) {
 
   /*...........HEADER..............*/
-
   .blog_name {
     line-height: 15vh;
     max-width: 70%;
@@ -743,9 +731,7 @@ img {
     min-width: 50%;
 
   }
-
   /*...........ABOUT..............*/
 }
-
 
 /*# sourceMappingURL=main.css.map */
