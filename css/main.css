@@ -412,12 +412,17 @@ img {
   text-align: center;
 }
 
+.projects_desc-button_container {
+  width: 100%;
+  text-align: center;
+}
+
 .projects_container-dosxan {
-  background-color: rgba(192,162,127, 0.3);
+  background-color: rgba(192, 162, 127, 0.3);
 }
 
 .projects_container-dosxan:hover {
-  background-color: rgba(192,162,127, 0.4);
+  background-color: rgba(192, 162, 127, 0.4);
   transition: 1s all ease;
 }
 
@@ -437,26 +442,45 @@ img {
 }
 
 .projects_desc-tech--dark {
-  font-size: 16px;
+  font-size: 17px;
   font-style: italic;
   color: #696969;
 }
 
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1em 'Roboto Slab', sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  width: 300px;
+}
 
-
-
-
-
-
-
-
-
+.btn:focus {
+  outline: none;
+}
 
 .draw-border {
   box-shadow: inset 0 0 0 4px #580000;
   color: #580000;
   transition: color 0.25s 0.0833333333s;
   position: relative;
+  margin: 0 auto;
+}
+
+.second-btn {
+  box-shadow: inset 0 0 0 4px #28726E;
+  color: #28726E;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+  margin: 0 auto;
+}
+
+.draw-border--one {
+  margin-bottom: 20px;
 }
 
 .draw-border::before,
@@ -472,23 +496,24 @@ img {
   right: 0;
 }
 
+
 .draw-border::before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
 }
 
 .draw-border::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
+  border-top-width: 5px;
+  border-right-width: 5px;
 }
 
 .draw-border:hover {
-  color: #ffe593;
+  color: #F8F8FF;
 }
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-  border-color: #ffe593;
+  border-color: #F8F8FF;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
@@ -501,29 +526,6 @@ img {
 .draw-border:hover::after {
   transition-delay: 0s, 0.25s, 0s;
 }
-
-.btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  line-height: 1.5;
-  font: 700 1.2rem 'Roboto Slab', sans-serif;
-  padding: 1em 2em;
-  letter-spacing: 0.05rem;
-}
-
-.btn:focus {
-  outline: 2px dotted #55d7dc;
-
-}
-
-
-
-
-
-
-
-
 
 /*CONTACT********************************/
 
