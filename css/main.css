@@ -574,6 +574,7 @@ img {
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
   max-width: 10em;
+  border:5px solid #580000;
 }
 
 
