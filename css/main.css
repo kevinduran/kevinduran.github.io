@@ -399,7 +399,10 @@ img {
   margin: 0 auto;
   border-radius: 2%;
   margin-bottom: 60px;
+  box-shadow: 4px 11px 12px rgba(0, 0, 0, 0.3), 0 20px 40px rgba(0, 0, 0, 0.1);
 }
+}
+
 
 .projects_container div {
   padding: 10px;
