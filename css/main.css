@@ -296,6 +296,11 @@ img {
   margin-left: 25px;
 }
 
+.line_space {
+  margin-bottom: 10px;
+  line-height: 80px;
+}
+
 .scroll_down-container {
   font-size: 30px;
   position: absolute;
@@ -623,39 +628,22 @@ img {
 @media only screen and (min-width: 580px) {
 
   /*...........HEADER..............*/
-  .name_title {
-    font-size: 8vw;
+  .header_word-container--word {
+    font-size: 5vh;
   }
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
-  .section_title {
-    font-size: 40px;
-  }
-
+ 
   /*...........ABOUT..............*/
   /*...........CONTACT..............*/
-  .contact_grid {
-    margin-bottom: 100px;
-  }
-
-  .gmail {
-    font-size: 25px;
-  }
-
+  
   /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 700px) {
 
   /*...........HEADER..............*/
-  .name_title {
-    font-size: 7vw;
-  }
-
-  .blog_name {
-    line-height: 20vh;
-  }
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
@@ -665,7 +653,6 @@ img {
     max-width: 80em;
     text-align: center;
   }
-
   .about_container-words {
     max-width: 70%;
     margin-left: auto;
@@ -704,21 +691,12 @@ img {
   .contact_me {
     font-size: 4em;
   }
-
   /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 1200px) {
 
   /*...........HEADER..............*/
-  .blog_name {
-    line-height: 20vh;
-  }
-
-  .name_title {
-    font-size: 4.5vw;
-    line-height: 13vh;
-  }
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/
@@ -731,6 +709,7 @@ img {
     min-width: 50%;
 
   }
+
   /*...........ABOUT..............*/
 }
 
