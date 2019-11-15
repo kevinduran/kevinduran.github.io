@@ -628,24 +628,18 @@ img {
 @media only screen and (min-width: 580px) {
 
   /*...........HEADER..............*/
+  .header_word-container{
+    padding-top: 13%;
+  }
   .header_word-container--word {
-    font-size: 5vh;
+    font-size: 6vh;
   }
 
   /*...........HEADER..............*/
-  /*...........ABOUT..............*/
- 
-  /*...........ABOUT..............*/
-  /*...........CONTACT..............*/
-  
-  /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 700px) {
 
-  /*...........HEADER..............*/
-
-  /*...........HEADER..............*/
   /*...........ABOUT..............*/
   .about_container {
     margin-right: 25px;
@@ -653,6 +647,7 @@ img {
     max-width: 80em;
     text-align: center;
   }
+
   .about_container-words {
     max-width: 70%;
     margin-left: auto;
@@ -669,21 +664,27 @@ img {
   /*...........CONTACT..............*/
 }
 
+@media only screen and (min-width:800px) {
+  /*...........HEADER..............*/
+  .header_word-container{
+
+    padding-top: 12%;
+  }
+  .header_word-container--word {
+    font-size: 7vh;
+  }
+  /*...........HEADER..............*/
+}
+
+
 @media only screen and (min-width: 960px) {
 
   /*...........HEADER..............*/
-  .blog_name {
-    line-height: 15vh;
-    max-width: 70%;
-  }
-
-  .name_title {
-    font-size: 6.5vw;
-  }
-
-
   .header_word-container {
-    padding-top: 3%;
+    padding-top:9%;
+  }
+  .header_word-container--word {
+    font-size: 8vh;
   }
 
   /*...........HEADER..............*/
@@ -691,16 +692,24 @@ img {
   .contact_me {
     font-size: 4em;
   }
+
   /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width: 1200px) {
 
-  /*...........HEADER..............*/
+    /*...........HEADER..............*/
+    .header_word-container {
+      padding-top:6%;
+    }
+    .header_word-container--word {
+      font-size: 9vh;
+    }
+  
+    /*...........HEADER..............*/
 
-  /*...........HEADER..............*/
   /*...........ABOUT..............*/
-  .about_container {
+  /* .about_container {
     display: flex;
     justify-content: space-between;
   }
@@ -708,7 +717,7 @@ img {
   .about_container-img {
     min-width: 50%;
 
-  }
+  } */
 
   /*...........ABOUT..............*/
 }
