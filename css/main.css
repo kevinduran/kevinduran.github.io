@@ -377,7 +377,7 @@ img {
 }
 
 .about_container-img {
-  height: 20vh;
+  width:100%;
 }
 
 .about_container-words {
@@ -653,6 +653,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+}
 
   /*...........ABOUT..............*/
   /*...........CONTACT..............*/
@@ -686,6 +687,9 @@ img {
   .header_word-container--word {
     font-size: 8vh;
   }
+  .section_title{
+    font-size: 3em;
+  }
 
   /*...........HEADER..............*/
   /*...........CONTACT..............*/
@@ -709,15 +713,14 @@ img {
     /*...........HEADER..............*/
 
   /*...........ABOUT..............*/
-  /* .about_container {
+  .about_container {
     display: flex;
     justify-content: space-between;
   }
 
   .about_container-img {
     min-width: 50%;
-
-  } */
+  }
 
   /*...........ABOUT..............*/
 }
