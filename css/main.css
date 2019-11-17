@@ -761,4 +761,15 @@ img {
 
 }
 
+@media only screen and (min-width:1490px){
+  .projects_container:nth-of-type(3) {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width:1970px){
+  .projects_container:nth-of-type(4) {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
