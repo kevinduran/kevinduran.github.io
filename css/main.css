@@ -671,7 +671,7 @@ img {
   }
 
   .about_container-words {
-    max-width: 90%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -727,7 +727,10 @@ img {
   }
 
   .about_container-words {
-    padding: 0 90px;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 50px;
+    padding-top: 50px;
   }
 
   /*...........ABOUT..............*/
@@ -755,6 +758,7 @@ img {
   /*...........ABOUT..............*/
   .about_container {
     display: flex;
+    align-items: center;
   }
 
   .about_container-img {
@@ -762,11 +766,10 @@ img {
   }
 
   .about_container-words {
-    padding: 0 90px 0 0;
+    padding: 0;
     margin: 0;
     line-height: 40px;
   }
-
   /*...........ABOUT..............*/
   /*...........PROJECTS..............*/
   .large_projects_container {
@@ -793,6 +796,7 @@ img {
   .projects_container:nth-of-type(3) {
     margin-top: 0;
   }
+
   .about_container-words {
     line-height: 65px;
   }
