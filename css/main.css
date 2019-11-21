@@ -422,6 +422,20 @@ img {
   text-align: center;
 }
 
+.projects_title-one {
+  font-family: 'Unica One', cursive;
+}
+
+.projects_title-two {
+  font-family: 'Mukta', sans-serif;
+  color: #f6f6f6;
+}
+
+.projects_title-three {
+  font-family: 'Alfa Slab One', cursive;
+  color: #f6f6f6;
+}
+
 .projects_desc-button_container {
   width: 100%;
   text-align: center;
@@ -439,10 +453,6 @@ img {
 
 .projects_container-second {
   background-color: rgba(127, 162, 146, 0.3);
-}
-
-.projects_container-dosxan h3 {
-  font-family: 'Unica One', cursive;
 }
 
 .projects_desc-tech--white {
@@ -770,6 +780,7 @@ img {
     margin: 0;
     line-height: 40px;
   }
+
   /*...........ABOUT..............*/
   /*...........PROJECTS..............*/
   .large_projects_container {
