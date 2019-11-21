@@ -643,7 +643,7 @@ img {
 }
 
 .social i {
-  margin: 10px 30px;
+  margin: 10px 15px;
 }
 
 .social_link {
@@ -736,6 +736,10 @@ img {
   }
 
   /*...........HEADER..............*/
+
+  .social i {
+    margin: 10px 40px;
+  }
 }
 
 
@@ -772,6 +776,11 @@ img {
   /*...........CONTACT..............*/
   .contact_me {
     font-size: 4em;
+  }
+
+  .social i {
+    transition: all 1s ease;
+    margin: 10px 60px;
   }
 
   /*...........CONTACT..............*/
