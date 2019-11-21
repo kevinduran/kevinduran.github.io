@@ -428,12 +428,14 @@ img {
 
 .projects_title-two {
   font-family: 'Mukta', sans-serif;
-  color: #f6f6f6;
 }
 
 .projects_title-three {
   font-family: 'Alfa Slab One', cursive;
-  color: #f6f6f6;
+  font-size: 35px !important;
+}
+.projects_title-four{
+  letter-spacing: 15px;
 }
 
 .projects_desc-button_container {
@@ -444,12 +446,6 @@ img {
 .projects_container-dosxan {
   background-color: rgba(192, 162, 127, 0.3);
 }
-
-.projects_container-dosxan:hover {
-  background-color: rgba(192, 162, 127, 0.4);
-  transition: 1s all ease;
-}
-
 
 .projects_container-second {
   background-color: rgba(127, 162, 146, 0.3);
