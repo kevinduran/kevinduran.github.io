@@ -519,9 +519,9 @@ img {
 }
 
 .fourth-btn {
-  box-shadow: inset 0 0 0 4px rgba(163, 122, 9, 0.6);
-  color: rgba(163, 122, 9, 0.6);
-  background-color: rgba(163, 122, 9, 0.2);
+  box-shadow: inset 0 0 0 4px rgba(226, 164, 1, 0.9);
+  color: rgba(226, 164, 1, 0.9);
+  background-color: rgba(226, 164, 1, 0.2);
   transition: color 0.25s 0.0833333333s;
   position: relative;
   margin: 0 auto;
@@ -669,9 +669,7 @@ img {
     margin-top: 50px;
     padding: 0 30px;
   }
-  .projects_title{
-    font-size: 10px;
-  }
+
   .btn{
     font-size: 14px;
   }
@@ -685,7 +683,7 @@ img {
     margin-top: 50px;
     padding: 0 50px
   }
-}
+
 
 /*...........ABOUT..............*/
 
