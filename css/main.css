@@ -739,8 +739,9 @@ img {
     padding-top: 12%;
   }
 
-  .header_word-container--word {
+  .header_word-container--two {
     font-size: 7vh;
+    line-height: 2em;
   }
 
   /*...........HEADER..............*/
