@@ -669,6 +669,12 @@ img {
     margin-top: 50px;
     padding: 0 30px;
   }
+  .projects_title{
+    font-size: 10px;
+  }
+  .btn{
+    font-size: 14px;
+  }
 }
 
 /*MEDIA QUERIES...........................*/
@@ -711,16 +717,20 @@ img {
     margin-right: auto;
     margin-top: 50px;
   }
-}
 
-/*...........ABOUT..............*/
-/*...........CONTACT..............*/
-.contact_container {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/*...........CONTACT..............*/
+  /*...........ABOUT..............*/
+  /*...........CONTACT..............*/
+  .contact_container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social i {
+    margin: 10px 15px;
+  }
+
+  /*...........CONTACT..............*/
 }
 
 @media only screen and (min-width:800px) {
@@ -738,7 +748,7 @@ img {
   /*...........HEADER..............*/
 
   .social i {
-    margin: 10px 40px;
+    margin: 10px 20px;
   }
 }
 
