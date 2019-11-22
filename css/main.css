@@ -302,7 +302,7 @@ img {
 
 .line_space {
   margin-bottom: 10px;
-  line-height: 80px;
+  line-height: 70px;
 }
 
 .scroll_down-container {
@@ -756,6 +756,9 @@ img {
 
   .social i {
     margin: 10px 20px;
+  }
+  .line_space {
+    line-height: 100px;
   }
 }
 
