@@ -705,6 +705,9 @@ img {
   .social_link {
     padding: 0 5px;
   }
+  .line_space {
+    line-height: 100px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -737,6 +740,9 @@ img {
   }
 
   /*...........CONTACT..............*/
+  .line_space {
+    line-height: 100px;
+  }
 }
 
 @media only screen and (min-width:800px) {
