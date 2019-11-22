@@ -677,6 +677,10 @@ img {
   .btn {
     font-size: 14px;
   }
+  .about_container-words {
+    margin-top: 50px;
+    padding: 0px 15px;
+}
 }
 
 /*MEDIA QUERIES...........................*/
