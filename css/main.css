@@ -670,7 +670,7 @@ img {
     padding: 0 30px;
   }
 
-  .btn{
+  .btn {
     font-size: 14px;
   }
 }
@@ -685,18 +685,18 @@ img {
   }
 
 
-/*...........ABOUT..............*/
+  /*...........ABOUT..............*/
 
-/*...........HEADER..............*/
-.header_word-container {
-  padding-top: 13%;
-}
+  /*...........HEADER..............*/
+  .header_word-container {
+    padding-top: 13%;
+  }
 
-.header_word-container--word {
-  font-size: 6vh;
-}
+  .header_word-container--word {
+    font-size: 6vh;
+  }
 
-/*...........HEADER..............*/
+  /*...........HEADER..............*/
 }
 
 @media only screen and (min-width: 700px) {
@@ -812,6 +812,7 @@ img {
   .about_container {
     display: flex;
     align-items: center;
+    max-width: 150em;
   }
 
   .about_container-img {
