@@ -287,6 +287,7 @@ img {
   width: 80%;
   height: 100%;
 }
+
 .header_word-container--two {
   padding-top: 12%;
 }
@@ -393,7 +394,7 @@ img {
 /*PROJECTS********************************/
 
 #projects {
-  background-color: #f6f6f6;
+  background-color: #F0F0F0;
   padding-top: 20px;
   padding-bottom: 50px;
 }
@@ -677,10 +678,11 @@ img {
   .btn {
     font-size: 14px;
   }
+
   .about_container-words {
     margin-top: 50px;
     padding: 0px 15px;
-}
+  }
 }
 
 /*MEDIA QUERIES...........................*/
@@ -699,7 +701,7 @@ img {
   .header_word-container {
     padding-top: 13%;
   }
-  
+
 
   .header_word-container--word {
     font-size: 6vh;
@@ -709,6 +711,7 @@ img {
   .social_link {
     padding: 0 5px;
   }
+
   .line_space {
     line-height: 100px;
   }
@@ -767,6 +770,7 @@ img {
   .social i {
     margin: 10px 20px;
   }
+
   .line_space {
     line-height: 100px;
   }
