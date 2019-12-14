@@ -43,6 +43,8 @@ var TxtRotate = function (el, toRotate, period) {
   this.isDeleting = false;
 };
 
+
+
 TxtRotate.prototype.tick = function () {
   var i = this.loopNum % this.toRotate.length;
   var fullTxt = this.toRotate[i];
@@ -87,6 +89,7 @@ window.onload = function () {
   }
   // INJECT CSS
   var css = document.createElement("style");
+
   css.type = "text/css";
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
