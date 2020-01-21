@@ -68,7 +68,7 @@ img {
   position: relative;
 
   width: 50px;
-  top: 23%;
+  top: 25%;
   right: -5%;
   height: 27px;
   width: 35px;
@@ -79,7 +79,7 @@ img {
 
 .nav_logo-i {
   color: #F0FFF0;
-  font-size: 2.5em;
+  font-size: 2.2em;
   animation-duration: 1.1s;
   animation-name: nav-appear;
 }
@@ -226,7 +226,7 @@ img {
 .nav_overlay .nav_overlay-container {
   position: relative;
   height: 70%;
-  top: 50%;
+  top: 67%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 50px;
@@ -259,6 +259,8 @@ img {
   color: #F0FFF0;
   text-decoration: none;
   overflow: hidden;
+  font-family: 'lato', sans-serif;
+  font-weight: 100;
 }
 
 .nav_overlay ul li a:hover:after,
@@ -554,8 +556,8 @@ img {
 }
 
 .fourth-btn {
-  box-shadow: inset 0 0 0 4px rgba(226, 164, 1, 0.9);
-  color: rgba(226, 164, 1, 0.9);
+  box-shadow: inset 0 0 0 4px rgba(14, 10, 1, 0.9);
+  color: rgba(14, 10, 1, 0.9);
   background-color: rgba(226, 164, 1, 0.2);
   transition: color 0.25s 0.0833333333s;
   position: relative;
