@@ -612,6 +612,30 @@ img {
   transition-delay: 0s, 0.25s, 0s;
 }
 
+.header_container-info {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  position: relative;
+  top: -10%;
+}
+
+.info-dosxan {
+  font-size: 60px;
+  font-family: 'lato', sans-serif;
+  font-weight: 100;
+}
+
+.info-lora {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 90px;
+
+}
+
 /*CONTACT********************************/
 
 #contact {
