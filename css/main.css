@@ -419,7 +419,8 @@ img {
 }
 
 .about_container-words {
-  padding: 0 25px;
+  padding: 0 20px;
+  line-height: 3em;
 }
 
 
