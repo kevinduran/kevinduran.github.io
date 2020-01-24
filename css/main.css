@@ -646,6 +646,8 @@ img {
   padding-top: 30px;
   margin: 0 40px 60px;
   line-height: 3em;
+  text-align: center;
+
 }
 
 .info-top h1 {
@@ -659,6 +661,10 @@ img {
   text-align: center;
   font-size: 1.3em;
   font-family: 'lato', sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+  transition: all 1s ease;
+
 }
 
 .info-middle {
@@ -686,6 +692,7 @@ img {
   top: 10%;
   width: 80%;
   padding-bottom: 30px;
+  max-width: 350px;
 }
 
 .info-bottom {
@@ -911,6 +918,12 @@ img {
   .line_space {
     line-height: 100px;
   }
+
+  .info-top h2 {
+    margin: 0 !important;
+    transition: 1s ease all;
+    padding-left: 90px;
+  }
 }
 
 
@@ -955,6 +968,32 @@ img {
   }
 
   /*...........CONTACT..............*/
+  .info-middle {
+    display: flex;
+  }
+
+  .info-middle div {
+    flex: 2;
+  }
+
+  .info-middle-words {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  .info-bottom {
+    display: flex;
+  }
+
+  .info-bottom div {
+    flex: 2;
+  }
+
+  .info-bottom-words {
+    flex-direction: column;
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
