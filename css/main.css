@@ -673,7 +673,7 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
-  height: 100vh;
+
 }
 
 .info-middle h1 {
@@ -702,7 +702,7 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
-  height: 100vh;
+
 }
 
 .info-bottom h1 {
@@ -716,7 +716,6 @@ img {
   text-align: center;
   font-size: 1.3em;
   font-family: 'lato', sans-serif;
-  padding: 0 50px;
 }
 
 .info-bottom img {
@@ -997,6 +996,8 @@ img {
   .info-bottom-words {
     flex-direction: column;
     display: flex;
+    padding: 0 50px;
+
   }
 }
 
