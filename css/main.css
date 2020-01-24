@@ -647,6 +647,7 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
+  height: 100vh;
 
 }
 
@@ -661,7 +662,7 @@ img {
   text-align: center;
   font-size: 1.3em;
   font-family: 'lato', sans-serif;
-  max-width: 450px;
+  max-width: 550px;
   margin: 0 auto;
   transition: all 1s ease;
 
@@ -672,6 +673,7 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
+  height: 100vh;
 }
 
 .info-middle h1 {
@@ -700,6 +702,7 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
+  height: 100vh;
 }
 
 .info-bottom h1 {
@@ -713,7 +716,7 @@ img {
   text-align: center;
   font-size: 1.3em;
   font-family: 'lato', sans-serif;
-  padding-bottom: 50px;
+  padding: 0 50px;
 }
 
 .info-bottom img {
@@ -923,7 +926,7 @@ img {
   .info-top h2 {
     margin: 0 !important;
     transition: 1s ease all;
-    padding-left: 90px;
+    padding: 90px 0 0 90px;
   }
 }
 
