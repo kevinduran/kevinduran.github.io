@@ -728,6 +728,7 @@ img {
 #contact {
   background-color: #111111;
   color: #F0FFF0;
+  height: 100vh;
 }
 
 .section_banner-contact {
