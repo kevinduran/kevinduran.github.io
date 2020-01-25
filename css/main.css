@@ -643,12 +643,11 @@ img {
 }
 
 .info-top {
-  padding-top: 30px;
-  margin: 0 40px 60px;
+  padding-top: 200px;
   line-height: 3em;
   text-align: center;
   height: 100vh;
-  background-color: rgba(240, 240, 240, 0.9);
+  margin: 0 40px 60px;
 
 }
 
@@ -670,7 +669,7 @@ img {
 }
 
 .info-middle {
-  padding-top: 30px;
+  padding: 200px 0;
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
@@ -695,15 +694,14 @@ img {
   top: 10%;
   width: 80%;
   padding-bottom: 30px;
-  max-width: 350px;
 }
 
 .info-bottom {
-  padding-top: 30px;
-  margin: 0 40px 60px;
+  padding: 0 0 200px 0;
   line-height: 3em;
   text-align: center;
-  background-color: rgba(240, 240, 240, 0.9);
+  width: 100%;
+  left: 0;
 
 
 }
