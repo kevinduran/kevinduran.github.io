@@ -648,6 +648,7 @@ img {
   line-height: 3em;
   text-align: center;
   height: 100vh;
+  background-color: rgba(240, 240, 240, 0.9);
 
 }
 
@@ -702,6 +703,8 @@ img {
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
+  background-color: rgba(240, 240, 240, 0.9);
+
 
 }
 
@@ -819,16 +822,14 @@ img {
   .about_container-words {
     margin-top: 50px;
     padding: 0 30px;
+    line-height: 2.3em !important;
   }
 
   .btn {
     font-size: 14px;
   }
 
-  .about_container-words {
-    margin-top: 50px;
-    padding: 0 15px;
-  }
+
 
 }
 
@@ -838,7 +839,7 @@ img {
 
   .about_container-words {
     margin-top: 50px;
-    padding: 0 50px
+    padding: 0 50px;
   }
 
 
