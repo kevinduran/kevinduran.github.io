@@ -645,7 +645,7 @@ img {
 
 .info-lora {
   font-family: "Montserrat Subrayada", sans-serif;
-  font-size: 90px;
+  font-size: 65px;
   bottom: 13%;
   position: relative;
 }
@@ -818,7 +818,7 @@ img {
   .about_container-words {
     margin-top: 50px;
     padding: 0 30px;
-    line-height: 2.3em !important;
+    line-height: 3em !important;
   }
 
   .btn {
