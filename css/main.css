@@ -635,12 +635,22 @@ img {
   font-family: 'lato', sans-serif;
   font-weight: 100;
   text-align: center;
+
+}
+
+.info--dosxan {
+  position: relative;
+  bottom: 13%;
 }
 
 .info-lora {
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 90px;
+  bottom: 13%;
+  position: relative;
 }
+
+
 
 .info-top {
   padding-top: 200px;
@@ -656,7 +666,7 @@ img {
 }
 
 .info-middle {
-  padding: 50px 0 200px 0;
+  padding: 50px 0 100px 0;
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
@@ -680,12 +690,12 @@ img {
 .info-middle img {
   position: relative;
   top: 10%;
-  padding-bottom: 30px;
+  padding-bottom: 75px;
   max-width: 100% !important;
 }
 
 .info-bottom {
-  padding: 0 0 200px 0;
+  padding: 0 0 100px 0;
   line-height: 3em;
   text-align: center;
   width: 100%;
@@ -705,7 +715,7 @@ img {
   text-align: center;
   font-size: 1.3em;
   font-family: 'lato', sans-serif;
-  padding: 0 40px;
+  padding: 0 40px 75px 40px;
 }
 
 .info-bottom img {
