@@ -966,6 +966,10 @@ img {
   }
 
   /*...........CONTACT..............*/
+  .info-top h1 {
+    padding-bottom: 150px;
+  }
+
   .info-middle {
     display: flex;
 
