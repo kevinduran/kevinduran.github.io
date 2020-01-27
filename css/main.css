@@ -647,10 +647,12 @@ img {
 }
 
 .info-top h1 {
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
   text-align: center;
   font-size: 2.3em;
   font-family: 'lato', sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 160px;
 }
 
 .info-middle {
@@ -679,7 +681,7 @@ img {
   position: relative;
   top: 10%;
   padding-bottom: 30px;
-
+  max-width: 100% !important;
 }
 
 .info-bottom {
@@ -966,7 +968,15 @@ img {
   /*...........CONTACT..............*/
   .info-middle {
     display: flex;
+
   }
+
+  .info-middle img {
+    top: -5%;
+    left: -10%;
+
+  }
+
 
   .info-middle div {
     flex: 2;
