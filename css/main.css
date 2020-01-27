@@ -644,11 +644,6 @@ img {
 
 .info-top {
   padding-top: 200px;
-  line-height: 3em;
-  text-align: center;
-  height: 100vh;
-  margin: 0 40px;
-
 }
 
 .info-top h1 {
@@ -658,18 +653,8 @@ img {
   padding-bottom: 30px;
 }
 
-.info-top h2 {
-  text-align: center;
-  font-size: 1.3em;
-  font-family: 'lato', sans-serif;
-  max-width: 550px;
-  margin: 0 auto;
-  transition: all 1s ease;
-  padding-bottom: 30px;
-}
-
 .info-middle {
-  padding: 100px 0 200px 0;
+  padding: 50px 0 200px 0;
   margin: 0 40px 60px;
   line-height: 3em;
   text-align: center;
@@ -926,6 +911,14 @@ img {
     margin: 0 !important;
     transition: 1s ease all;
     padding: 90px 0 0 90px;
+  }
+
+  .info-top h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 4em;
+    transition: 1s all ease;
+    padding-bottom: 30px;
   }
 }
 
