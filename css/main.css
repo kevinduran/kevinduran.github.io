@@ -756,6 +756,11 @@ img {
   letter-spacing: 5px;
 }
 
+.info_btn-container a:hover {
+  color: #580000;
+  transition: 0.5s ease all;
+}
+
 /*CONTACT********************************/
 
 #contact {
