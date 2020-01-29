@@ -738,7 +738,22 @@ img {
   font-weight: bolder;
   position: relative;
   left: 5%;
+}
 
+.info_btn-container {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+.info_btn-container a {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0 20px;
+  text-decoration: underline;
+  color: #111111;
+  font-size: 1.6em;
+  font-family: 'lato', sans-serif;
+  letter-spacing: 5px;
 }
 
 /*CONTACT********************************/
@@ -1033,6 +1048,11 @@ img {
     display: flex;
     padding: 0 50px;
 
+  }
+
+  .info_btn-container {
+    text-align: center;
+    padding: 50px 0 50px 0;
   }
 }
 
