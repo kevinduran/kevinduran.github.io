@@ -859,7 +859,7 @@ img {
   .about_container-words {
     margin-top: 50px;
     padding: 0 30px;
-    line-height: 3em !important;
+    line-height: 2.5em !important;
   }
 
   .btn {
@@ -1092,7 +1092,7 @@ img {
   .about_container-words {
     padding: 0;
     margin: 0;
-    line-height: 40px;
+    line-height: 50px;
   }
 
   /*...........ABOUT..............*/
