@@ -97,9 +97,7 @@ window.onload = function () {
 //End of Typewriter Effect
 
 //Work section reveal
-ScrollReveal().reveal('.reveal_me', {
-  delay: 250
-});
+// ScrollReveal().reveal('.reveal_me', {
+//   delay: 250
+// });
 //End of Work section reveal
-
-
