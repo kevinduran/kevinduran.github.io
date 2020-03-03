@@ -871,6 +871,12 @@ img {
 }
 
 /*MEDIA QUERIES...........................*/
+@media only screen and (max-width: 500px) {
+  .info_btn-container a {
+    font-size: 1.2em;
+  }
+}
+
 @media only screen and (min-width: 580px) {
   /*...........ABOUT..............*/
 
@@ -1075,6 +1081,8 @@ img {
   .header_word-container--word {
     font-size: 9vh;
   }
+
+
 
   /*...........HEADER..............*/
 
