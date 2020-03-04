@@ -886,6 +886,13 @@ img {
     -webkit-transition: 1s all ease;
     transition: 1s all ease;
   }
+
+  #header {
+    background: url(img/header-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 580px) {
