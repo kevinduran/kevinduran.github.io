@@ -877,6 +877,15 @@ img {
     padding: 0 10px;
 
   }
+
+  .header_container {
+    position: relative;
+    top: 55%;
+    left: 35%;
+    width: 220px;
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+  }
 }
 
 @media only screen and (min-width: 580px) {
