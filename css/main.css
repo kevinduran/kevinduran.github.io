@@ -1099,7 +1099,8 @@ img {
 
   /*...........ABOUT..............*/
   .about_container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 60%;
     align-items: center;
     max-width: 150em;
   }
