@@ -854,6 +854,7 @@ img {
     font-size: 1em;
     padding: 0 10px;
   }
+
   .info-middle img {
     position: relative;
     top: 10%;
@@ -893,6 +894,7 @@ img {
 }
 
 @media only screen and (min-width: 700px) {
+
   /*...........ABOUT..............*/
   .about_container {
     margin-right: 25px;
@@ -926,6 +928,7 @@ img {
 }
 
 @media only screen and (min-width: 800px) {
+
   /*...........HEADER..............*/
   .header_word-container {
     padding-top: 12%;
@@ -962,6 +965,7 @@ img {
 }
 
 @media only screen and (min-width: 960px) {
+
   /*...........HEADER..............*/
   .header_word-container {
     padding-top: 9%;
@@ -997,7 +1001,7 @@ img {
 
   .social i {
     transition: all 1s ease;
-    margin: 10px 60px;
+    margin: 10px 50px;
   }
 
   /*...........CONTACT..............*/
@@ -1046,6 +1050,7 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
+
   /*...........HEADER..............*/
   .header_word-container {
     padding-top: 6%;
