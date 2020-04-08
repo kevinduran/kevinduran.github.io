@@ -838,9 +838,10 @@ img {
 
 @media only screen and (max-width: 580px) {
   .about_container-words {
+
     margin-top: 50px;
-    padding: 0 30px;
-    line-height: 2.5em !important;
+    padding: 0 12px;
+    line-height: 2.7em !important;
   }
 
   .btn {
