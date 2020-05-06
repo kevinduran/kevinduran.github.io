@@ -645,10 +645,23 @@ img {
 
 
 #lora_header {
-  background: url(/img/lora-header-info.jpg) center center fixed;
+  background: url(/img/lora-header-info.jpg)  no-repeat fixed center;
+  height: 100vh;
   z-index: 100 !important;
   color: #f0fff0;
+  animation-duration: 1.1s;
+  animation-name: nav-appear;
 }
+
+#dosxan_header {
+  background:url(/img/dosxan-header-title.jpg) no-repeat fixed 50% 20%;
+  height: 100vh;
+  z-index: 100 !important;
+  color: #f0fff0;
+  animation-duration: 1.1s;
+  animation-name: nav-appear;
+}
+
 .info-lora {
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 65px;
@@ -975,7 +988,7 @@ img {
 }
 
 @media only screen and (min-width: 960px) {
-
+ 
   /*...........HEADER..............*/
   .header_word-container {
     padding-top: 9%;
