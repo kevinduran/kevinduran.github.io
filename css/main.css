@@ -52,6 +52,7 @@ img {
   height: 100%;
 }
 
+
 /*BURGER MENU********************************/
 #nav {
   height: 10vh;
@@ -310,6 +311,7 @@ img {
   height: 100vh;
   animation-duration: 1.1s;
   animation-name: nav-appear;
+
 }
 
 .header_word-container {
@@ -641,6 +643,12 @@ img {
   bottom: 13%;
 }
 
+
+#lora_header {
+  background: url(/img/lora-header-info.jpg) center center fixed;
+  z-index: 100 !important;
+  color: #f0fff0;
+}
 .info-lora {
   font-family: "Montserrat Subrayada", sans-serif;
   font-size: 65px;
