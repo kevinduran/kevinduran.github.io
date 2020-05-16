@@ -645,7 +645,6 @@ img {
 
 
 #lora_header {
-  background: url(/img/lora-header-info.jpg)  no-repeat fixed center;
   height: 100vh;
   z-index: 100 !important;
   color: #f0fff0;
@@ -654,7 +653,6 @@ img {
 }
 
 #dosxan_header {
-  background:url(/img/dosxan-header-title.jpg) no-repeat fixed 50% 20%;
   height: 100vh;
   z-index: 100 !important;
   color: #f0fff0;
@@ -881,9 +879,16 @@ img {
   .info-middle img {
     position: relative;
     top: 10%;
-    left: -23%;
+    left: -10%;
     padding-bottom: 75px;
-    max-width: 150% !important;
+    max-width: 365px !important;
+  }
+  .info-bottom img {
+    position: relative;
+    top: 10%;
+    left: 0%;
+    padding-bottom: 75px;
+    max-width: 365px !important;
   }
 }
 
