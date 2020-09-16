@@ -51,7 +51,9 @@ img {
 .tag {
   height: 100%;
 }
-
+.blood{
+  color:#bb0a1e;
+}
 
 /*BURGER MENU********************************/
 #nav {
