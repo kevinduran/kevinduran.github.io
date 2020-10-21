@@ -104,15 +104,14 @@ console.log(line);
 
 gsap.registerPlugin(ScrollTrigger);
   gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1}),
-  line.forEach((line) => {
-    gsap.to('.line', {
+  line.forEach((x) => {
+    gsap.to(x, {
     scrollTrigger: {
-      trigger: line,
-      toggleActions: "play reverse play reverse",
-      
+      trigger: x,
+
     },  
     delay:0.5,
-    width:50, 
+    width:80, 
     
   }
   )})
