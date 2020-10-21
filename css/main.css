@@ -1008,6 +1008,9 @@ img {
   .section_title {
     font-size: 3em;
   }
+  .section_title-long{
+    font-size: 2em
+  }
 
   /*...........HEADER..............*/
   /*...........ABOUT..............*/

@@ -100,7 +100,6 @@ window.onload = function () {
 
 var scrollDown = document.querySelector('.scroll_down-container');
 var line = document.querySelectorAll('.line');
-console.log(line);
 
 gsap.registerPlugin(ScrollTrigger);
   gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1}),
