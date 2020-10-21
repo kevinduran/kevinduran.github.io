@@ -96,10 +96,10 @@ window.onload = function () {
 };
 //End of Typewriter Effect
 
-//Work section reveal
-// ScrollReveal().reveal('.reveal_me', {
-//   delay: 250
-// });
-//End of Work section reveal
+//SCROLL DOWN BOUNCE
 
+var scrollDown = document.querySelector('.scroll_down-container');
 
+document.addEventListener('load',
+  gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1})
+);
