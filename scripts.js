@@ -99,7 +99,21 @@ window.onload = function () {
 //SCROLL DOWN BOUNCE
 
 var scrollDown = document.querySelector('.scroll_down-container');
+var line = document.querySelectorAll('.line');
+console.log(line);
 
-document.addEventListener('load',
-  gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1})
-);
+gsap.registerPlugin(ScrollTrigger);
+  gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1}),
+  line.forEach((line) => {
+    gsap.to('.line', {
+    scrollTrigger: {
+      trigger: line,
+      toggleActions: "play reverse play reverse",
+      
+    },  
+    delay:0.5,
+    width:100, 
+    
+  }
+  )})
+

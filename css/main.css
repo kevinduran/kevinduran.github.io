@@ -393,7 +393,7 @@ img {
 
 .line {
   height: 2px;
-  width: 50px;
+  width: 0;
   position: relative;
   top: -12px;
   display: inline-block;
