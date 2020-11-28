@@ -881,9 +881,7 @@ img {
     padding: 0 10px;
   }
   .hometown_title{
-    
     height: 60px;
-  
   }
   .info-middle img {
     position: relative;
@@ -928,11 +926,7 @@ img {
   .line_space {
     line-height: 100px;
   }
-  .hometown_title{
-    
-    height: 60px;
   
-  }
 }
 
 @media only screen and (min-width: 700px) {
