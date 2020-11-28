@@ -472,11 +472,11 @@ img {
   text-align: center;
 }
 
-.hometown_title{
-  padding: 25px 0 0 0;
-  height: 85px;
-
+.projects_title .hometown_title{
+  height:65px;
 }
+
+
 
 .projects_title-one {
   font-family: "Unica One", cursive;
@@ -880,9 +880,7 @@ img {
     font-size: 1em;
     padding: 0 10px;
   }
-  .hometown_title{
-    height: 60px;
-  }
+
   .info-middle img {
     position: relative;
     top: 10%;
