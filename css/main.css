@@ -1087,6 +1087,7 @@ img {
   /*...........HEADER..............*/
   .header_word-container {
     padding-top: 6%;
+    
   }
 
   .header_word-container--word {
@@ -1098,7 +1099,7 @@ img {
   /*...........ABOUT..............*/
   .about_container {
     display: grid;
-    grid-template-columns: 50% 60%;
+    grid-template-columns: 50% 50%;
     align-items: center;
     max-width: 150em;
   }
