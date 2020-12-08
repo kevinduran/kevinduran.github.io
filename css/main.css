@@ -894,6 +894,9 @@ img {
   .info-middle{
     padding-bottom: 20px;
   }
+  .info-middle-words{
+    padding: 20px;
+  }
 
   .info-middle img {
     position: relative;
