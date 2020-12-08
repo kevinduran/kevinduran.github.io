@@ -1087,7 +1087,7 @@ img {
   .info-middle {
     display: flex;
     margin-bottom: 100px;
-    margin-left: 50px !important;
+    margin-left: 100px !important;
   }
 
   .info-middle img {
