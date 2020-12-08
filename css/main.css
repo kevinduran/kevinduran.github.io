@@ -723,7 +723,7 @@ img {
   padding: 0 0 100px 0;
   line-height: 3em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
   width: 100%;
   left: 0;
 }
@@ -1108,7 +1108,7 @@ img {
   }
 
   .info-bottom {
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
   }
 
