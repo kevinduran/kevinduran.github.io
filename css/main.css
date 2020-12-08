@@ -697,7 +697,7 @@ img {
   position: relative;
 }
 .info-middle-words{
-  padding: 25px 0 0 50px;
+  padding: 25px;
 }
 
 .info-middle h1 {
@@ -1102,7 +1102,9 @@ img {
     display: flex;
     flex-direction: column;
     flex: 2;
-    padding-right: 20px;
+    .info-middle-words{
+      padding: 25px 0 0 50px;
+    }
   }
 
   .info-bottom {
