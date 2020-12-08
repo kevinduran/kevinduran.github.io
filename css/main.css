@@ -1102,9 +1102,7 @@ img {
     display: flex;
     flex-direction: column;
     flex: 2;
-    .info-middle-words{
       padding: 25px 0 0 50px;
-    }
   }
 
   .info-bottom {
