@@ -1101,7 +1101,7 @@ img {
     display: flex;
     flex-direction: column;
     flex: 2;
-      padding: 25px 0 0 50px;
+    padding: 25px 15px 0 50px;
   }
 
   .info-bottom {
