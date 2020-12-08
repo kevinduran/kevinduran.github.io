@@ -692,7 +692,7 @@ img {
 
 .info-middle {
   padding: 50px 0 50px 0;
-  margin: 0 30px 60px;
+  margin: 25px;
   line-height: 3em;
   position: relative;
 }
@@ -893,7 +893,6 @@ img {
 
   .info-middle{
     padding-bottom: 20px;
-    margin: 0;
   }
   .info-middle-words{
     padding: 0;
