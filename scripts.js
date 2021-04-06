@@ -1,4 +1,4 @@
-//Navigation Overlay
+ //Navigation Overlay
 $('#toggle').click(function () {
   $(this).toggleClass('active');
   $('#nav_overlay').toggleClass('open');
