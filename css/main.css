@@ -692,7 +692,7 @@ img {
 
 .info-middle {
   padding: 50px 0 100px 0;
-  margin: 25px 0 100px 0;
+  margin: 25px 0 25px 0;
   line-height: 3em;
   position: relative;
 }
@@ -1044,7 +1044,7 @@ img {
   }
 
   .header_word-container--word {
-    font-size: 8vh;
+    font-size: 7vh;
   }
 
   .section_title {
@@ -1138,7 +1138,7 @@ img {
   }
 
   .header_word-container--word {
-    font-size: 9vh;
+    font-size: 8vh;
   }
 
   /*...........HEADER..............*/
