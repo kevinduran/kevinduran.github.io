@@ -449,6 +449,16 @@ img {
   display: flex;
   justify-content: center;
 }
+.view_more-container a {
+  text-decoration: none;
+  color:#383838;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: 0.3s ease all;
+}
+.view_more-container a:hover {
+  color:#bb0a1e;
+}
 .view_more-container p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
