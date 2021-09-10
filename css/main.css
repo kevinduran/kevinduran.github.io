@@ -445,7 +445,13 @@ img {
   margin-right: 25px;
 }
 
-
+.view_more-container{
+  display: flex;
+  justify-content: center;
+}
+.view_more-container p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .projects_container {
   padding-bottom: 30px;
   max-width: 30em;

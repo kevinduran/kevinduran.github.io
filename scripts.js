@@ -110,7 +110,7 @@ gsap.registerPlugin(ScrollTrigger);
 
     },  
     delay:0.5,
-    width:80, 
+    width:70, 
     
   }
   )})
