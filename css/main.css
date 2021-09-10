@@ -448,6 +448,7 @@ img {
 .view_more-container{
   display: flex;
   justify-content: center;
+  letter-spacing: 4.20px;
 }
 .view_more-container a {
   text-decoration: none;
@@ -461,6 +462,7 @@ img {
 }
 .view_more-container p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
 }
 .projects_container {
   padding-bottom: 30px;

@@ -106,7 +106,7 @@ var line = document.querySelectorAll('.line');
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(scrollDown, {duration: 1.5, y: -13, yoyo:true,repeat: -1}),
-gsap.to(viewMore, { duration: 1.2, x: -20, yoyo:true,repeat: -1}),
+gsap.to(viewMore, { duration: 1.3, x: -20, yoyo:true,repeat: -1}),
 
 
 line.forEach((x) => {
