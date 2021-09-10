@@ -1163,7 +1163,8 @@ img {
 
   .header_word-container--word {
     font-size: 8vh;
-  }
+    line-height: 2em;
+}
 
   /*...........HEADER..............*/
 
