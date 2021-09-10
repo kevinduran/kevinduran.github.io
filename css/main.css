@@ -1166,6 +1166,10 @@ img {
     font-size: 8vh;
     line-height: 2em;
 }
+.header_container--main {
+  font-size: 8vh;
+  line-height: 1.3em ;
+}
 
   /*...........HEADER..............*/
 
