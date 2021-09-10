@@ -1207,6 +1207,28 @@ img {
   }
 
   /*...........PROJECTS..............*/
+   
+  /*...........INFO..............*/
+  .info-images{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -10em;
+  }
+  
+  .info-images img{
+    max-height: 400px;
+    max-width: 766px;
+  }
+  .bottom-info-images{
+    position: relative;
+    top: -8em;
+  }
+  .bottom-info-images img{
+    padding: 15px;
+  }
+  /*...........INFO..............*/
+
 }
 
 @media only screen and (min-width: 1490px) {
