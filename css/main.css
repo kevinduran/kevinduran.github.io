@@ -448,7 +448,7 @@ img {
 .view_more-container{
   display: flex;
   justify-content: center;
-  letter-spacing: 4.20px;
+  letter-spacing: 4px;
 }
 .view_more-container a {
   text-decoration: none;
