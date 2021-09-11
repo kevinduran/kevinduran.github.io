@@ -941,6 +941,9 @@ img {
     padding-bottom: 75px;
     max-width: 365px ;
   }
+  .info-images{
+    text-align: center;
+  }
   .bottom-info-images .zap-img {
     padding: 15px;
     max-width: 200px !important;
