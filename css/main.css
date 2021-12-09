@@ -317,6 +317,9 @@ img {
 
 }
 
+.header_container-info{
+  width: 80%;
+}
 .header_word-container {
   padding-top: 20%;
   width: 80%;
