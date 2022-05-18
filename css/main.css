@@ -991,6 +991,9 @@ img {
   .social i {
     margin: 10px;
 }
+.header_word-container--word {
+  font-size: 7vw;
+}
 
 }
 
@@ -1009,9 +1012,8 @@ img {
     padding-top: 13%;
   }
 
-  .header_word-container--word {
-    font-size: 6vh;
-  }
+  
+ 
 
   /*...........HEADER..............*/
   .social_link {
